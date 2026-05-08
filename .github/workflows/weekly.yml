@@ -1,0 +1,39 @@
+name: Weekly Awards Update
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Weekly on Sunday midnight
+  workflow_dispatch: # Allow manual run
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Run crawler
+        run: bun run index.ts
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Build with Hugo
+        run: hugo --minify
+
+      - name: Commit and push
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add data.json report.html content/ go.mod go.sum
+          git commit -m "Weekly report update: $(date +'%Y-%m-%d')" || exit 0
+          git push

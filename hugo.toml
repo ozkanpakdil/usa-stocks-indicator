@@ -1,0 +1,10 @@
+baseURL = 'https://ozkanpakdil.github.io/usa-stocks-indicator/'
+languageCode = 'en-us'
+title = 'USA Government Awards Stock Indicator'
+theme = ["github.com/adityatelange/hugo-PaperMod"]
+
+[params]
+  description = 'Tracking US government awards and their impact on public company stocks.'
+
+[markup.goldmark.renderer]
+  unsafe = true

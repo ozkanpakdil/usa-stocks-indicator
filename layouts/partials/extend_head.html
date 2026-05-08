@@ -1,0 +1,76 @@
+<style>
+    :root {
+        --table-border: #ddd;
+        --table-bg-even: #f9f9f9;
+        --table-hover: #f1f1f1;
+        --sort-color: #bbb;
+        --sort-active: #000;
+        --badge-prime-bg: #e3f2fd;
+        --badge-prime-text: #1976d2;
+        --badge-subaward-bg: #f3e5f5;
+        --badge-subaward-text: #7b1e89;
+        --ticker-bg: #ffebee;
+        --ticker-text: #d32f2f;
+    }
+
+    [data-theme='dark'], .dark {
+        --table-border: #333;
+        --table-bg-even: #2e2e33;
+        --table-hover: #3b3b3f;
+        --sort-color: #666;
+        --sort-active: #fff;
+        --badge-prime-bg: #0d47a1;
+        --badge-prime-text: #e3f2fd;
+        --badge-subaward-bg: #4a148c;
+        --badge-subaward-text: #f3e5f5;
+        --ticker-bg: #442222;
+        --ticker-text: #ffaaaa;
+    }
+
+    table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.85em; }
+    th, td { border: 1px solid var(--table-border); padding: 8px 12px; text-align: left; }
+    th { cursor: pointer; position: relative; padding-right: 25px !important; white-space: nowrap; background: var(--entry); }
+    th::after { content: '↕'; position: absolute; right: 8px; color: var(--sort-color); font-size: 0.8em; }
+    .sort-asc::after { content: '↑'; color: var(--sort-active); }
+    .sort-desc::after { content: '↓'; color: var(--sort-active); }
+    
+    tr:nth-child(even) { background-color: var(--table-bg-even); }
+    tr:hover { background-color: var(--table-hover); }
+
+    .type-badge {
+        padding: 2px 8px;
+        border-radius: 12px;
+        font-size: 0.7rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        display: inline-block;
+    }
+    .prime { background-color: var(--badge-prime-bg); color: var(--badge-prime-text); }
+    .subaward { background-color: var(--badge-subaward-bg); color: var(--badge-subaward-text); }
+
+    /* Target seekingalpha links specifically in the post content */
+    .post-content a[href*="seekingalpha.com"] {
+        font-weight: bold;
+        color: var(--ticker-text);
+        background: var(--ticker-bg);
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-size: 0.8rem;
+        text-decoration: none;
+    }
+
+    /* Widen the post container for tables */
+    .post-content, .post-single {
+        max-width: none !important;
+        width: 100% !important;
+    }
+    .main {
+        max-width: 1400px !important;
+    }
+
+    /* Responsive adjustments */
+    @media screen and (max-width: 768px) {
+        table { font-size: 0.75em; }
+        th, td { padding: 4px 6px; }
+    }
+</style>
