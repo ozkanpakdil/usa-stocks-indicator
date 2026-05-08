@@ -10,12 +10,21 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.26.x'
+
       - uses: oven-sh/setup-bun@v1
         with:
           bun-version: latest
@@ -30,7 +39,7 @@ jobs:
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git add data.json static/ content/ go.mod go.sum
+          git add data.json content/ go.mod go.sum
           git commit -m "Weekly report update: $(date +'%Y-%m-%d')" || exit 0
           git push
 
@@ -46,16 +55,14 @@ jobs:
 
       - name: Build with Hugo
         run: |
+          hugo mod tidy
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "https://ozkanpakdil.github.io/usa-stocks-indicator/"
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          path: ./public
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public

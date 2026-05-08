@@ -1,13 +1,12 @@
 ---
-title: "USA Government Awards Stock Report - 2026-05-08"
+title: "Interactive Dashboard"
 date: 2026-05-08T23:47:04.278Z
 draft: false
-tags: ["stocks", "government", "awards"]
 ---
 
-### Top Public Companies by Award Amount (Last 12 Months)
+### Full List of Public Companies by Award Amount (Last 12 Months)
 
-This report shows publicly traded companies that have received government contracts or subawards in the last year.
+This dashboard shows all publicly traded companies that have received government contracts or subawards in the last year. Click on column headers to sort.
 
 | Date | Type | Recipient | Amount | Agency | Stock |
 |------|------|-----------|--------|--------|-------|
@@ -128,3 +127,4 @@ This report shows publicly traded companies that have received government contra
 | 2026-04-09 | <span class="type-badge subaward">Subaward</span> | HOME DEPOT U.S.A., INC. | $7,439.95 | Department of Defense<br><small>Department of the Navy</small> | [HD (NYQ)](https://seekingalpha.com/symbol/HD) |
 | 2026-04-08 | <span class="type-badge subaward">Subaward</span> | IRON MOUNTAIN INFORMATION MANAGEMENT LLC | $1,500,000.00 | Department of Energy<br><small>Department of Energy</small> | [IRM (NYQ)](https://seekingalpha.com/symbol/IRM) |
 | 2026-04-07 | <span class="type-badge subaward">Subaward</span> | ACUMEN SOLUTIONS, INC. | $1,318,184.67 | General Services Administration<br><small>Federal Acquisition Service</small> | [ABOS (NMS)](https://seekingalpha.com/symbol/ABOS) |
+

@@ -5,6 +5,18 @@ theme = ["github.com/adityatelange/hugo-PaperMod"]
 
 [params]
   description = 'Tracking US government awards and their impact on public company stocks.'
+  showFullTextContent = true
+
+  [params.profileMode]
+    enabled = true
+    title = 'USA Government Awards Stock Indicator'
+    subtitle = 'Tracking US government awards and their impact on public company stocks.'
+    [[params.profileMode.buttons]]
+        name = "📊 View Dashboard"
+        url = "dashboard"
+    [[params.profileMode.buttons]]
+        name = "📝 Recent Reports"
+        url = "posts"
 
 [markup.goldmark.renderer]
   unsafe = true

@@ -32,7 +32,7 @@ hugo serve
 
 This will create/update:
 - `data.json`: Local cache of all found awards.
-- `static/report.html`: Static HTML dashboard.
+- `content/dashboard.md`: Interactive dashboard (full list).
 - `content/posts/awards-YYYY-MM-DD.md`: Hugo-compatible blog post.
 - `public/`: (Only when running `hugo`) The generated static site.
 - `go.mod`, `go.sum`: Hugo Module tracking files.
@@ -47,8 +47,9 @@ The project includes GitHub Actions workflows:
 To make the site work properly on GitHub Pages:
 1. Go to your repository settings on GitHub.
 2. Click on **Pages** in the left sidebar.
-3. Under **Build and deployment** > **Source**, select **GitHub Actions**.
-4. The workflows will now automatically handle the build and deployment.
+3. Under **Build and deployment** > **Source**, select **Deploy from a branch**.
+4. Select the **gh-pages** branch and **/ (root)** folder.
+5. Save the settings. The workflows will now automatically update this branch.
 
 ## Manual Automation (Crontab)
 
