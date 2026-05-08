@@ -1,8 +1,8 @@
 import { searchTicker } from "./utils";
-import { writeFileSync, readFileSync, existsSync } from "fs";
+import { writeFileSync, readFileSync, existsSync, mkdirSync } from "fs";
 
 const DATA_FILE = "data.json";
-const REPORT_FILE = "report.html";
+const REPORT_FILE = "static/report.html";
 const USASPENDING_URL = "https://api.usaspending.gov/api/v2/search/spending_by_award/";
 
 // Calculate last 12 months
@@ -154,6 +154,11 @@ async function processAwards(payload: any, type: "Prime" | "Subaward", existingD
 function generateReport(data: Record<string, Award>) {
   console.log("Generating report...");
   
+  // Ensure static directory exists
+  if (!existsSync("static")) {
+    mkdirSync("static", { recursive: true });
+  }
+
   const awards = Object.values(data).sort((a, b) => {
     const dateCompare = b.date.localeCompare(a.date);
     if (dateCompare !== 0) return dateCompare;
@@ -305,7 +310,6 @@ function generateHugoPost(data: Record<string, Award>) {
 
   // Create content directory if it doesn't exist
   if (!existsSync("content/posts")) {
-    const { mkdirSync } = require("fs");
     mkdirSync("content/posts", { recursive: true });
   }
 

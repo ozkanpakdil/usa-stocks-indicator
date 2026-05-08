@@ -32,20 +32,23 @@ hugo serve
 
 This will create/update:
 - `data.json`: Local cache of all found awards.
-- `report.html`: Static HTML dashboard.
+- `static/report.html`: Static HTML dashboard.
 - `content/posts/awards-YYYY-MM-DD.md`: Hugo-compatible blog post.
 - `public/`: (Only when running `hugo`) The generated static site.
 - `go.mod`, `go.sum`: Hugo Module tracking files.
 
 ## GitHub Actions Automation
 
-The project includes a `.github/workflows/weekly.yml` which runs every Sunday. It automatically:
-1. Runs the crawler.
-2. Commits updated `data.json`.
-3. Updates `report.html`.
-4. Adds a new Hugo post to `content/posts/`.
+The project includes GitHub Actions workflows:
+- `.github/workflows/weekly.yml`: Runs every Sunday. It runs the crawler, commits updated data, and deploys the site.
+- `.github/workflows/hugo.yml`: Automatically builds and deploys the Hugo site on every push to the `main` branch.
 
-To enable this, simply push the repository to GitHub.
+### Deployment to GitHub Pages
+To make the site work properly on GitHub Pages:
+1. Go to your repository settings on GitHub.
+2. Click on **Pages** in the left sidebar.
+3. Under **Build and deployment** > **Source**, select **GitHub Actions**.
+4. The workflows will now automatically handle the build and deployment.
 
 ## Manual Automation (Crontab)
 
