@@ -33,14 +33,16 @@ jobs:
         run: bun install
 
       - name: Run crawler
-        run: bun run index.ts
+        run: |
+          bun run index.ts
+          bun run layoffs.ts
 
       - name: Commit and push
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git add data.json content/ go.mod go.sum
-          git commit -m "Weekly report update: $(date +'%Y-%m-%d')" || exit 0
+          git add *.json content/ go.mod go.sum
+          git commit -m "Weekly report update: $(date +'%Y-%m-%d')"
           git push
 
       - name: Setup Hugo

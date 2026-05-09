@@ -1,5 +1,5 @@
 import { searchTicker } from "./utils";
-import { writeFileSync, readFileSync, existsSync, mkdirSync } from "fs";
+import { writeFileSync, readFileSync, existsSync, mkdirSync, readdirSync } from "fs";
 
 const DATA_FILE = "data.json";
 const DASHBOARD_FILE = "content/dashboard.md";
@@ -91,8 +91,8 @@ async function run() {
   writeFileSync(DATA_FILE, JSON.stringify(existingData, null, 2));
   console.log(`Saved ${Object.keys(existingData).length} total awards with stock info.`);
 
-  generateDashboard(existingData);
   generateHugoPost(existingData);
+  generateDashboard();
 }
 
 async function processAwards(payload: any, type: "Prime" | "Subaward", existingData: Record<string, Award>): Promise<number> {
@@ -151,34 +151,41 @@ async function processAwards(payload: any, type: "Prime" | "Subaward", existingD
   }
 }
 
-function generateDashboard(data: Record<string, Award>) {
+function generateDashboard() {
   console.log("Generating dashboard...");
   
-  const awards = Object.values(data).sort((a, b) => {
-    const dateCompare = b.date.localeCompare(a.date);
-    if (dateCompare !== 0) return dateCompare;
-    return b.amount - a.amount;
-  });
+  const postsDir = "content/posts";
+  let links = "";
   
-  let table = "| Date | Type | Recipient | Amount | Agency | Stock |\n|------|------|-----------|--------|--------|-------|\n";
-  awards.forEach(a => {
-    const amountStr = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(a.amount);
-    const typeBadge = `<span class="type-badge ${a.type.toLowerCase()}">${a.type}</span>`;
-    const tickerLink = `[${a.ticker} (${a.exchange})](https://seekingalpha.com/symbol/${a.ticker})`;
-    table += `| ${a.date} | ${typeBadge} | ${a.recipient} | ${amountStr} | ${a.agency}<br><small>${a.subAgency}</small> | ${tickerLink} |\n`;
-  });
+  if (existsSync(postsDir)) {
+    const files = readdirSync(postsDir)
+      .filter(f => f.endsWith(".md"))
+      .sort((a, b) => b.localeCompare(a)); // Reverse chronological by filename
+    
+    files.forEach(file => {
+      const path = `${postsDir}/${file}`;
+      const content = readFileSync(path, "utf-8");
+      const titleMatch = content.match(/title: "(.*)"/);
+      const title = titleMatch ? titleMatch[1] : file;
+      const slug = file.replace(".md", "");
+      links += `- [${title}](/posts/${slug})\n`;
+    });
+  }
 
   const content = `---
-title: "Interactive Dashboard"
+title: "Public Company Stocks Indicator Dashboard"
 date: ${new Date().toISOString()}
 draft: false
 ---
 
-### Full List of Public Companies by Award Amount (Last 12 Months)
+### Latest Stock Indicator Reports
 
-This dashboard shows all publicly traded companies that have received government contracts or subawards in the last year. Click on column headers to sort.
+This dashboard provides links to the most recent reports on public company events like government awards and tech layoffs.
 
-${table}
+${links || "No reports found yet."}
+
+---
+*Tracking US government awards via [USASpending.gov](https://www.usaspending.gov/) and tech layoffs via [Layoffs.fyi](https://layoffs.fyi/).*
 `;
 
   writeFileSync(DASHBOARD_FILE, content);
@@ -223,6 +230,11 @@ This report shows publicly traded companies that have received government contra
     const tickerLink = `[${a.ticker} (${a.exchange})](https://seekingalpha.com/symbol/${a.ticker})`;
     content += `| ${a.date} | ${typeBadge} | ${a.recipient} | ${amountStr} | ${a.agency}<br><small>${a.subAgency}</small> | ${tickerLink} |\n`;
   });
+
+  content += `
+---
+*Data source: [USASpending.gov](https://www.usaspending.gov/)*
+`;
 
   writeFileSync(filename, content);
   console.log(`Hugo post generated: ${filename}`);

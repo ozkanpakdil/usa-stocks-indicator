@@ -1,0 +1,2264 @@
+{
+  "Hims & Hers-2025-05-20": {
+    "company": "Hims & Hers",
+    "laidOff": 68,
+    "date": "2025-05-20",
+    "industry": "Healthcare",
+    "ticker": "HIMS",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 43.139242824119854,
+      "startPrice": 19.75,
+      "endPrice": 28.270000457763672
+    }
+  },
+  "Chegg-2025-05-22": {
+    "company": "Chegg",
+    "laidOff": 248,
+    "date": "2025-05-22",
+    "industry": "Education",
+    "ticker": "CHGG",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 34.88371480536381,
+      "startPrice": 0.8600000143051147,
+      "endPrice": 1.159999966621399
+    }
+  },
+  "Microsoft-2025-05-23": {
+    "company": "Microsoft",
+    "laidOff": 6000,
+    "date": "2025-05-23",
+    "industry": "Other",
+    "ticker": "MSFT",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 11.27133968623346,
+      "startPrice": 373.07000732421875,
+      "endPrice": 415.1199951171875
+    }
+  },
+  "Amazon-2025-05-24": {
+    "company": "Amazon",
+    "laidOff": 100,
+    "date": "2025-05-24",
+    "industry": "Retail",
+    "ticker": "AMZN",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 16.70447241551764,
+      "startPrice": 233.64999389648438,
+      "endPrice": 272.67999267578125
+    }
+  },
+  "nCino-2025-05-27": {
+    "company": "nCino",
+    "laidOff": 0,
+    "date": "2025-05-27",
+    "industry": "Finance",
+    "ticker": "NCNO",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 0.339171645737766,
+      "startPrice": 17.690000534057617,
+      "endPrice": 17.75
+    }
+  },
+  "eBay-2025-05-28": {
+    "company": "eBay",
+    "laidOff": 200,
+    "date": "2025-05-28",
+    "industry": "Retail",
+    "ticker": "EBAY",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 12.670015043269157,
+      "startPrice": 95.58000183105469,
+      "endPrice": 107.69000244140625
+    }
+  },
+  "Microsoft-2025-06-02": {
+    "company": "Microsoft",
+    "laidOff": 305,
+    "date": "2025-06-02",
+    "industry": "Other",
+    "ticker": "MSFT",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 11.27133968623346,
+      "startPrice": 373.07000732421875,
+      "endPrice": 415.1199951171875
+    }
+  },
+  "Playtika-2025-06-05": {
+    "company": "Playtika",
+    "laidOff": 90,
+    "date": "2025-06-05",
+    "industry": "Consumer",
+    "ticker": "PLTK",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 14.150944598645948,
+      "startPrice": 3.180000066757202,
+      "endPrice": 3.630000114440918
+    }
+  },
+  "ZoomInfo-2025-06-09": {
+    "company": "ZoomInfo",
+    "laidOff": 150,
+    "date": "2025-06-09",
+    "industry": "Sales",
+    "ticker": "GTM",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 18.148148180853028,
+      "startPrice": 5.400000095367432,
+      "endPrice": 6.380000114440918
+    }
+  },
+  "Google-2025-06-24": {
+    "company": "Google",
+    "laidOff": 75,
+    "date": "2025-06-24",
+    "industry": "Consumer",
+    "ticker": "GOOG",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 25.50178396212838,
+      "startPrice": 316.3699951171875,
+      "endPrice": 397.04998779296875
+    }
+  },
+  "Intel-2025-06-24": {
+    "company": "Intel",
+    "laidOff": 0,
+    "date": "2025-06-24",
+    "industry": "Hardware",
+    "ticker": "INTC",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 102.39791914819764,
+      "startPrice": 61.720001220703125,
+      "endPrice": 124.91999816894531
+    }
+  },
+  "Microsoft-2025-06-24": {
+    "company": "Microsoft",
+    "laidOff": 0,
+    "date": "2025-06-24",
+    "industry": "Other",
+    "ticker": "MSFT",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 11.27133968623346,
+      "startPrice": 373.07000732421875,
+      "endPrice": 415.1199951171875
+    }
+  },
+  "Bumble-2025-06-25": {
+    "company": "Bumble",
+    "laidOff": 240,
+    "date": "2025-06-25",
+    "industry": "Consumer",
+    "ticker": "BMBL",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 4.9275314645140895,
+      "startPrice": 3.450000047683716,
+      "endPrice": 3.619999885559082
+    }
+  },
+  "Rivian-2025-06-26": {
+    "company": "Rivian",
+    "laidOff": 140,
+    "date": "2025-06-26",
+    "industry": "Transportation",
+    "ticker": "RIVN",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -6.692910232337344,
+      "startPrice": 15.239999771118164,
+      "endPrice": 14.220000267028809
+    }
+  },
+  "Sabi-2025-06-29": {
+    "company": "Sabi",
+    "laidOff": 50,
+    "date": "2025-06-29",
+    "industry": "Retail",
+    "ticker": "SBR",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 1.7822332786552209,
+      "startPrice": 74.65939331054688,
+      "endPrice": 75.98999786376953
+    }
+  },
+  "Microsoft-2025-07-02": {
+    "company": "Microsoft",
+    "laidOff": 9000,
+    "date": "2025-07-02",
+    "industry": "Other",
+    "ticker": "MSFT",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 11.27133968623346,
+      "startPrice": 373.07000732421875,
+      "endPrice": 415.1199951171875
+    }
+  },
+  "Nayax-2025-07-07": {
+    "company": "Nayax",
+    "laidOff": 70,
+    "date": "2025-07-07",
+    "industry": "Fintech",
+    "ticker": "NYAX",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 26.31578947368421,
+      "startPrice": 57,
+      "endPrice": 72
+    }
+  },
+  "Intel-2025-07-08": {
+    "company": "Intel",
+    "laidOff": 500,
+    "date": "2025-07-08",
+    "industry": "Semiconductor Manufacturing",
+    "ticker": "INTC",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 102.39791914819764,
+      "startPrice": 61.720001220703125,
+      "endPrice": 124.91999816894531
+    }
+  },
+  "Sony-2025-07-11": {
+    "company": "Sony",
+    "laidOff": 100,
+    "date": "2025-07-11",
+    "industry": "Electronics",
+    "ticker": "SONY",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": -5.929040397946653,
+      "startPrice": 21.420000076293945,
+      "endPrice": 20.149999618530273
+    }
+  },
+  "King-2025-07-14": {
+    "company": "King",
+    "laidOff": 200,
+    "date": "2025-07-14",
+    "industry": "Gaming",
+    "ticker": "KFS",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 2.3417212837531856,
+      "startPrice": 11.529999732971191,
+      "endPrice": 11.800000190734863
+    }
+  },
+  "FIS-2025-07-15": {
+    "company": "FIS",
+    "laidOff": 133,
+    "date": "2025-07-15",
+    "industry": "FinTech",
+    "ticker": "FIS",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": -3.97438551705445,
+      "startPrice": 45.290000915527344,
+      "endPrice": 43.4900016784668
+    }
+  },
+  "CDW-2025-07-16": {
+    "company": "CDW",
+    "laidOff": 0,
+    "date": "2025-07-16",
+    "industry": "IT Services and IT Consulting",
+    "ticker": "CDW",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -17.325443064672708,
+      "startPrice": 126.75,
+      "endPrice": 104.79000091552734
+    }
+  },
+  "Intel-2025-07-17": {
+    "company": "Intel",
+    "laidOff": 5000,
+    "date": "2025-07-17",
+    "industry": "Semiconductor Manufacturing",
+    "ticker": "INTC",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 102.39791914819764,
+      "startPrice": 61.720001220703125,
+      "endPrice": 124.91999816894531
+    }
+  },
+  "Amazon-2025-07-17": {
+    "company": "Amazon",
+    "laidOff": 0,
+    "date": "2025-07-17",
+    "industry": "Software Development",
+    "ticker": "AMZN",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 16.70447241551764,
+      "startPrice": 233.64999389648438,
+      "endPrice": 272.67999267578125
+    }
+  },
+  "Rocket Companies-2025-07-21": {
+    "company": "Rocket Companies",
+    "laidOff": 0,
+    "date": "2025-07-21",
+    "industry": "Financial Services",
+    "ticker": "RKT",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 4.460713063915479,
+      "startPrice": 15.020000457763672,
+      "endPrice": 15.6899995803833
+    }
+  },
+  "Atlassian-2025-07-30": {
+    "company": "Atlassian",
+    "laidOff": 150,
+    "date": "2025-07-30",
+    "industry": "Software Development",
+    "ticker": "TEAM",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 55.35956563175102,
+      "startPrice": 58.959999084472656,
+      "endPrice": 91.5999984741211
+    }
+  },
+  "Microsoft-2025-08-04": {
+    "company": "Microsoft",
+    "laidOff": 40,
+    "date": "2025-08-04",
+    "industry": "Software Development",
+    "ticker": "MSFT",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 11.27133968623346,
+      "startPrice": 373.07000732421875,
+      "endPrice": 415.1199951171875
+    }
+  },
+  "Amazon-2025-08-04": {
+    "company": "Amazon",
+    "laidOff": 110,
+    "date": "2025-08-04",
+    "industry": "Software Development",
+    "ticker": "AMZN",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 16.70447241551764,
+      "startPrice": 233.64999389648438,
+      "endPrice": 272.67999267578125
+    }
+  },
+  "Peloton-2025-08-07": {
+    "company": "Peloton",
+    "laidOff": 0,
+    "date": "2025-08-07",
+    "industry": "Wellness and Fitness Services",
+    "ticker": "PTON",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 20.04220109652432,
+      "startPrice": 4.739999771118164,
+      "endPrice": 5.690000057220459
+    }
+  },
+  "Kaltura-2025-08-07": {
+    "company": "Kaltura",
+    "laidOff": 70,
+    "date": "2025-08-07",
+    "industry": "Media",
+    "ticker": "KLTR",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 26.605500272704912,
+      "startPrice": 1.090000033378601,
+      "endPrice": 1.3799999952316284
+    }
+  },
+  "Micron Technology-2025-08-12": {
+    "company": "Micron Technology",
+    "laidOff": 0,
+    "date": "2025-08-12",
+    "industry": "Computer memory",
+    "ticker": "MU",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 77.17491406048636,
+      "startPrice": 421.510009765625,
+      "endPrice": 746.8099975585938
+    }
+  },
+  "F5-2025-08-13": {
+    "company": "F5",
+    "laidOff": 106,
+    "date": "2025-08-13",
+    "industry": "Networking and security",
+    "ticker": "FFIV",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 20.17719650372289,
+      "startPrice": 294.5899963378906,
+      "endPrice": 354.0299987792969
+    }
+  },
+  "Amdocs-2025-08-13": {
+    "company": "Amdocs",
+    "laidOff": 4500,
+    "date": "2025-08-13",
+    "industry": "Software Development",
+    "ticker": "DOX",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -0.9939422203990982,
+      "startPrice": 64.38999938964844,
+      "endPrice": 63.75
+    }
+  },
+  "Oracle-2025-08-14": {
+    "company": "Oracle",
+    "laidOff": 150,
+    "date": "2025-08-14",
+    "industry": "Cloud Technology Company",
+    "ticker": "ORCL",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 42.13694768657123,
+      "startPrice": 137.86000061035156,
+      "endPrice": 195.9499969482422
+    }
+  },
+  "Oracle-2025-08-22": {
+    "company": "Oracle",
+    "laidOff": 3000,
+    "date": "2025-08-22",
+    "industry": "Cloud technology",
+    "ticker": "ORCL",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 42.13694768657123,
+      "startPrice": 137.86000061035156,
+      "endPrice": 195.9499969482422
+    }
+  },
+  "Salesforce-2025-09-02": {
+    "company": "Salesforce",
+    "laidOff": 4000,
+    "date": "2025-09-02",
+    "industry": "Software Development",
+    "ticker": "CRM",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 6.420837476620607,
+      "startPrice": 170.85000610351562,
+      "endPrice": 181.82000732421875
+    }
+  },
+  "Oracle-2025-09-04": {
+    "company": "Oracle",
+    "laidOff": 254,
+    "date": "2025-09-04",
+    "industry": "IT Services and IT Consulting",
+    "ticker": "ORCL",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 42.13694768657123,
+      "startPrice": 137.86000061035156,
+      "endPrice": 195.9499969482422
+    }
+  },
+  "Microsoft-2025-09-08": {
+    "company": "Microsoft",
+    "laidOff": 42,
+    "date": "2025-09-08",
+    "industry": "Software Development",
+    "ticker": "MSFT",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 11.27133968623346,
+      "startPrice": 373.07000732421875,
+      "endPrice": 415.1199951171875
+    }
+  },
+  "Oracle-2025-09-09": {
+    "company": "Oracle",
+    "laidOff": 3000,
+    "date": "2025-09-09",
+    "industry": "IT Services and IT Consulting",
+    "ticker": "ORCL",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 42.13694768657123,
+      "startPrice": 137.86000061035156,
+      "endPrice": 195.9499969482422
+    }
+  },
+  "Atlassian-2025-09-10": {
+    "company": "Atlassian",
+    "laidOff": 200,
+    "date": "2025-09-10",
+    "industry": "Software Development",
+    "ticker": "TEAM",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 55.35956563175102,
+      "startPrice": 58.959999084472656,
+      "endPrice": 91.5999984741211
+    }
+  },
+  "xAI-2025-09-13": {
+    "company": "xAI",
+    "laidOff": 500,
+    "date": "2025-09-13",
+    "industry": "Technology. Information and Internet",
+    "ticker": "XAIL",
+    "exchange": "ASE",
+    "performance": {
+      "changePercent": 17.652384342829006,
+      "startPrice": 25.51099967956543,
+      "endPrice": 30.014299392700195
+    }
+  },
+  "Fiverr-2025-09-15": {
+    "company": "Fiverr",
+    "laidOff": 250,
+    "date": "2025-09-15",
+    "industry": "Freelance services marketplace",
+    "ticker": "FVRR",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 12.365066543353484,
+      "startPrice": 10.1899995803833,
+      "endPrice": 11.449999809265137
+    }
+  },
+  "ZipRecruiter-2025-09-16": {
+    "company": "ZipRecruiter",
+    "laidOff": 80,
+    "date": "2025-09-16",
+    "industry": "Employment Marketplace",
+    "ticker": "ZIP",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 72.38095475973196,
+      "startPrice": 2.0999999046325684,
+      "endPrice": 3.619999885559082
+    }
+  },
+  "Google-2025-09-16": {
+    "company": "Google",
+    "laidOff": 200,
+    "date": "2025-09-16",
+    "industry": "Software Development",
+    "ticker": "GOOG",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 25.50178396212838,
+      "startPrice": 316.3699951171875,
+      "endPrice": 397.04998779296875
+    }
+  },
+  "Accenture-2025-09-27": {
+    "company": "Accenture",
+    "laidOff": 11000,
+    "date": "2025-09-27",
+    "industry": "Business Consulting and Services",
+    "ticker": "ACN",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": -3.015642986165463,
+      "startPrice": 186.02999877929688,
+      "endPrice": 180.4199981689453
+    }
+  },
+  "Paycom-2025-10-01": {
+    "company": "Paycom",
+    "laidOff": 500,
+    "date": "2025-10-01",
+    "industry": "HR and payroll software",
+    "ticker": "PAYC",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 19.183210973360364,
+      "startPrice": 114.83999633789062,
+      "endPrice": 136.8699951171875
+    }
+  },
+  "Google-2025-10-01": {
+    "company": "Google",
+    "laidOff": 100,
+    "date": "2025-10-01",
+    "industry": "Software Development",
+    "ticker": "GOOG",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 25.50178396212838,
+      "startPrice": 316.3699951171875,
+      "endPrice": 397.04998779296875
+    }
+  },
+  "Texas Instruments-2025-10-02": {
+    "company": "Texas Instruments",
+    "laidOff": 163,
+    "date": "2025-10-02",
+    "industry": "Semiconductor Manufacturing",
+    "ticker": "TXN",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 34.553133665827154,
+      "startPrice": 213.8931884765625,
+      "endPrice": 287.79998779296875
+    }
+  },
+  "Google-2025-10-02": {
+    "company": "Google",
+    "laidOff": 50,
+    "date": "2025-10-02",
+    "industry": "Software Development",
+    "ticker": "GOOG",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 25.50178396212838,
+      "startPrice": 316.3699951171875,
+      "endPrice": 397.04998779296875
+    }
+  },
+  "HP-2025-10-12": {
+    "company": "HP",
+    "laidOff": 100,
+    "date": "2025-10-12",
+    "industry": "IT Services and IT Consulting",
+    "ticker": "HP",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 7.268590204048388,
+      "startPrice": 35.220001220703125,
+      "endPrice": 37.779998779296875
+    }
+  },
+  "Bill-2025-10-15": {
+    "company": "Bill",
+    "laidOff": 0,
+    "date": "2025-10-15",
+    "industry": "Software Development",
+    "ticker": "BILL",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 15.61636671703023,
+      "startPrice": 36.18000030517578,
+      "endPrice": 41.83000183105469
+    }
+  },
+  "Meta-2025-10-22": {
+    "company": "Meta",
+    "laidOff": 600,
+    "date": "2025-10-22",
+    "industry": "Software Development",
+    "ticker": "META",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -2.9854086360873473,
+      "startPrice": 628.3900146484375,
+      "endPrice": 609.6300048828125
+    }
+  },
+  "Amazon-2025-10-28": {
+    "company": "Amazon",
+    "laidOff": 30000,
+    "date": "2025-10-28",
+    "industry": "E-commerce",
+    "ticker": "AMZN",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 16.70447241551764,
+      "startPrice": 233.64999389648438,
+      "endPrice": 272.67999267578125
+    }
+  },
+  "Chegg-2025-10-28": {
+    "company": "Chegg",
+    "laidOff": 388,
+    "date": "2025-10-28",
+    "industry": "Higher Education",
+    "ticker": "CHGG",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 34.88371480536381,
+      "startPrice": 0.8600000143051147,
+      "endPrice": 1.159999966621399
+    }
+  },
+  "Applied Materials-2025-10-29": {
+    "company": "Applied Materials",
+    "laidOff": 1400,
+    "date": "2025-10-29",
+    "industry": "Semiconductor Manufacturing",
+    "ticker": "AMAT",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 9.45929089609417,
+      "startPrice": 397.80999755859375,
+      "endPrice": 435.44000244140625
+    }
+  },
+  "IBM-2025-11-04": {
+    "company": "IBM",
+    "laidOff": 0,
+    "date": "2025-11-04",
+    "industry": "IT Services and IT Consulting",
+    "ticker": "IBM",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": -2.4154484489925347,
+      "startPrice": 235.4470977783203,
+      "endPrice": 229.75999450683594
+    }
+  },
+  "Tripadvisor-2025-11-04": {
+    "company": "Tripadvisor",
+    "laidOff": 0,
+    "date": "2025-11-04",
+    "industry": "Travel Guidance Platform",
+    "ticker": "TRIP",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -9.05134884743186,
+      "startPrice": 11.489999771118164,
+      "endPrice": 10.449999809265137
+    }
+  },
+  "HP-2025-11-05": {
+    "company": "HP",
+    "laidOff": 52,
+    "date": "2025-11-05",
+    "industry": "IT Services and IT Consulting",
+    "ticker": "HP",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 7.268590204048388,
+      "startPrice": 35.220001220703125,
+      "endPrice": 37.779998779296875
+    }
+  },
+  "SAS-2025-11-09": {
+    "company": "SAS",
+    "laidOff": 400,
+    "date": "2025-11-09",
+    "industry": "Software Development",
+    "ticker": "SSL",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 7.284769205287714,
+      "startPrice": 12.079999923706055,
+      "endPrice": 12.960000038146973
+    }
+  },
+  "Synopsys-2025-11-13": {
+    "company": "Synopsys",
+    "laidOff": 2000,
+    "date": "2025-11-13",
+    "industry": "Software Development",
+    "ticker": "SNPS",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 27.55111215586424,
+      "startPrice": 404.9200134277344,
+      "endPrice": 516.47998046875
+    }
+  },
+  "Verizon-2025-11-13": {
+    "company": "Verizon",
+    "laidOff": 15000,
+    "date": "2025-11-13",
+    "industry": "Telecommunication",
+    "ticker": "VZ",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 0.3144175495528963,
+      "startPrice": 47.071998596191406,
+      "endPrice": 47.220001220703125
+    }
+  },
+  "Playtika-2025-11-17": {
+    "company": "Playtika",
+    "laidOff": 800,
+    "date": "2025-11-17",
+    "industry": "Computer Games",
+    "ticker": "PLTK",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 14.150944598645948,
+      "startPrice": 3.180000066757202,
+      "endPrice": 3.630000114440918
+    }
+  },
+  "Cisco-2025-11-18": {
+    "company": "Cisco",
+    "laidOff": 0,
+    "date": "2025-11-18",
+    "industry": "Software Development",
+    "ticker": "CSCO",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 16.111580883600773,
+      "startPrice": 83.16999816894531,
+      "endPrice": 96.56999969482422
+    }
+  },
+  "Pipe-2025-11-18": {
+    "company": "Pipe",
+    "laidOff": 200,
+    "date": "2025-11-18",
+    "industry": "Finance",
+    "ticker": "PAA",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 1.058423436643197,
+      "startPrice": 21.492517471313477,
+      "endPrice": 21.719999313354492
+    }
+  },
+  "Amazon-2025-11-22": {
+    "company": "Amazon",
+    "laidOff": 14000,
+    "date": "2025-11-22",
+    "industry": "Software Development",
+    "ticker": "AMZN",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 16.70447241551764,
+      "startPrice": 233.64999389648438,
+      "endPrice": 272.67999267578125
+    }
+  },
+  "Apple-2025-11-25": {
+    "company": "Apple",
+    "laidOff": 0,
+    "date": "2025-11-25",
+    "industry": "Computers and Electronics Manufacturing",
+    "ticker": "AAPL",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 12.60317798019995,
+      "startPrice": 260.489990234375,
+      "endPrice": 293.32000732421875
+    }
+  },
+  "Shopify-2025-11-25": {
+    "company": "Shopify",
+    "laidOff": 0,
+    "date": "2025-11-25",
+    "industry": "E-commerce",
+    "ticker": "SHOP",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -1.7529752976112283,
+      "startPrice": 112.37999725341797,
+      "endPrice": 110.41000366210938
+    }
+  },
+  "HP-2025-11-26": {
+    "company": "HP",
+    "laidOff": 6000,
+    "date": "2025-11-26",
+    "industry": "IT Services and IT Consulting",
+    "ticker": "HP",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 7.268590204048388,
+      "startPrice": 35.220001220703125,
+      "endPrice": 37.779998779296875
+    }
+  },
+  "Cellebrite-2025-12-03": {
+    "company": "Cellebrite",
+    "laidOff": 20,
+    "date": "2025-12-03",
+    "industry": "Digital Intelligence",
+    "ticker": "CLBT",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 9.750201877716357,
+      "startPrice": 12.40999984741211,
+      "endPrice": 13.619999885559082
+    }
+  },
+  "Mobileye-2025-12-08": {
+    "company": "Mobileye",
+    "laidOff": 200,
+    "date": "2025-12-08",
+    "industry": "Autonomous-driving vehicles",
+    "ticker": "MBLY",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 27.461852035512663,
+      "startPrice": 7.210000038146973,
+      "endPrice": 9.1899995803833
+    }
+  },
+  "Intel-2025-12-09": {
+    "company": "Intel",
+    "laidOff": 0,
+    "date": "2025-12-09",
+    "industry": "Semiconductor Manufacturing",
+    "ticker": "INTC",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 102.39791914819764,
+      "startPrice": 61.720001220703125,
+      "endPrice": 124.91999816894531
+    }
+  },
+  "Teads-2025-12-10": {
+    "company": "Teads",
+    "laidOff": 180,
+    "date": "2025-12-10",
+    "industry": "Advertising Services",
+    "ticker": "TEAD",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 53.84614319890252,
+      "startPrice": 0.6890000104904175,
+      "endPrice": 1.059999942779541
+    }
+  },
+  "Amazon-2025-12-15": {
+    "company": "Amazon",
+    "laidOff": 84,
+    "date": "2025-12-15",
+    "industry": "E-commerce",
+    "ticker": "AMZN",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 16.70447241551764,
+      "startPrice": 233.64999389648438,
+      "endPrice": 272.67999267578125
+    }
+  },
+  "Amazon-2025-12-19": {
+    "company": "Amazon",
+    "laidOff": 370,
+    "date": "2025-12-19",
+    "industry": "E-commerce",
+    "ticker": "AMZN",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 16.70447241551764,
+      "startPrice": 233.64999389648438,
+      "endPrice": 272.67999267578125
+    }
+  },
+  "Meta-2026-04-24": {
+    "company": "Meta",
+    "laidOff": 16000,
+    "date": "2026-04-24",
+    "industry": "Consumer",
+    "ticker": "META",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -2.9854086360873473,
+      "startPrice": 628.3900146484375,
+      "endPrice": 609.6300048828125
+    }
+  },
+  "Nike-2026-04-23": {
+    "company": "Nike",
+    "laidOff": 775,
+    "date": "2026-04-23",
+    "industry": "Retail",
+    "ticker": "NKE",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 0.31818043101917615,
+      "startPrice": 44,
+      "endPrice": 44.13999938964844
+    }
+  },
+  "Snap-2026-04-20": {
+    "company": "Snap",
+    "laidOff": 500,
+    "date": "2026-04-20",
+    "industry": "Consumer",
+    "ticker": "SNAP",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 22.82828601984683,
+      "startPrice": 4.949999809265137,
+      "endPrice": 6.079999923706055
+    }
+  },
+  "GoPro-2026-04-07": {
+    "company": "GoPro",
+    "laidOff": 145,
+    "date": "2026-04-07",
+    "industry": "Consumer",
+    "ticker": "GPRO",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 85.13513339358235,
+      "startPrice": 0.7400000095367432,
+      "endPrice": 1.3700000047683716
+    }
+  },
+  "Nokia-2026-03-29": {
+    "company": "Nokia",
+    "laidOff": 14000,
+    "date": "2026-03-29",
+    "industry": "Infrastructure",
+    "ticker": "NOK",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 34.24083181968745,
+      "startPrice": 9.550000190734863,
+      "endPrice": 12.819999694824219
+    }
+  },
+  "T-Mobile-2026-03-26": {
+    "company": "T-Mobile",
+    "laidOff": 1000,
+    "date": "2026-03-26",
+    "industry": "Consumer",
+    "ticker": "TMUS",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -1.979340151974578,
+      "startPrice": 197.5399932861328,
+      "endPrice": 193.6300048828125
+    }
+  },
+  "Snowflake-2026-03-19": {
+    "company": "Snowflake",
+    "laidOff": 70,
+    "date": "2026-03-19",
+    "industry": "Data",
+    "ticker": "SNOW",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 15.282812020242126,
+      "startPrice": 132.24000549316406,
+      "endPrice": 152.4499969482422
+    }
+  },
+  "Dell-2026-03-16": {
+    "company": "Dell",
+    "laidOff": 6000,
+    "date": "2026-03-16",
+    "industry": "Hardware",
+    "ticker": "DELL",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 43.979881033918495,
+      "startPrice": 180.9002685546875,
+      "endPrice": 260.4599914550781
+    }
+  },
+  "Oracle-2026-02-15": {
+    "company": "Oracle",
+    "laidOff": 30000,
+    "date": "2026-02-15",
+    "industry": "Other",
+    "ticker": "ORCL",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 42.13694768657123,
+      "startPrice": 137.86000061035156,
+      "endPrice": 195.9499969482422
+    }
+  },
+  "Cisco-2026-02-15": {
+    "company": "Cisco",
+    "laidOff": 6000,
+    "date": "2026-02-15",
+    "industry": "Infrastructure",
+    "ticker": "CSCO",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 16.111580883600773,
+      "startPrice": 83.16999816894531,
+      "endPrice": 96.56999969482422
+    }
+  },
+  "Block-2026-02-15": {
+    "company": "Block",
+    "laidOff": 4000,
+    "date": "2026-02-15",
+    "industry": "Finance",
+    "ticker": "SQ",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 19.397033201132274,
+      "startPrice": 62.689998626708984,
+      "endPrice": 74.8499984741211
+    }
+  },
+  "Amazon-2026-01-15": {
+    "company": "Amazon",
+    "laidOff": 16000,
+    "date": "2026-01-15",
+    "industry": "Retail",
+    "ticker": "AMZN",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 16.70447241551764,
+      "startPrice": 233.64999389648438,
+      "endPrice": 272.67999267578125
+    }
+  },
+  "Workday-2026-01-15": {
+    "company": "Workday",
+    "laidOff": 2200,
+    "date": "2026-01-15",
+    "industry": "HR",
+    "ticker": "WDAY",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 13.063863958431742,
+      "startPrice": 113.05999755859375,
+      "endPrice": 127.83000183105469
+    }
+  },
+  "Upwork-2026-05-07": {
+    "company": "Upwork",
+    "laidOff": 151,
+    "date": "2026-05-07",
+    "industry": "Other",
+    "ticker": "UPWK",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -15.51724090682008,
+      "startPrice": 10.4399995803833,
+      "endPrice": 8.819999694824219
+    }
+  },
+  "PayPal-2026-05-05": {
+    "company": "PayPal",
+    "laidOff": 4760,
+    "date": "2026-05-05",
+    "industry": "Finance",
+    "ticker": "PYPL",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -1.3266651074914169,
+      "startPrice": 45.97999954223633,
+      "endPrice": 45.369998931884766
+    }
+  },
+  "Coinbase-2026-05-05": {
+    "company": "Coinbase",
+    "laidOff": 700,
+    "date": "2026-05-05",
+    "industry": "Crypto",
+    "ticker": "COIN",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 19.015500282344465,
+      "startPrice": 169.02000427246094,
+      "endPrice": 201.16000366210938
+    }
+  },
+  "Freshworks-2026-05-05": {
+    "company": "Freshworks",
+    "laidOff": 500,
+    "date": "2026-05-05",
+    "industry": "Support",
+    "ticker": "FRSH",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 11.209066247754617,
+      "startPrice": 7.940000057220459,
+      "endPrice": 8.829999923706055
+    }
+  },
+  "Shopify-2026-05-04": {
+    "company": "Shopify",
+    "laidOff": 30,
+    "date": "2026-05-04",
+    "industry": "Retail",
+    "ticker": "SHOP",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -1.7529752976112283,
+      "startPrice": 112.37999725341797,
+      "endPrice": 110.41000366210938
+    }
+  },
+  "Meta-2026-04-17": {
+    "company": "Meta",
+    "laidOff": 8000,
+    "date": "2026-04-17",
+    "industry": "Consumer",
+    "ticker": "META",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -2.9854086360873473,
+      "startPrice": 628.3900146484375,
+      "endPrice": 609.6300048828125
+    }
+  },
+  "Snap-2026-04-15": {
+    "company": "Snap",
+    "laidOff": 1000,
+    "date": "2026-04-15",
+    "industry": "Consumer",
+    "ticker": "SNAP",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 22.82828601984683,
+      "startPrice": 4.949999809265137,
+      "endPrice": 6.079999923706055
+    }
+  },
+  "Taboola-2026-04-15": {
+    "company": "Taboola",
+    "laidOff": 100,
+    "date": "2026-04-15",
+    "industry": "Marketing",
+    "ticker": "TBLA",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 56.716422371833644,
+      "startPrice": 3.3499999046325684,
+      "endPrice": 5.25
+    }
+  },
+  "Nayax-2026-04-15": {
+    "company": "Nayax",
+    "laidOff": 32,
+    "date": "2026-04-15",
+    "industry": "Finance",
+    "ticker": "NYAX",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 26.31578947368421,
+      "startPrice": 57,
+      "endPrice": 72
+    }
+  },
+  "Life360-2026-04-10": {
+    "company": "Life360",
+    "laidOff": 0,
+    "date": "2026-04-10",
+    "industry": "Consumer",
+    "ticker": "LIF",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 6.067904001528451,
+      "startPrice": 41.529998779296875,
+      "endPrice": 44.04999923706055
+    }
+  },
+  "IAC-2026-04-08": {
+    "company": "IAC",
+    "laidOff": 77,
+    "date": "2026-04-08",
+    "industry": "Consumer",
+    "ticker": "IAC",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 7.805242292085227,
+      "startPrice": 40.869998931884766,
+      "endPrice": 44.060001373291016
+    }
+  },
+  "Meta-2026-04-02": {
+    "company": "Meta",
+    "laidOff": 200,
+    "date": "2026-04-02",
+    "industry": "Consumer",
+    "ticker": "META",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -2.9854086360873473,
+      "startPrice": 628.3900146484375,
+      "endPrice": 609.6300048828125
+    }
+  },
+  "Sonos-2026-04-01": {
+    "company": "Sonos",
+    "laidOff": 0,
+    "date": "2026-04-01",
+    "industry": "Consumer",
+    "ticker": "SONO",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 15.490801101786378,
+      "startPrice": 13.039999961853027,
+      "endPrice": 15.0600004196167
+    }
+  },
+  "Oracle-2026-03-31": {
+    "company": "Oracle",
+    "laidOff": 30000,
+    "date": "2026-03-31",
+    "industry": "Other",
+    "ticker": "ORCL",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 42.13694768657123,
+      "startPrice": 137.86000061035156,
+      "endPrice": 195.9499969482422
+    }
+  },
+  "Spotify-2026-03-23": {
+    "company": "Spotify",
+    "laidOff": 15,
+    "date": "2026-03-23",
+    "industry": "Media",
+    "ticker": "SPOT",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": -14.13628893904286,
+      "startPrice": 486.6199951171875,
+      "endPrice": 417.8299865722656
+    }
+  },
+  "Gemini-2026-03-20": {
+    "company": "Gemini",
+    "laidOff": 0,
+    "date": "2026-03-20",
+    "industry": "Crypto",
+    "ticker": "GEMI",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 2.669406930098804,
+      "startPrice": 4.869999885559082,
+      "endPrice": 5
+    }
+  },
+  "Stone-2026-03-13": {
+    "company": "Stone",
+    "laidOff": 400,
+    "date": "2026-03-13",
+    "industry": "Finance",
+    "ticker": "SNEX",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 30.70325875262015,
+      "startPrice": 93.27999877929688,
+      "endPrice": 121.91999816894531
+    }
+  },
+  "Atlassian-2026-03-11": {
+    "company": "Atlassian",
+    "laidOff": 1600,
+    "date": "2026-03-11",
+    "industry": "Other",
+    "ticker": "TEAM",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 55.35956563175102,
+      "startPrice": 58.959999084472656,
+      "endPrice": 91.5999984741211
+    }
+  },
+  "Amazon-2026-03-04": {
+    "company": "Amazon",
+    "laidOff": 100,
+    "date": "2026-03-04",
+    "industry": "Retail",
+    "ticker": "AMZN",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 16.70447241551764,
+      "startPrice": 233.64999389648438,
+      "endPrice": 272.67999267578125
+    }
+  },
+  "Block-2026-02-26": {
+    "company": "Block",
+    "laidOff": 4000,
+    "date": "2026-02-26",
+    "industry": "Finance",
+    "ticker": "XYZ",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 19.397033201132274,
+      "startPrice": 62.689998626708984,
+      "endPrice": 74.8499984741211
+    }
+  },
+  "eBay-2026-02-26": {
+    "company": "eBay",
+    "laidOff": 800,
+    "date": "2026-02-26",
+    "industry": "Retail",
+    "ticker": "EBAY",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 12.670015043269157,
+      "startPrice": 95.58000183105469,
+      "endPrice": 107.69000244140625
+    }
+  },
+  "C3.ai-2026-02-25": {
+    "company": "C3.ai",
+    "laidOff": 280,
+    "date": "2026-02-25",
+    "industry": "AI",
+    "ticker": "AI",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 15.034964724053557,
+      "startPrice": 8.579999923706055,
+      "endPrice": 9.869999885559082
+    }
+  },
+  "DraftKings-2026-02-24": {
+    "company": "DraftKings",
+    "laidOff": 0,
+    "date": "2026-02-24",
+    "industry": "Consumer",
+    "ticker": "DKNG",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 14.696631270847963,
+      "startPrice": 22.25,
+      "endPrice": 25.520000457763672
+    }
+  },
+  "Clari-2026-02-12": {
+    "company": "Clari",
+    "laidOff": 76,
+    "date": "2026-02-12",
+    "industry": "Sales",
+    "ticker": "CLVT",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 27.522930562340825,
+      "startPrice": 2.180000066757202,
+      "endPrice": 2.7799999713897705
+    }
+  },
+  "Salesforce-2026-02-09": {
+    "company": "Salesforce",
+    "laidOff": 0,
+    "date": "2026-02-09",
+    "industry": "Sales",
+    "ticker": "CRM",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 6.420837476620607,
+      "startPrice": 170.85000610351562,
+      "endPrice": 181.82000732421875
+    }
+  },
+  "Workday-2026-02-04": {
+    "company": "Workday",
+    "laidOff": 400,
+    "date": "2026-02-04",
+    "industry": "HR",
+    "ticker": "WDAY",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 13.063863958431742,
+      "startPrice": 113.05999755859375,
+      "endPrice": 127.83000183105469
+    }
+  },
+  "Zillow-2026-02-02": {
+    "company": "Zillow",
+    "laidOff": 200,
+    "date": "2026-02-02",
+    "industry": "Real Estate",
+    "ticker": "Z",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 1.9689865026569089,
+      "startPrice": 40.630001068115234,
+      "endPrice": 41.43000030517578
+    }
+  },
+  "Expedia-2026-02-01": {
+    "company": "Expedia",
+    "laidOff": 100,
+    "date": "2026-02-01",
+    "industry": "Travel",
+    "ticker": "EXPE",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -0.12160114043977467,
+      "startPrice": 230.25999450683594,
+      "endPrice": 229.97999572753906
+    }
+  },
+  "Peloton-2026-01-30": {
+    "company": "Peloton",
+    "laidOff": 0,
+    "date": "2026-01-30",
+    "industry": "Fitness",
+    "ticker": "PTON",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 20.04220109652432,
+      "startPrice": 4.739999771118164,
+      "endPrice": 5.690000057220459
+    }
+  },
+  "Gloo-2026-01-29": {
+    "company": "Gloo",
+    "laidOff": 0,
+    "date": "2026-01-29",
+    "industry": "Consumer",
+    "ticker": "GLOO",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 11.375213777274944,
+      "startPrice": 5.889999866485596,
+      "endPrice": 6.559999942779541
+    }
+  },
+  "Amazon-2026-01-28": {
+    "company": "Amazon",
+    "laidOff": 16000,
+    "date": "2026-01-28",
+    "industry": "Retail",
+    "ticker": "AMZN",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 16.70447241551764,
+      "startPrice": 233.64999389648438,
+      "endPrice": 272.67999267578125
+    }
+  },
+  "ASML-2026-01-28": {
+    "company": "ASML",
+    "laidOff": 1700,
+    "date": "2026-01-28",
+    "industry": "Hardware",
+    "ticker": "ASML",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 10.13759780836633,
+      "startPrice": 1445.4827880859375,
+      "endPrice": 1592.02001953125
+    }
+  },
+  "Pinterest-2026-01-27": {
+    "company": "Pinterest",
+    "laidOff": 700,
+    "date": "2026-01-27",
+    "industry": "Consumer",
+    "ticker": "PINS",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 18.561871931855986,
+      "startPrice": 17.940000534057617,
+      "endPrice": 21.270000457763672
+    }
+  },
+  "Expedia-2026-01-26": {
+    "company": "Expedia",
+    "laidOff": 0,
+    "date": "2026-01-26",
+    "industry": "Travel",
+    "ticker": "EXPE",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -0.12160114043977467,
+      "startPrice": 230.25999450683594,
+      "endPrice": 229.97999572753906
+    }
+  },
+  "Autodesk-2026-01-22": {
+    "company": "Autodesk",
+    "laidOff": 1000,
+    "date": "2026-01-22",
+    "industry": "Other",
+    "ticker": "ADSK",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 8.603915380924109,
+      "startPrice": 225.1300048828125,
+      "endPrice": 244.5
+    }
+  },
+  "Shopify-2026-01-22": {
+    "company": "Shopify",
+    "laidOff": 0,
+    "date": "2026-01-22",
+    "industry": "Retail",
+    "ticker": "SHOP",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -1.7529752976112283,
+      "startPrice": 112.37999725341797,
+      "endPrice": 110.41000366210938
+    }
+  },
+  "Ericsson-2026-01-15": {
+    "company": "Ericsson",
+    "laidOff": 1600,
+    "date": "2026-01-15",
+    "industry": "Other",
+    "ticker": "ERIC",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -0.1680630649618923,
+      "startPrice": 11.899999618530273,
+      "endPrice": 11.880000114440918
+    }
+  },
+  "Playtika-2026-01-14": {
+    "company": "Playtika",
+    "laidOff": 500,
+    "date": "2026-01-14",
+    "industry": "Consumer",
+    "ticker": "PLTK",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 14.150944598645948,
+      "startPrice": 3.180000066757202,
+      "endPrice": 3.630000114440918
+    }
+  },
+  "Meta-2026-01-13": {
+    "company": "Meta",
+    "laidOff": 1500,
+    "date": "2026-01-13",
+    "industry": "Consumer",
+    "ticker": "META",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -2.9854086360873473,
+      "startPrice": 628.3900146484375,
+      "endPrice": 609.6300048828125
+    }
+  },
+  "eToro-2026-01-13": {
+    "company": "eToro",
+    "laidOff": 105,
+    "date": "2026-01-13",
+    "industry": "Finance",
+    "ticker": "ETOR",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 19.713036257351412,
+      "startPrice": 32.060001373291016,
+      "endPrice": 38.380001068115234
+    }
+  },
+  "MercadoLibre-2026-01-12": {
+    "company": "MercadoLibre",
+    "laidOff": 116,
+    "date": "2026-01-12",
+    "industry": "Retail",
+    "ticker": "MELI",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -8.961022128286663,
+      "startPrice": 1793.2099609375,
+      "endPrice": 1632.52001953125
+    }
+  },
+  "FormFactor-2026-01-09": {
+    "company": "FormFactor",
+    "laidOff": 220,
+    "date": "2026-01-09",
+    "industry": "Manufacturing",
+    "ticker": "FORM",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 22.135950681355286,
+      "startPrice": 121.06999969482422,
+      "endPrice": 147.8699951171875
+    }
+  },
+  "Angi-2026-01-07": {
+    "company": "Angi",
+    "laidOff": 350,
+    "date": "2026-01-07",
+    "industry": "Consumer",
+    "ticker": "ANGI",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -19.027776692384528,
+      "startPrice": 7.199999809265137,
+      "endPrice": 5.829999923706055
+    }
+  },
+  "Zebra Technologies-2025-12-12": {
+    "company": "Zebra Technologies",
+    "laidOff": 0,
+    "date": "2025-12-12",
+    "industry": "Manufacturing",
+    "ticker": "ZBRA",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 1.3269338583810404,
+      "startPrice": 223.07000732421875,
+      "endPrice": 226.02999877929688
+    }
+  },
+  "VSCO-2025-12-09": {
+    "company": "VSCO",
+    "laidOff": 24,
+    "date": "2025-12-09",
+    "industry": "Consumer",
+    "ticker": "VSCO",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": -6.790841943787321,
+      "startPrice": 51.540000915527344,
+      "endPrice": 48.040000915527344
+    }
+  },
+  "Teads-2025-12-04": {
+    "company": "Teads",
+    "laidOff": 180,
+    "date": "2025-12-04",
+    "industry": "Marketing",
+    "ticker": "TEAD",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 53.84614319890252,
+      "startPrice": 0.6890000104904175,
+      "endPrice": 1.059999942779541
+    }
+  },
+  "Shopify-2025-11-26": {
+    "company": "Shopify",
+    "laidOff": 0,
+    "date": "2025-11-26",
+    "industry": "Retail",
+    "ticker": "SHOP",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -1.7529752976112283,
+      "startPrice": 112.37999725341797,
+      "endPrice": 110.41000366210938
+    }
+  },
+  "HP-2025-11-25": {
+    "company": "HP",
+    "laidOff": 4000,
+    "date": "2025-11-25",
+    "industry": "Hardware",
+    "ticker": "HP",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 7.268590204048388,
+      "startPrice": 35.220001220703125,
+      "endPrice": 37.779998779296875
+    }
+  },
+  "Pipe-2025-11-16": {
+    "company": "Pipe",
+    "laidOff": 200,
+    "date": "2025-11-16",
+    "industry": "Finance",
+    "ticker": "PAA",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 1.058423436643197,
+      "startPrice": 21.492517471313477,
+      "endPrice": 21.719999313354492
+    }
+  },
+  "Synopsys-2025-11-12": {
+    "company": "Synopsys",
+    "laidOff": 2000,
+    "date": "2025-11-12",
+    "industry": "Other",
+    "ticker": "SNPS",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 27.55111215586424,
+      "startPrice": 404.9200134277344,
+      "endPrice": 516.47998046875
+    }
+  },
+  "Hewlett Packard Enterprise-2025-11-05": {
+    "company": "Hewlett Packard Enterprise",
+    "laidOff": 52,
+    "date": "2025-11-05",
+    "industry": "Hardware",
+    "ticker": "HPE",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 26.25856012000549,
+      "startPrice": 24.829999923706055,
+      "endPrice": 31.350000381469727
+    }
+  },
+  "TripAdvisor-2025-11-05": {
+    "company": "TripAdvisor",
+    "laidOff": 0,
+    "date": "2025-11-05",
+    "industry": "Travel",
+    "ticker": "TRIP",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -9.05134884743186,
+      "startPrice": 11.489999771118164,
+      "endPrice": 10.449999809265137
+    }
+  },
+  "Amazon-2025-10-27": {
+    "company": "Amazon",
+    "laidOff": 14000,
+    "date": "2025-10-27",
+    "industry": "Retail",
+    "ticker": "AMZN",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 16.70447241551764,
+      "startPrice": 233.64999389648438,
+      "endPrice": 272.67999267578125
+    }
+  },
+  "Chegg-2025-10-27": {
+    "company": "Chegg",
+    "laidOff": 388,
+    "date": "2025-10-27",
+    "industry": "Education",
+    "ticker": "CHGG",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 34.88371480536381,
+      "startPrice": 0.8600000143051147,
+      "endPrice": 1.159999966621399
+    }
+  },
+  "Medtronic-2025-10-27": {
+    "company": "Medtronic",
+    "laidOff": 60,
+    "date": "2025-10-27",
+    "industry": "Healthcare",
+    "ticker": "MDT",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": -13.377319584050046,
+      "startPrice": 87.91000366210938,
+      "endPrice": 76.1500015258789
+    }
+  },
+  "Applied Material-2025-10-23": {
+    "company": "Applied Material",
+    "laidOff": 1400,
+    "date": "2025-10-23",
+    "industry": "Manufacturing",
+    "ticker": "AMAT",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 9.45929089609417,
+      "startPrice": 397.80999755859375,
+      "endPrice": 435.44000244140625
+    }
+  },
+  "Rivian-2025-10-23": {
+    "company": "Rivian",
+    "laidOff": 600,
+    "date": "2025-10-23",
+    "industry": "Transportation",
+    "ticker": "RIVN",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -6.692910232337344,
+      "startPrice": 15.239999771118164,
+      "endPrice": 14.220000267028809
+    }
+  },
+  "Broadcom-2025-10-17": {
+    "company": "Broadcom",
+    "laidOff": 247,
+    "date": "2025-10-17",
+    "industry": "Hardware",
+    "ticker": "AVGO",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 21.157475293195667,
+      "startPrice": 354.9100036621094,
+      "endPrice": 430
+    }
+  },
+  "xAI-2025-09-12": {
+    "company": "xAI",
+    "laidOff": 500,
+    "date": "2025-09-12",
+    "industry": "AI",
+    "ticker": "XAIL",
+    "exchange": "ASE",
+    "performance": {
+      "changePercent": 17.652384342829006,
+      "startPrice": 25.51099967956543,
+      "endPrice": 30.014299392700195
+    }
+  },
+  "Rivian-2025-09-05": {
+    "company": "Rivian",
+    "laidOff": 200,
+    "date": "2025-09-05",
+    "industry": "Transportation",
+    "ticker": "RIVN",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -6.692910232337344,
+      "startPrice": 15.239999771118164,
+      "endPrice": 14.220000267028809
+    }
+  },
+  "Salesforce-2025-09-04": {
+    "company": "Salesforce",
+    "laidOff": 262,
+    "date": "2025-09-04",
+    "industry": "Sales",
+    "ticker": "CRM",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 6.420837476620607,
+      "startPrice": 170.85000610351562,
+      "endPrice": 181.82000732421875
+    }
+  },
+  "Oracle-2025-09-03": {
+    "company": "Oracle",
+    "laidOff": 101,
+    "date": "2025-09-03",
+    "industry": "Other",
+    "ticker": "ORCL",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 42.13694768657123,
+      "startPrice": 137.86000061035156,
+      "endPrice": 195.9499969482422
+    }
+  },
+  "Salesforce-2025-09-03": {
+    "company": "Salesforce",
+    "laidOff": 30,
+    "date": "2025-09-03",
+    "industry": "Sales",
+    "ticker": "CRM",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 6.420837476620607,
+      "startPrice": 170.85000610351562,
+      "endPrice": 181.82000732421875
+    }
+  },
+  "Oracle-2025-09-02": {
+    "company": "Oracle",
+    "laidOff": 0,
+    "date": "2025-09-02",
+    "industry": "Other",
+    "ticker": "ORCL",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 42.13694768657123,
+      "startPrice": 137.86000061035156,
+      "endPrice": 195.9499969482422
+    }
+  },
+  "Salesforce-2025-08-31": {
+    "company": "Salesforce",
+    "laidOff": 4000,
+    "date": "2025-08-31",
+    "industry": "Sales",
+    "ticker": "CRM",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 6.420837476620607,
+      "startPrice": 170.85000610351562,
+      "endPrice": 181.82000732421875
+    }
+  },
+  "Klaviyo-2025-08-25": {
+    "company": "Klaviyo",
+    "laidOff": 0,
+    "date": "2025-08-25",
+    "industry": "Marketing",
+    "ticker": "KVYO",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": -14.50253369649078,
+      "startPrice": 17.790000915527344,
+      "endPrice": 15.210000038146973
+    }
+  },
+  "Cisco-2025-08-19": {
+    "company": "Cisco",
+    "laidOff": 221,
+    "date": "2025-08-19",
+    "industry": "Infrastructure",
+    "ticker": "CSCO",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 16.111580883600773,
+      "startPrice": 83.16999816894531,
+      "endPrice": 96.56999969482422
+    }
+  },
+  "Oracle-2025-08-19": {
+    "company": "Oracle",
+    "laidOff": 101,
+    "date": "2025-08-19",
+    "industry": "Other",
+    "ticker": "ORCL",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 42.13694768657123,
+      "startPrice": 137.86000061035156,
+      "endPrice": 195.9499969482422
+    }
+  },
+  "Oracle-2025-08-13": {
+    "company": "Oracle",
+    "laidOff": 161,
+    "date": "2025-08-13",
+    "industry": "Other",
+    "ticker": "ORCL",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 42.13694768657123,
+      "startPrice": 137.86000061035156,
+      "endPrice": 195.9499969482422
+    }
+  },
+  "Micron-2025-08-12": {
+    "company": "Micron",
+    "laidOff": 300,
+    "date": "2025-08-12",
+    "industry": "Hardware",
+    "ticker": "MU",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 77.17491406048636,
+      "startPrice": 421.510009765625,
+      "endPrice": 746.8099975585938
+    }
+  },
+  "Amdocs-2025-08-12": {
+    "company": "Amdocs",
+    "laidOff": 0,
+    "date": "2025-08-12",
+    "industry": "Support",
+    "ticker": "DOX",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -0.9939422203990982,
+      "startPrice": 64.38999938964844,
+      "endPrice": 63.75
+    }
+  },
+  "Nextdoor-2025-08-07": {
+    "company": "Nextdoor",
+    "laidOff": 67,
+    "date": "2025-08-07",
+    "industry": "Consumer",
+    "ticker": "NXDR",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 42.25352408275375,
+      "startPrice": 1.4199999570846558,
+      "endPrice": 2.0199999809265137
+    }
+  },
+  "Clear-2025-08-01": {
+    "company": "Clear",
+    "laidOff": 145,
+    "date": "2025-08-01",
+    "industry": "Finance",
+    "ticker": "CWEN",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": -6.401767429596755,
+      "startPrice": 40.77000045776367,
+      "endPrice": 38.15999984741211
+    }
+  },
+  "Astra-2025-07-28": {
+    "company": "Astra",
+    "laidOff": 106,
+    "date": "2025-07-28",
+    "industry": "Sales",
+    "ticker": "AZN",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": -10.80052626779736,
+      "startPrice": 204.99000549316406,
+      "endPrice": 182.85000610351562
+    }
+  },
+  "Rocket Companies-2025-07-18": {
+    "company": "Rocket Companies",
+    "laidOff": 0,
+    "date": "2025-07-18",
+    "industry": "Real Estate",
+    "ticker": "RKT",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 4.460713063915479,
+      "startPrice": 15.020000457763672,
+      "endPrice": 15.6899995803833
+    }
+  },
+  "Intel-2025-07-11": {
+    "company": "Intel",
+    "laidOff": 5000,
+    "date": "2025-07-11",
+    "industry": "Hardware",
+    "ticker": "INTC",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 102.39791914819764,
+      "startPrice": 61.720001220703125,
+      "endPrice": 124.91999816894531
+    }
+  },
+  "Sabi-2025-06-19": {
+    "company": "Sabi",
+    "laidOff": 50,
+    "date": "2025-06-19",
+    "industry": "Retail",
+    "ticker": "SBR",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 1.7822332786552209,
+      "startPrice": 74.65939331054688,
+      "endPrice": 75.98999786376953
+    }
+  },
+  "Intel-2025-06-17": {
+    "company": "Intel",
+    "laidOff": 0,
+    "date": "2025-06-17",
+    "industry": "Hardware",
+    "ticker": "INTC",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 102.39791914819764,
+      "startPrice": 61.720001220703125,
+      "endPrice": 124.91999816894531
+    }
+  },
+  "Hims & Hers-2025-05-30": {
+    "company": "Hims & Hers",
+    "laidOff": 68,
+    "date": "2025-05-30",
+    "industry": "Healthcare",
+    "ticker": "HIMS",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 43.139242824119854,
+      "startPrice": 19.75,
+      "endPrice": 28.270000457763672
+    }
+  },
+  "Amazon-2025-05-14": {
+    "company": "Amazon",
+    "laidOff": 100,
+    "date": "2025-05-14",
+    "industry": "Retail",
+    "ticker": "AMZN",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 16.70447241551764,
+      "startPrice": 233.64999389648438,
+      "endPrice": 272.67999267578125
+    }
+  },
+  "Microsoft-2025-05-13": {
+    "company": "Microsoft",
+    "laidOff": 6000,
+    "date": "2025-05-13",
+    "industry": "Other",
+    "ticker": "MSFT",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 11.27133968623346,
+      "startPrice": 373.07000732421875,
+      "endPrice": 415.1199951171875
+    }
+  },
+  "Chegg-2025-05-12": {
+    "company": "Chegg",
+    "laidOff": 248,
+    "date": "2025-05-12",
+    "industry": "Education",
+    "ticker": "CHGG",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 34.88371480536381,
+      "startPrice": 0.8600000143051147,
+      "endPrice": 1.159999966621399
+    }
+  },
+  "Bill.com-2026-05-07": {
+    "company": "Bill.com",
+    "laidOff": 709,
+    "date": "2026-05-07",
+    "industry": "Finance",
+    "ticker": "BILL",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 15.61636671703023,
+      "startPrice": 36.18000030517578,
+      "endPrice": 41.83000183105469
+    }
+  },
+  "Cars.com-2026-04-09": {
+    "company": "Cars.com",
+    "laidOff": 0,
+    "date": "2026-04-09",
+    "industry": "Transportation",
+    "ticker": "CARS",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 28.492850485272292,
+      "startPrice": 9.09000015258789,
+      "endPrice": 11.680000305175781
+    }
+  },
+  "Bill.com-2025-10-15": {
+    "company": "Bill.com",
+    "laidOff": 0,
+    "date": "2025-10-15",
+    "industry": "Finance",
+    "ticker": "BILL",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 15.61636671703023,
+      "startPrice": 36.18000030517578,
+      "endPrice": 41.83000183105469
+    }
+  },
+  "King.com-2025-07-14": {
+    "company": "King.com",
+    "laidOff": 200,
+    "date": "2025-07-14",
+    "industry": "Consumer",
+    "ticker": "KFS",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 2.3417212837531856,
+      "startPrice": 11.529999732971191,
+      "endPrice": 11.800000190734863
+    }
+  },
+  "Cloudflare-2026-05-07": {
+    "company": "Cloudflare",
+    "laidOff": 1100,
+    "date": "2026-05-07",
+    "industry": "Security",
+    "ticker": "NET",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 1.595442518707923,
+      "startPrice": 193.0500030517578,
+      "endPrice": 196.1300048828125
+    }
+  }
+}

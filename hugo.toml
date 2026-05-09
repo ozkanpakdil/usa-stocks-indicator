@@ -1,22 +1,37 @@
 baseURL = 'https://ozkanpakdil.github.io/usa-stocks-indicator/'
 languageCode = 'en-us'
-title = 'USA Government Awards Stock Indicator'
+title = 'Public Company Stocks Indicator'
 theme = ["github.com/adityatelange/hugo-PaperMod"]
 
 [params]
-  description = 'Tracking US government awards and their impact on public company stocks.'
+  description = 'Tracking public company events like government awards and layoffs, and their impact on stocks.'
   showFullTextContent = true
 
   [params.profileMode]
     enabled = true
-    title = 'USA Government Awards Stock Indicator'
-    subtitle = 'Tracking US government awards and their impact on public company stocks.'
+    title = 'Public Company Stocks Indicator'
+    subtitle = 'Tracking public company events (Awards, Layoffs) and their stock impact.'
     [[params.profileMode.buttons]]
-        name = "📊 View Dashboard"
-        url = "dashboard"
+        name = "📉 Layoffs Indicator"
+        url = "tags/layoffs"
+    [[params.profileMode.buttons]]
+        name = "🏆 Awards Indicator"
+        url = "tags/awards"
+    [[params.profileMode.buttons]]
+        name = "📂 Archive"
+        url = "archives"
     [[params.profileMode.buttons]]
         name = "📝 Recent Reports"
         url = "posts"
 
 [markup.goldmark.renderer]
   unsafe = true
+
+[[menu.main]]
+    name = "Archive"
+    url = "archives"
+    weight = 10
+[[menu.main]]
+    name = "Dashboard"
+    url = "dashboard"
+    weight = 20

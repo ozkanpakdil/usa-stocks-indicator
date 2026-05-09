@@ -78,3 +78,26 @@ export async function searchTicker(companyName: string) {
 
   return null;
 }
+
+export async function getStockPerformance(ticker: string): Promise<{ changePercent: number, startPrice: number, endPrice: number } | null> {
+  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${ticker}?range=1mo&interval=1d`;
+  try {
+    const response = await fetch(url, {
+      headers: { "User-Agent": "Mozilla/5.0" }
+    });
+    if (!response.ok) return null;
+    const data = await response.json();
+    const prices = data.chart.result[0].indicators.adjclose[0].adjclose;
+    if (!prices || prices.length < 2) return null;
+
+    const startPrice = prices[0];
+    const endPrice = prices[prices.length - 1];
+    if (startPrice === null || endPrice === null) return null;
+
+    const changePercent = ((endPrice - startPrice) / startPrice) * 100;
+    return { changePercent, startPrice, endPrice };
+  } catch (e) {
+    console.error(`Error fetching performance for ${ticker}:`, e);
+    return null;
+  }
+}
