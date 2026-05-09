@@ -2,6 +2,8 @@
 
 This project fetches government awards (Prime and Subawards) from USAspending.gov, cross-checks recipients against publicly traded companies, and generates reports for investment analysis.
 
+List of stocks here https://ozkanpakdil.github.io/usa-stocks-indicator/
+
 ## Features
 
 - **Automated Data Fetching**: Retrieves the latest Prime and Subawards from the last 12 months.
