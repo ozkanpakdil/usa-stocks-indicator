@@ -8611,5 +8611,71 @@
     "subAgency": "Offices, Boards and Divisions",
     "ticker": "RELX",
     "exchange": "NYQ"
+  },
+  "0000930305": {
+    "id": "0000930305",
+    "type": "Subaward",
+    "recipient": "TTI INC.",
+    "date": "2026-06-29",
+    "amount": 45176.5,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Air Force",
+    "ticker": "TTI",
+    "exchange": "NYQ"
+  },
+  "MASI0-MAT0038554": {
+    "id": "MASI0-MAT0038554",
+    "type": "Subaward",
+    "recipient": "CTG FEDERAL, LLC",
+    "date": "2026-06-25",
+    "amount": 2928000,
+    "agency": "General Services Administration",
+    "subAgency": "Federal Acquisition Service",
+    "ticker": "CTGO",
+    "exchange": "ASE"
+  },
+  "112977B-1": {
+    "id": "112977B-1",
+    "type": "Subaward",
+    "recipient": "MACRO SOLUTIONS LLC",
+    "date": "2026-06-12",
+    "amount": 788938.2,
+    "agency": "Department of Health and Human Services",
+    "subAgency": "Food and Drug Administration",
+    "ticker": "BMA",
+    "exchange": "NYQ"
+  },
+  "120404-0": {
+    "id": "120404-0",
+    "type": "Subaward",
+    "recipient": "GENERAL DYNAMICS MISSION SYSTEMS, INC.",
+    "date": "2026-06-09",
+    "amount": 722665,
+    "agency": "Department of Energy",
+    "subAgency": "Department of Energy",
+    "ticker": "GD",
+    "exchange": "NYQ"
+  },
+  "Y260004494": {
+    "id": "Y260004494",
+    "type": "Subaward",
+    "recipient": "OSI FEDERAL TECHNOLOGIES INC",
+    "date": "2026-06-04",
+    "amount": 249594.8,
+    "agency": "Department of Defense",
+    "subAgency": "Department of the Army",
+    "ticker": "ODV",
+    "exchange": "NYQ"
+  },
+  "2025-0105": {
+    "id": "2025-0105",
+    "type": "Subaward",
+    "recipient": "SNA INTERNATIONAL LLC",
+    "date": "2026-05-29",
+    "amount": 865212.28,
+    "agency": "Department of Justice",
+    "subAgency": "Federal Bureau of Investigation",
+    "ticker": "SNA",
+    "exchange": "NYQ"
   }
 }
