@@ -2260,5 +2260,18 @@
       "startPrice": 193.0500030517578,
       "endPrice": 196.1300048828125
     }
+  },
+  "Simpl-2025-10-01": {
+    "company": "Simpl",
+    "laidOff": 80,
+    "date": "2025-10-01",
+    "industry": "Finance",
+    "ticker": "SMPL",
+    "exchange": "NAS",
+    "performance": {
+      "changePercent": 1.0284818901100128,
+      "startPrice": 12.640000343322754,
+      "endPrice": 12.770000457763672
+    }
   }
 }
