@@ -35,7 +35,3 @@ theme = ["github.com/adityatelange/hugo-PaperMod"]
     name = "Archive"
     url = "archives"
     weight = 10
-[[menu.main]]
-    name = "Dashboard"
-    url = "dashboard"
-    weight = 20
