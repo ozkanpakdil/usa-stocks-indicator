@@ -24,6 +24,9 @@ theme = ["github.com/adityatelange/hugo-PaperMod"]
         name = "📝 Recent Reports"
         url = "posts"
 
+[outputs]
+  home = ["HTML", "RSS"]
+
 [markup.goldmark.renderer]
   unsafe = true
 
