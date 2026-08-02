@@ -1,8 +1,7 @@
 import { searchTicker } from "./utils";
-import { writeFileSync, readFileSync, existsSync, mkdirSync, readdirSync } from "fs";
+import { writeFileSync, readFileSync, existsSync, mkdirSync } from "fs";
 
 const DATA_FILE = "data.json";
-const DASHBOARD_FILE = "content/dashboard.md";
 const USASPENDING_URL = "https://api.usaspending.gov/api/v2/search/spending_by_award/";
 
 // Calculate last 12 months
@@ -92,7 +91,6 @@ async function run() {
   console.log(`Saved ${Object.keys(existingData).length} total awards with stock info.`);
 
   generateHugoPost(existingData);
-  generateDashboard();
 }
 
 async function processAwards(payload: any, type: "Prime" | "Subaward", existingData: Record<string, Award>): Promise<number> {
@@ -149,47 +147,6 @@ async function processAwards(payload: any, type: "Prime" | "Subaward", existingD
     console.error(`Error processing ${type} awards:`, e);
     return 0;
   }
-}
-
-function generateDashboard() {
-  console.log("Generating dashboard...");
-  
-  const postsDir = "content/posts";
-  let links = "";
-  
-  if (existsSync(postsDir)) {
-    const files = readdirSync(postsDir)
-      .filter(f => f.endsWith(".md"))
-      .sort((a, b) => b.localeCompare(a)); // Reverse chronological by filename
-    
-    files.forEach(file => {
-      const path = `${postsDir}/${file}`;
-      const content = readFileSync(path, "utf-8");
-      const titleMatch = content.match(/title: "(.*)"/);
-      const title = titleMatch ? titleMatch[1] : file;
-      const slug = file.replace(".md", "");
-      links += `- [${title}](/posts/${slug})\n`;
-    });
-  }
-
-  const content = `---
-title: "Public Company Stocks Indicator Dashboard"
-date: ${new Date().toISOString()}
-draft: false
----
-
-### Latest Stock Indicator Reports
-
-This dashboard provides links to the most recent reports on public company events like government awards and tech layoffs.
-
-${links || "No reports found yet."}
-
----
-*Tracking US government awards via [USASpending.gov](https://www.usaspending.gov/) and tech layoffs via [Layoffs.fyi](https://layoffs.fyi/).*
-`;
-
-  writeFileSync(DASHBOARD_FILE, content);
-  console.log(`Dashboard generated: ${DASHBOARD_FILE}`);
 }
 
 function generateHugoPost(data: Record<string, Award>) {
