@@ -1,6 +1,6 @@
 ---
 title: "Public Company Stocks Indicator Dashboard"
-date: 2026-07-26T01:24:40.704Z
+date: 2026-08-02T01:24:18.658Z
 draft: false
 ---
 
@@ -8,6 +8,7 @@ draft: false
 
 This dashboard provides links to the most recent reports on public company events like government awards and tech layoffs.
 
+- [Recent Tech Layoffs Stock Report - 2026-07-26](/posts/layoffs-2026-07-26)
 - [Recent Tech Layoffs Stock Report - 2026-07-19](/posts/layoffs-2026-07-19)
 - [Recent Tech Layoffs Stock Report - 2026-07-12](/posts/layoffs-2026-07-12)
 - [Recent Tech Layoffs Stock Report - 2026-07-05](/posts/layoffs-2026-07-05)
@@ -19,6 +20,7 @@ This dashboard provides links to the most recent reports on public company event
 - [Recent Tech Layoffs Stock Report - 2026-05-24](/posts/layoffs-2026-05-24)
 - [Recent Tech Layoffs Stock Report - 2026-05-17](/posts/layoffs-2026-05-17)
 - [Recent Tech Layoffs Stock Report - 2026-05-10](/posts/layoffs-2026-05-10)
+- [USA Government Awards Stock Report - 2026-08-02](/posts/awards-2026-08-02)
 - [USA Government Awards Stock Report - 2026-07-26](/posts/awards-2026-07-26)
 - [USA Government Awards Stock Report - 2026-07-19](/posts/awards-2026-07-19)
 - [USA Government Awards Stock Report - 2026-07-12](/posts/awards-2026-07-12)
