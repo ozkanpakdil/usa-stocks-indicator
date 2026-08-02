@@ -6,6 +6,7 @@ theme = ["github.com/adityatelange/hugo-PaperMod"]
 [params]
   description = 'Tracking public company events like government awards and layoffs, and their impact on stocks.'
   showFullTextContent = true
+  hideFooter = true
 
   [params.profileMode]
     enabled = true
