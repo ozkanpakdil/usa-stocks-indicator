@@ -111,6 +111,9 @@ async function scrapeLayoffs() {
     }
     
     const finalData = Array.from(allData.values());
+    if (finalData.length < 100) {
+      throw new Error(`Scraped only ${finalData.length} records from layoffs.fyi - page layout may have changed`);
+    }
     writeFileSync(SCRAPED_FILE, JSON.stringify(finalData, null, 2));
     console.log(`Scraping finished. Saved ${finalData.length} records to ${SCRAPED_FILE}`);
   } finally {
@@ -119,10 +122,19 @@ async function scrapeLayoffs() {
 }
 
 async function run() {
-  // Always scrape fresh data if we're running this
-  await scrapeLayoffs().catch(err => {
-    console.error("Scraping failed, will try to use existing scraped file if available:", err.message);
+  // Always scrape fresh data. Never fall back to stale data silently:
+  // a fallback would regenerate a new-dated post with old layoffs.
+  let scrapeSucceeded = false;
+  await scrapeLayoffs().then(() => {
+    scrapeSucceeded = true;
+  }).catch(err => {
+    console.error("Scraping failed:", err.message);
   });
+
+  if (!scrapeSucceeded) {
+    console.error("Aborting: refusing to generate a layoffs report without fresh scraped data.");
+    process.exit(1);
+  }
 
   console.log("Processing layoffs data...");
   if (!existsSync(SCRAPED_FILE)) {

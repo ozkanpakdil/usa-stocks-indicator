@@ -2273,5 +2273,889 @@
       "startPrice": 12.640000343322754,
       "endPrice": 12.770000457763672
     }
+  },
+  "PayPal-2026-09-06": {
+    "company": "PayPal",
+    "laidOff": 70,
+    "date": "2026-09-06",
+    "industry": "Finance",
+    "ticker": "PYPL",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -9.032615929771074,
+      "startPrice": 59.054134368896484,
+      "endPrice": 53.720001220703125
+    }
+  },
+  "PayPal-2026-09-03": {
+    "company": "PayPal",
+    "laidOff": 251,
+    "date": "2026-09-03",
+    "industry": "Finance",
+    "ticker": "PYPL",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -9.032615929771074,
+      "startPrice": 59.054134368896484,
+      "endPrice": 53.720001220703125
+    }
+  },
+  "Hale-2026-09-03": {
+    "company": "Hale",
+    "laidOff": 0,
+    "date": "2026-09-03",
+    "industry": "Healthcare",
+    "ticker": "HLN",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": -5.608057490026385,
+      "startPrice": 9.736000061035156,
+      "endPrice": 9.1899995803833
+    }
+  },
+  "Zscaler-2026-09-03": {
+    "company": "Zscaler",
+    "laidOff": 0,
+    "date": "2026-09-03",
+    "industry": "Security",
+    "ticker": "ZS",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -7.207316439322307,
+      "startPrice": 177.32000732421875,
+      "endPrice": 164.5399932861328
+    }
+  },
+  "Uber-2026-09-02": {
+    "company": "Uber",
+    "laidOff": 3300,
+    "date": "2026-09-02",
+    "industry": "Transportation",
+    "ticker": "UBER",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": -4.896500015287136,
+      "startPrice": 75.36000061035156,
+      "endPrice": 71.66999816894531
+    }
+  },
+  "PayPal-2026-09-02": {
+    "company": "PayPal",
+    "laidOff": 220,
+    "date": "2026-09-02",
+    "industry": "Finance",
+    "ticker": "PYPL",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -9.032615929771074,
+      "startPrice": 59.054134368896484,
+      "endPrice": 53.720001220703125
+    }
+  },
+  "Amazon-2026-09-01": {
+    "company": "Amazon",
+    "laidOff": 148,
+    "date": "2026-09-01",
+    "industry": "Retail",
+    "ticker": "AMZN",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -3.928464549519189,
+      "startPrice": 267.2799987792969,
+      "endPrice": 256.7799987792969
+    }
+  },
+  "Synopsys-2026-09-01": {
+    "company": "Synopsys",
+    "laidOff": 128,
+    "date": "2026-09-01",
+    "industry": "Other",
+    "ticker": "SNPS",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -3.6233998292638048,
+      "startPrice": 412.32000732421875,
+      "endPrice": 397.3800048828125
+    }
+  },
+  "PayPal-2026-08-31": {
+    "company": "PayPal",
+    "laidOff": 164,
+    "date": "2026-08-31",
+    "industry": "Finance",
+    "ticker": "PYPL",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -9.032615929771074,
+      "startPrice": 59.054134368896484,
+      "endPrice": 53.720001220703125
+    }
+  },
+  "Amazon-2026-08-31": {
+    "company": "Amazon",
+    "laidOff": 121,
+    "date": "2026-08-31",
+    "industry": "Retail",
+    "ticker": "AMZN",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -3.928464549519189,
+      "startPrice": 267.2799987792969,
+      "endPrice": 256.7799987792969
+    }
+  },
+  "PagerDuty-2026-08-26": {
+    "company": "PagerDuty",
+    "laidOff": 0,
+    "date": "2026-08-26",
+    "industry": "Product",
+    "ticker": "PD",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 24.03169523254333,
+      "startPrice": 11.359999656677246,
+      "endPrice": 14.09000015258789
+    }
+  },
+  "SanDisk-2026-08-24": {
+    "company": "SanDisk",
+    "laidOff": 0,
+    "date": "2026-08-24",
+    "industry": "Hardware",
+    "ticker": "SNDK",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 21.502795388190645,
+      "startPrice": 1344.2900390625,
+      "endPrice": 1633.3499755859375
+    }
+  },
+  "Apple-2026-08-21": {
+    "company": "Apple",
+    "laidOff": 200,
+    "date": "2026-08-21",
+    "industry": "Hardware",
+    "ticker": "AAPL",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 9.932171716682175,
+      "startPrice": 302.25,
+      "endPrice": 332.2699890136719
+    }
+  },
+  "Netflix-2026-08-13": {
+    "company": "Netflix",
+    "laidOff": 0,
+    "date": "2026-08-13",
+    "industry": "Media",
+    "ticker": "NFLX",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 4.298615389787427,
+      "startPrice": 74.20999908447266,
+      "endPrice": 77.4000015258789
+    }
+  },
+  "N-able Technologies-2026-08-10": {
+    "company": "N-able Technologies",
+    "laidOff": 120,
+    "date": "2026-08-10",
+    "industry": "Other",
+    "ticker": "NABL",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 19.135798880683645,
+      "startPrice": 3.240000009536743,
+      "endPrice": 3.859999895095825
+    }
+  },
+  "Salesforce-2026-08-07": {
+    "company": "Salesforce",
+    "laidOff": 133,
+    "date": "2026-08-07",
+    "industry": "Sales",
+    "ticker": "CRM",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 28.139867491960956,
+      "startPrice": 193.32000732421875,
+      "endPrice": 247.72000122070312
+    }
+  },
+  "Etsy-2026-08-05": {
+    "company": "Etsy",
+    "laidOff": 220,
+    "date": "2026-08-05",
+    "industry": "Retail",
+    "ticker": "ETSY",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": -8.62739589871406,
+      "startPrice": 79.62999725341797,
+      "endPrice": 72.76000213623047
+    }
+  },
+  "Google-2026-08-05": {
+    "company": "Google",
+    "laidOff": 52,
+    "date": "2026-08-05",
+    "industry": "Consumer",
+    "ticker": "GOOG",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -1.95758801609169,
+      "startPrice": 342.1478576660156,
+      "endPrice": 335.45001220703125
+    }
+  },
+  "LegalZoom-2026-08-05": {
+    "company": "LegalZoom",
+    "laidOff": 0,
+    "date": "2026-08-05",
+    "industry": "Legal",
+    "ticker": "LZ",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 11.41805491706502,
+      "startPrice": 5.429999828338623,
+      "endPrice": 6.050000190734863
+    }
+  },
+  "Zillow-2026-08-04": {
+    "company": "Zillow",
+    "laidOff": 500,
+    "date": "2026-08-04",
+    "industry": "Real Estate",
+    "ticker": "Z",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -2.285022128341975,
+      "startPrice": 33.2599983215332,
+      "endPrice": 32.5
+    }
+  },
+  "Nutanix-2026-08-04": {
+    "company": "Nutanix",
+    "laidOff": 0,
+    "date": "2026-08-04",
+    "industry": "Infrastructure",
+    "ticker": "NTNX",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 1.9644185817351236,
+      "startPrice": 64.6500015258789,
+      "endPrice": 65.91999816894531
+    }
+  },
+  "Chime-2026-07-31": {
+    "company": "Chime",
+    "laidOff": 150,
+    "date": "2026-07-31",
+    "industry": "Finance",
+    "ticker": "CHYM",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 4.430378486170002,
+      "startPrice": 31.600000381469727,
+      "endPrice": 33
+    }
+  },
+  "ChargePoint-2026-07-31": {
+    "company": "ChargePoint",
+    "laidOff": 144,
+    "date": "2026-07-31",
+    "industry": "Manufacturing",
+    "ticker": "CHPT",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 41.56250444706523,
+      "startPrice": 6.400000095367432,
+      "endPrice": 9.0600004196167
+    }
+  },
+  "Lightspeed Commerce-2026-07-31": {
+    "company": "Lightspeed Commerce",
+    "laidOff": 100,
+    "date": "2026-07-31",
+    "industry": "Retail",
+    "ticker": "LSPD",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": -4.971323669859105,
+      "startPrice": 10.460000038146973,
+      "endPrice": 9.9399995803833
+    }
+  },
+  "ServiceNow-2026-07-28": {
+    "company": "ServiceNow",
+    "laidOff": 0,
+    "date": "2026-07-28",
+    "industry": "Support",
+    "ticker": "NOW",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 6.07491290985859,
+      "startPrice": 124.94000244140625,
+      "endPrice": 132.52999877929688
+    }
+  },
+  "Dutch-2026-07-26": {
+    "company": "Dutch",
+    "laidOff": 0,
+    "date": "2026-07-26",
+    "industry": "Other",
+    "ticker": "BROS",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": -13.95530942376015,
+      "startPrice": 51.02000045776367,
+      "endPrice": 43.900001525878906
+    }
+  },
+  "Amazon-2026-07-22": {
+    "company": "Amazon",
+    "laidOff": 0,
+    "date": "2026-07-22",
+    "industry": "Retail",
+    "ticker": "AMZN",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -3.928464549519189,
+      "startPrice": 267.2799987792969,
+      "endPrice": 256.7799987792969
+    }
+  },
+  "Monday.com-2026-07-22": {
+    "company": "Monday.com",
+    "laidOff": 630,
+    "date": "2026-07-22",
+    "industry": "Product",
+    "ticker": "MNDY",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 1.0354850741697896,
+      "startPrice": 85.94999694824219,
+      "endPrice": 86.83999633789062
+    }
+  },
+  "Uber-2026-07-22": {
+    "company": "Uber",
+    "laidOff": 0,
+    "date": "2026-07-22",
+    "industry": "Transportation",
+    "ticker": "UBER",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": -4.896500015287136,
+      "startPrice": 75.36000061035156,
+      "endPrice": 71.66999816894531
+    }
+  },
+  "Intel-2026-07-20": {
+    "company": "Intel",
+    "laidOff": 0,
+    "date": "2026-07-20",
+    "industry": "Hardware",
+    "ticker": "INTC",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 1.9712784084425017,
+      "startPrice": 100.94999694824219,
+      "endPrice": 102.94000244140625
+    }
+  },
+  "Microsoft-2026-07-06": {
+    "company": "Microsoft",
+    "laidOff": 4800,
+    "date": "2026-07-06",
+    "industry": "Other",
+    "ticker": "MSFT",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 0.8393153523299652,
+      "startPrice": 491.5047302246094,
+      "endPrice": 495.6300048828125
+    }
+  },
+  "Amazon-2026-07-06": {
+    "company": "Amazon",
+    "laidOff": 57,
+    "date": "2026-07-06",
+    "industry": "Retail",
+    "ticker": "AMZN",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -3.928464549519189,
+      "startPrice": 267.2799987792969,
+      "endPrice": 256.7799987792969
+    }
+  },
+  "Coursera-2026-07-06": {
+    "company": "Coursera",
+    "laidOff": 0,
+    "date": "2026-07-06",
+    "industry": "Education",
+    "ticker": "COUR",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": -6.451615384168391,
+      "startPrice": 5.579999923706055,
+      "endPrice": 5.21999979019165
+    }
+  },
+  "SAS-2026-06-26": {
+    "company": "SAS",
+    "laidOff": 300,
+    "date": "2026-06-26",
+    "industry": "Data",
+    "ticker": "SSL",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 27.090598731380506,
+      "startPrice": 11.479999542236328,
+      "endPrice": 14.59000015258789
+    }
+  },
+  "ADP-2026-06-26": {
+    "company": "ADP",
+    "laidOff": 76,
+    "date": "2026-06-26",
+    "industry": "HR",
+    "ticker": "ADP",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 0.24016786777208582,
+      "startPrice": 267.6172790527344,
+      "endPrice": 268.260009765625
+    }
+  },
+  "BitGo-2026-06-25": {
+    "company": "BitGo",
+    "laidOff": 90,
+    "date": "2026-06-25",
+    "industry": "Crypto",
+    "ticker": "BTGO",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 53.306622169507875,
+      "startPrice": 4.989999771118164,
+      "endPrice": 7.650000095367432
+    }
+  },
+  "Sonos-2026-06-25": {
+    "company": "Sonos",
+    "laidOff": 0,
+    "date": "2026-06-25",
+    "industry": "Consumer",
+    "ticker": "SONO",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -4.000000726609003,
+      "startPrice": 15.75,
+      "endPrice": 15.119999885559082
+    }
+  },
+  "Elastic-2026-06-24": {
+    "company": "Elastic",
+    "laidOff": 0,
+    "date": "2026-06-24",
+    "industry": "Data",
+    "ticker": "ESTC",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 8.074125754089874,
+      "startPrice": 77.16000366210938,
+      "endPrice": 83.38999938964844
+    }
+  },
+  "Oracle-2026-06-23": {
+    "company": "Oracle",
+    "laidOff": 21000,
+    "date": "2026-06-23",
+    "industry": "Other",
+    "ticker": "ORCL",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": -1.9572025208061277,
+      "startPrice": 153.27999877929688,
+      "endPrice": 150.27999877929688
+    }
+  },
+  "Robinhood-2026-06-16": {
+    "company": "Robinhood",
+    "laidOff": 290,
+    "date": "2026-06-16",
+    "industry": "Finance",
+    "ticker": "HOOD",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 18.607096566539475,
+      "startPrice": 94.91000366210938,
+      "endPrice": 112.56999969482422
+    }
+  },
+  "Rackspace-2026-06-16": {
+    "company": "Rackspace",
+    "laidOff": 0,
+    "date": "2026-06-16",
+    "industry": "Data",
+    "ticker": "RXT",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -30.603445662400308,
+      "startPrice": 4.639999866485596,
+      "endPrice": 3.2200000286102295
+    }
+  },
+  "Rivian-2026-06-16": {
+    "company": "Rivian",
+    "laidOff": 0,
+    "date": "2026-06-16",
+    "industry": "Transportation",
+    "ticker": "RIVN",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 0.6277487730947228,
+      "startPrice": 15.930000305175781,
+      "endPrice": 16.030000686645508
+    }
+  },
+  "ServiceNow-2026-06-11": {
+    "company": "ServiceNow",
+    "laidOff": 54,
+    "date": "2026-06-11",
+    "industry": "Support",
+    "ticker": "NOW",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 6.07491290985859,
+      "startPrice": 124.94000244140625,
+      "endPrice": 132.52999877929688
+    }
+  },
+  "Opendoor-2026-06-10": {
+    "company": "Opendoor",
+    "laidOff": 250,
+    "date": "2026-06-10",
+    "industry": "Real Estate",
+    "ticker": "OPEN",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -20.057307901745038,
+      "startPrice": 3.490000009536743,
+      "endPrice": 2.7899999618530273
+    }
+  },
+  "Salesforce-2026-06-09": {
+    "company": "Salesforce",
+    "laidOff": 86,
+    "date": "2026-06-09",
+    "industry": "Sales",
+    "ticker": "CRM",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 28.139867491960956,
+      "startPrice": 193.32000732421875,
+      "endPrice": 247.72000122070312
+    }
+  },
+  "Google-2026-06-04": {
+    "company": "Google",
+    "laidOff": 0,
+    "date": "2026-06-04",
+    "industry": "Consumer",
+    "ticker": "GOOG",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -1.95758801609169,
+      "startPrice": 342.1478576660156,
+      "endPrice": 335.45001220703125
+    }
+  },
+  "Uber-2026-06-03": {
+    "company": "Uber",
+    "laidOff": 0,
+    "date": "2026-06-03",
+    "industry": "Transportation",
+    "ticker": "UBER",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": -4.896500015287136,
+      "startPrice": 75.36000061035156,
+      "endPrice": 71.66999816894531
+    }
+  },
+  "GitLab-2026-06-02": {
+    "company": "GitLab",
+    "laidOff": 350,
+    "date": "2026-06-02",
+    "industry": "Product",
+    "ticker": "GTLB",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 15.14334745702904,
+      "startPrice": 40.810001373291016,
+      "endPrice": 46.9900016784668
+    }
+  },
+  "Manhattan Associates-2026-06-02": {
+    "company": "Manhattan Associates",
+    "laidOff": 0,
+    "date": "2026-06-02",
+    "industry": "Logistics",
+    "ticker": "MANH",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 4.770805278750337,
+      "startPrice": 192.6300048828125,
+      "endPrice": 201.82000732421875
+    }
+  },
+  "SentinelOne-2026-05-29": {
+    "company": "SentinelOne",
+    "laidOff": 230,
+    "date": "2026-05-29",
+    "industry": "Security",
+    "ticker": "S",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": -11.43497454844161,
+      "startPrice": 22.299999237060547,
+      "endPrice": 19.75
+    }
+  },
+  "Amdocs-2026-05-28": {
+    "company": "Amdocs",
+    "laidOff": 0,
+    "date": "2026-05-28",
+    "industry": "Support",
+    "ticker": "DOX",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 7.227652719756669,
+      "startPrice": 57.279998779296875,
+      "endPrice": 61.41999816894531
+    }
+  },
+  "NetApp-2026-05-27": {
+    "company": "NetApp",
+    "laidOff": 77,
+    "date": "2026-05-27",
+    "industry": "Data",
+    "ticker": "NTAP",
+    "exchange": "NAS",
+    "performance": {
+      "changePercent": -1.3709498790511594,
+      "startPrice": 202.0500030517578,
+      "endPrice": 199.27999877929688
+    }
+  },
+  "Groupon-2026-05-26": {
+    "company": "Groupon",
+    "laidOff": 400,
+    "date": "2026-05-26",
+    "industry": "Retail",
+    "ticker": "GRPN",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -15.440181197262131,
+      "startPrice": 22.149999618530273,
+      "endPrice": 18.729999542236328
+    }
+  },
+  "Wix-2026-05-25": {
+    "company": "Wix",
+    "laidOff": 1000,
+    "date": "2026-05-25",
+    "industry": "Marketing",
+    "ticker": "WIX",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 11.389093572443182,
+      "startPrice": 68.75,
+      "endPrice": 76.58000183105469
+    }
+  },
+  "Meta-2026-05-20": {
+    "company": "Meta",
+    "laidOff": 8000,
+    "date": "2026-05-20",
+    "industry": "Consumer",
+    "ticker": "META",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 11.95129249870148,
+      "startPrice": 578.8499755859375,
+      "endPrice": 648.030029296875
+    }
+  },
+  "Intuit-2026-05-20": {
+    "company": "Intuit",
+    "laidOff": 3000,
+    "date": "2026-05-20",
+    "industry": "Finance",
+    "ticker": "ISRG",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -8.00458444354111,
+      "startPrice": 401.2699890136719,
+      "endPrice": 369.1499938964844
+    }
+  },
+  "Cisco-2026-05-13": {
+    "company": "Cisco",
+    "laidOff": 4000,
+    "date": "2026-05-13",
+    "industry": "Infrastructure",
+    "ticker": "CSCO",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -9.484985680104062,
+      "startPrice": 123.87999725341797,
+      "endPrice": 112.12999725341797
+    }
+  },
+  "Jumia-2026-05-13": {
+    "company": "Jumia",
+    "laidOff": 200,
+    "date": "2026-05-13",
+    "industry": "Retail",
+    "ticker": "JMIA",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 16.406245285179537,
+      "startPrice": 6.400000095367432,
+      "endPrice": 7.449999809265137
+    }
+  },
+  "ZoomInfo-2026-05-10": {
+    "company": "ZoomInfo",
+    "laidOff": 600,
+    "date": "2026-05-10",
+    "industry": "Sales",
+    "ticker": "GTM",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": -1.5544027049267966,
+      "startPrice": 3.859999895095825,
+      "endPrice": 3.799999952316284
+    }
+  },
+  "Parker-2026-05-09": {
+    "company": "Parker",
+    "laidOff": 0,
+    "date": "2026-05-09",
+    "industry": "Finance",
+    "ticker": "PH",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": -10.97466038312208,
+      "startPrice": 1067.3702392578125,
+      "endPrice": 950.22998046875
+    }
+  },
+  "Noa Technologies-2026-04-22": {
+    "company": "Noa Technologies",
+    "laidOff": 69,
+    "date": "2026-04-22",
+    "industry": "Other",
+    "ticker": "NOA",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": -11.201841640441563,
+      "startPrice": 15.191756248474121,
+      "endPrice": 13.489999771118164
+    }
+  },
+  "Qt Company-2026-04-20": {
+    "company": "Qt Company",
+    "laidOff": 200,
+    "date": "2026-04-20",
+    "industry": "Product",
+    "ticker": "QTWO",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": -2.653876686905806,
+      "startPrice": 62.54999923706055,
+      "endPrice": 60.88999938964844
+    }
+  },
+  "Esh Group-2026-04-12": {
+    "company": "Esh Group",
+    "laidOff": 0,
+    "date": "2026-04-12",
+    "industry": "Finance",
+    "ticker": "EHGO",
+    "exchange": "NAS",
+    "performance": {
+      "changePercent": -41.530053149753634,
+      "startPrice": 1.8300000429153442,
+      "endPrice": 1.0700000524520874
+    }
+  },
+  "Qualcomm-2026-04-09": {
+    "company": "Qualcomm",
+    "laidOff": 104,
+    "date": "2026-04-09",
+    "industry": "Hardware",
+    "ticker": "QCOM",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 12.197440481124143,
+      "startPrice": 162.1873016357422,
+      "endPrice": 181.97000122070312
+    }
+  },
+  "MARA-2026-04-02": {
+    "company": "MARA",
+    "laidOff": 0,
+    "date": "2026-04-02",
+    "industry": "Crypto",
+    "ticker": "MPC",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": 14.002615925158354,
+      "startPrice": 347.2990417480469,
+      "endPrice": 395.92999267578125
+    }
+  },
+  "Meta-2026-03-25": {
+    "company": "Meta",
+    "laidOff": 700,
+    "date": "2026-03-25",
+    "industry": "Consumer",
+    "ticker": "META",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 11.95129249870148,
+      "startPrice": 578.8499755859375,
+      "endPrice": 648.030029296875
+    }
+  },
+  "Xero-2026-02-18": {
+    "company": "Xero",
+    "laidOff": 250,
+    "date": "2026-02-18",
+    "industry": "Finance",
+    "ticker": "XRX",
+    "exchange": "NMS",
+    "performance": {
+      "changePercent": 9.23566726638302,
+      "startPrice": 3.140000104904175,
+      "endPrice": 3.430000066757202
+    }
+  },
+  "Alle-2026-01-13": {
+    "company": "Alle",
+    "laidOff": 0,
+    "date": "2026-01-13",
+    "industry": "Retail",
+    "ticker": "ALLE",
+    "exchange": "NYQ",
+    "performance": {
+      "changePercent": -7.6816533983209,
+      "startPrice": 166.11000061035156,
+      "endPrice": 153.35000610351562
+    }
   }
 }
