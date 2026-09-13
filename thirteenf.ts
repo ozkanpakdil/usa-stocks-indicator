@@ -1,10 +1,12 @@
 // 13F holdings of famous "superinvestor" funds, aggregated by Dataroma.
 // Primary EDGAR source (www.sec.gov/Archives) is bot-blocked from both this
-// machine and GitHub Actions runners (HTTP 403), and efts.sec.gov only serves
-// search metadata, not document content. Dataroma mirrors the same quarterly
-// 13F holdings in plain HTML tables, so it is the reliable source here.
+// machine and GitHub Actions runners (HTTP 403). Dataroma mirrors the same
+// quarterly 13F holdings as plain HTML tables, but rejects plain HTTP fetches
+// from datacenter IPs with HTTP 409 - so failures are retried through a real
+// headless Chromium, which passes the check.
 // Standalone weekly indicator; writes a Hugo post via hugohelpers.
 import { writeIndicatorPost } from "./hugohelpers";
+import { chromium } from "playwright";
 
 const BROWSER_UA =
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36";
@@ -28,6 +30,7 @@ const FUNDS: { code: string; name: string }[] = [
 ];
 
 const sleep = (ms: number) => new Promise(r => setTimeout(r, ms));
+const fundUrl = (code: string) => `https://www.dataroma.com/m/holdings.php?m=${code}`;
 
 interface Holding {
   fund: string;
@@ -60,28 +63,77 @@ function parseHoldings(fund: string, html: string): Holding[] {
   return out.slice(0, TOP_N_PER_FUND);
 }
 
+/** Plain HTTP fetch - works from residential IPs. */
+async function fetchHtml(url: string): Promise<string> {
+  const res = await fetch(url, { headers: { "User-Agent": BROWSER_UA } });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  return res.text();
+}
+
 async function run() {
   console.log(`13f: fetching Dataroma holdings for ${FUNDS.length} funds...`);
-  const all: Holding[] = [];
-  let succeeded = 0;
 
+  const htmlByFund = new Map<string, string>();
+  const failed: typeof FUNDS = [];
+
+  // Pass 1: plain HTTP fetch.
   for (const fund of FUNDS) {
-    const url = `https://www.dataroma.com/m/holdings.php?m=${fund.code}`;
     try {
-      const res = await fetch(url, { headers: { "User-Agent": BROWSER_UA } });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      const holdings = parseHoldings(fund.name, await res.text());
-      console.log(`${fund.name}: ${holdings.length} holdings`);
-      if (holdings.length > 0) succeeded++;
-      all.push(...holdings);
+      htmlByFund.set(fund.code, await fetchHtml(fundUrl(fund.code)));
+      console.log(`${fund.name}: http ok`);
     } catch (e) {
-      console.error(`${fund.name}: fetch failed - ${(e as Error).message}`);
+      console.error(`${fund.name}: http fetch failed - ${(e as Error).message}`);
+      failed.push(fund);
     }
     await sleep(PACING_MS);
   }
 
+  // Pass 2: retry failures through a real browser (Dataroma returns HTTP 409
+  // to plain fetches from datacenter IPs such as GitHub Actions runners).
+  if (failed.length) {
+    console.log(`13f: retrying ${failed.length} funds via headless browser...`);
+    const browser = await chromium.launch({
+      headless: true,
+      args: ["--disable-blink-features=AutomationControlled"],
+    });
+    const context = await browser.newContext({ locale: "en-US", userAgent: BROWSER_UA });
+    try {
+      for (const fund of failed) {
+        const page = await context.newPage();
+        try {
+          await page.goto(fundUrl(fund.code), { waitUntil: "domcontentloaded", timeout: 30000 });
+          const html = await page.content();
+          if (!html.includes("<tr>")) throw new Error("no table content in response");
+          htmlByFund.set(fund.code, html);
+          console.log(`${fund.name}: browser ok`);
+        } catch (e) {
+          console.error(`${fund.name}: browser fetch failed - ${(e as Error).message}`);
+        } finally {
+          await page.close().catch(() => {});
+        }
+        await sleep(PACING_MS);
+      }
+    } finally {
+      await browser.close();
+    }
+  }
+
+  // Parse everything we managed to fetch, in watchlist order.
+  let succeeded = 0;
+  const all: Holding[] = [];
+  for (const fund of FUNDS) {
+    const html = htmlByFund.get(fund.code);
+    if (!html) continue;
+    const holdings = parseHoldings(fund.name, html);
+    console.log(`${fund.name}: ${holdings.length} holdings`);
+    if (holdings.length > 0) {
+      succeeded++;
+      all.push(...holdings);
+    }
+  }
+
   if (succeeded === 0) {
-    throw new Error("All Dataroma fund fetches failed; no 13F data available.");
+    throw new Error("All Dataroma fund fetches failed (http and browser); no 13F data available.");
   }
 
   const rows = all.map(h => [

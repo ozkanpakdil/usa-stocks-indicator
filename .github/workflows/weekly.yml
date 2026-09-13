@@ -95,6 +95,9 @@ jobs:
           git config --global user.email "action@github.com"
           git add *.json content/ go.mod go.sum
           git commit -m "Weekly report update: $(date +'%Y-%m-%d')" || echo "No changes to commit"
+          # Rebase first: main may have moved while this job was crawling
+          # (a concurrent push would otherwise make the push below fail).
+          git pull --rebase origin main
           git push
 
       - name: Setup Hugo
