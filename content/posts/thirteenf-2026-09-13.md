@@ -1,6 +1,6 @@
 ---
 title: "Famous Fund 13F Holdings - 2026-09-13"
-date: 2026-09-13T14:29:52.174Z
+date: 2026-09-13T15:20:30.287Z
 draft: false
 tags: ["stocks", "13f"]
 ---
