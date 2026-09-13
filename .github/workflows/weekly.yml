@@ -38,10 +38,56 @@ jobs:
       - name: Install Playwright browsers
         run: bunx playwright install chromium --with-deps
 
-      - name: Run crawler
+      - name: Run crawler (awards + layoffs)
         run: |
           bun run index.ts
           bun run layoffs.ts
+
+      # Secondary indicators: one failing source must not block the rest
+      # or the site deploy; a failed step shows as red in Actions.
+      - name: Insider buys
+        continue-on-error: true
+        run: bun run insiders.ts
+
+      - name: Cyber 8-K disclosures
+        continue-on-error: true
+        run: bun run cyber8k.ts
+
+      - name: Buyback announcements
+        continue-on-error: true
+        run: bun run buybacks.ts
+
+      - name: M&A announcements
+        continue-on-error: true
+        run: bun run mna.ts
+
+      - name: Distress & bankruptcy filings
+        continue-on-error: true
+        run: bun run bankrupt.ts
+
+      - name: FDA approvals
+        continue-on-error: true
+        run: bun run fda.ts
+
+      - name: Product recalls
+        continue-on-error: true
+        run: bun run recalls.ts
+
+      - name: Congressional trades
+        continue-on-error: true
+        run: bun run congress.ts
+
+      - name: 13F fund holdings
+        continue-on-error: true
+        run: bun run thirteenf.ts
+
+      - name: Earnings surprises
+        continue-on-error: true
+        run: bun run earnings.ts
+
+      - name: Market dashboard
+        continue-on-error: true
+        run: bun run breadth.ts
 
       - name: Commit and push
         run: |

@@ -4,20 +4,53 @@ title = 'Public Company Stocks Indicator'
 theme = ["github.com/adityatelange/hugo-PaperMod"]
 
 [params]
-  description = 'Tracking public company events like government awards and layoffs, and their impact on stocks.'
+  description = 'Tracking public company events (awards, layoffs, insider buys, M&A, FDA approvals, recalls and more) and their stock impact.'
   showFullTextContent = true
   hideFooter = true
 
   [params.profileMode]
     enabled = true
     title = 'Public Company Stocks Indicator'
-    subtitle = 'Tracking public company events (Awards, Layoffs) and their stock impact.'
+    subtitle = 'Tracking public company events and stock market indicators, weekly.'
+    [[params.profileMode.buttons]]
+        name = "🏆 Awards Indicator"
+        url = "tags/awards"
     [[params.profileMode.buttons]]
         name = "📉 Layoffs Indicator"
         url = "tags/layoffs"
     [[params.profileMode.buttons]]
-        name = "🏆 Awards Indicator"
-        url = "tags/awards"
+        name = "👔 Insider Buys"
+        url = "tags/insiders"
+    [[params.profileMode.buttons]]
+        name = "🔐 Cyber Incidents"
+        url = "tags/cyber"
+    [[params.profileMode.buttons]]
+        name = "💰 Buyback Announcements"
+        url = "tags/buybacks"
+    [[params.profileMode.buttons]]
+        name = "🤝 M&A Announcements"
+        url = "tags/mna"
+    [[params.profileMode.buttons]]
+        name = "🏦 Distress & Bankruptcy"
+        url = "tags/bankruptcy"
+    [[params.profileMode.buttons]]
+        name = "💊 FDA Approvals"
+        url = "tags/fda"
+    [[params.profileMode.buttons]]
+        name = "⚠️ Product Recalls"
+        url = "tags/recalls"
+    [[params.profileMode.buttons]]
+        name = "🏛️ Congressional Trades"
+        url = "tags/congress"
+    [[params.profileMode.buttons]]
+        name = "📊 13F Fund Holdings"
+        url = "tags/13f"
+    [[params.profileMode.buttons]]
+        name = "📈 Earnings Surprises"
+        url = "tags/earnings"
+    [[params.profileMode.buttons]]
+        name = "🧭 Market Dashboard"
+        url = "tags/dashboard"
     [[params.profileMode.buttons]]
         name = "📂 Archive"
         url = "archives"

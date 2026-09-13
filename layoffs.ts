@@ -1,4 +1,4 @@
-import { searchTicker, getStockPerformance } from "./utils";
+import { searchTicker, getPerformanceWindows, type PerfReport } from "./utils";
 import { writeFileSync, readFileSync, existsSync } from "fs";
 import { chromium } from "playwright";
 
@@ -12,11 +12,7 @@ interface LayoffRecord {
   industry: string;
   ticker?: string;
   exchange?: string;
-  performance?: {
-    changePercent: number;
-    startPrice: number;
-    endPrice: number;
-  };
+  performance?: PerfReport;
 }
 
 async function scrapeLayoffs() {
@@ -221,22 +217,31 @@ async function run() {
 
     if (tickerInfo) {
       console.log(`Found ticker ${tickerInfo.symbol} for ${company}`);
-      const performance = await getStockPerformance(tickerInfo.symbol);
-      
       const record: LayoffRecord = {
         company,
         laidOff,
         date,
         industry,
         ticker: tickerInfo.symbol,
-        exchange: tickerInfo.exchange,
-        performance: performance || undefined
+        exchange: tickerInfo.exchange
       };
-      
+
       existingData[id] = record;
       newRecords.push(record);
       await new Promise(r => setTimeout(r, 500));
     }
+  }
+
+  // Refresh performance windows (1w/1m/3m + SPY excess) for every tracked
+  // record so all rows in the report stay current.
+  const records = Object.values(existingData).filter(r => r.ticker);
+  let refreshed = 0;
+  for (const rec of records) {
+    const perf = await getPerformanceWindows(rec.ticker!);
+    rec.performance = perf ?? undefined;
+    if (refreshed % 25 === 0) console.log(`Refreshed performance ${refreshed}/${records.length}...`);
+    refreshed++;
+    await new Promise(r => setTimeout(r, 500));
   }
 
   writeFileSync(DATA_FILE, JSON.stringify(existingData, null, 2));
@@ -253,21 +258,22 @@ function generateHugoPost(records: LayoffRecord[]) {
     .filter(r => r.ticker)
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
-  let table = "| Date | Company | Laid Off | Industry | Stock | 1-Month Perf |\n|------|---------|----------|----------|-------|--------------|\n";
-  
+  const fmtPct = (v: number | undefined): string => {
+    if (v === undefined || v === null) return "N/A";
+    const color = v > 0 ? "green" : "red";
+    return `<span style="color: ${color}">${v > 0 ? "+" : ""}${v.toFixed(2)}%</span>`;
+  };
+
+  let table = "| Date | Company | Laid Off | Industry | Stock | 1w | 1m | 3m | 3m vs SPY |\n|------|---------|----------|----------|-------|----|----|----|-----------|\n";
+
   // Limit to top 100 for post
   sorted.slice(0, 100).forEach(r => {
-    const perfStr = r.performance 
-      ? `${r.performance.changePercent > 0 ? "+" : ""}${r.performance.changePercent.toFixed(2)}%`
-      : "N/A";
-    const perfColor = r.performance 
-      ? (r.performance.changePercent > 0 ? "green" : "red") 
-      : "inherit";
-    
     const tickerLink = `[${r.ticker} (${r.exchange})](https://seekingalpha.com/symbol/${r.ticker})`;
     const laidOffStr = r.laidOff > 0 ? r.laidOff.toLocaleString() : "Unknown";
+    const w = r.performance?.windows ?? {};
+    const x = r.performance?.excess ?? {};
 
-    table += `| ${r.date} | ${r.company} | ${laidOffStr} | ${r.industry} | ${tickerLink} | <span style="color: ${perfColor}">${perfStr}</span> |\n`;
+    table += `| ${r.date} | ${r.company} | ${laidOffStr} | ${r.industry} | ${tickerLink} | ${fmtPct(w["1w"]?.changePercent)} | ${fmtPct(w["1m"]?.changePercent)} | ${fmtPct(w["3m"]?.changePercent)} | ${fmtPct(x["3m"])} |\n`;
   });
 
   const content = `---

@@ -101,3 +101,100 @@ export async function getStockPerformance(ticker: string): Promise<{ changePerce
     return null;
   }
 }
+
+// ---------- multi-window performance with SPY benchmark ----------
+
+export type WindowKey = "1w" | "1m" | "3m";
+
+export interface PerfWindow {
+  changePercent: number;
+  startPrice: number;
+  endPrice: number;
+}
+
+export interface PerfReport {
+  windows: Partial<Record<WindowKey, PerfWindow>>;
+  /** performance minus SPY performance over the same window, in points */
+  excess: Partial<Record<WindowKey, number>>;
+}
+
+const WINDOW_DAYS: Record<WindowKey, number> = { "1w": 7, "1m": 31, "3m": 92 };
+const WINDOWS: WindowKey[] = ["1w", "1m", "3m"];
+
+interface ChartBar { date: string; close: number; }
+
+export async function fetchDailyCloses(ticker: string): Promise<ChartBar[]> {
+  // 2y so the breadth dashboard can compute a 200-day SMA;
+  // window lookups only use the tail, so this is safe for them too.
+  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${ticker}?range=2y&interval=1d`;
+  const response = await fetch(url, { headers: { "User-Agent": "Mozilla/5.0" } });
+  if (!response.ok) throw new Error(`chart ${ticker} HTTP ${response.status}`);
+  const data = await response.json();
+  const result = data?.chart?.result?.[0];
+  const timestamps: number[] = result?.timestamp ?? [];
+  const closes: (number | null)[] = result?.indicators?.adjclose?.[0]?.adjclose ?? [];
+  const bars: ChartBar[] = [];
+  for (let i = 0; i < timestamps.length; i++) {
+    const close = closes[i];
+    if (close === null || close === undefined) continue;
+    bars.push({ date: new Date(timestamps[i] * 1000).toISOString().split("T")[0], close });
+  }
+  return bars;
+}
+
+function windowChange(bars: ChartBar[], days: number): PerfWindow | undefined {
+  if (bars.length < 2) return undefined;
+  const endBar = bars[bars.length - 1];
+  const cutoff = new Date();
+  cutoff.setDate(cutoff.getDate() - days);
+  const cutoffStr = cutoff.toISOString().split("T")[0];
+  const startBar = bars.find(b => b.date >= cutoffStr) ?? bars[0];
+  if (startBar.close === 0) return undefined;
+  return {
+    changePercent: ((endBar.close - startBar.close) / startBar.close) * 100,
+    startPrice: startBar.close,
+    endPrice: endBar.close,
+  };
+}
+
+// One SPY fetch per process, shared by every lookup in the run.
+let spyBarsPromise: Promise<ChartBar[]> | null = null;
+function getSpyBars(): Promise<ChartBar[]> {
+  if (!spyBarsPromise) {
+    spyBarsPromise = fetchDailyCloses("SPY").catch(e => {
+      spyBarsPromise = null;
+      throw e;
+    });
+  }
+  return spyBarsPromise;
+}
+
+/**
+ * 1w / 1m / 3m performance for a ticker, plus excess return vs SPY
+ * over the same windows. Returns null when the ticker has no chart.
+ */
+export async function getPerformanceWindows(ticker: string): Promise<PerfReport | null> {
+  try {
+    const bars = await fetchDailyCloses(ticker);
+    const windows: PerfReport["windows"] = {};
+    const excess: PerfReport["excess"] = {};
+    let spyBars: ChartBar[] = [];
+    try {
+      spyBars = await getSpyBars();
+    } catch {
+      console.error("SPY benchmark fetch failed; excess returns omitted");
+    }
+    for (const w of WINDOWS) {
+      const perf = windowChange(bars, WINDOW_DAYS[w]);
+      if (!perf) continue;
+      windows[w] = perf;
+      const spyPerf = windowChange(spyBars, WINDOW_DAYS[w]);
+      if (spyPerf) excess[w] = perf.changePercent - spyPerf.changePercent;
+    }
+    if (!Object.keys(windows).length) return null;
+    return { windows, excess };
+  } catch (e) {
+    console.error(`Error fetching performance windows for ${ticker}:`, e);
+    return null;
+  }
+}
