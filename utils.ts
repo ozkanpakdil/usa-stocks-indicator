@@ -39,7 +39,7 @@ export async function searchTicker(companyName: string) {
     if (cleanedName.includes(item)) return null;
   }
 
-  const trySearch = async (query: string) => {
+  const trySearch = async (query: string, isOriginal: boolean) => {
     const url = `https://query1.finance.yahoo.com/v1/finance/search?q=${encodeURIComponent(query)}`;
     try {
       const response = await fetch(url);
@@ -74,8 +74,10 @@ export async function searchTicker(companyName: string) {
       }
 
       // Short/ambiguous queries with no significant word ("AT&T", "3M",
-      // "HP"): accept only an exact company-name prefix match.
-      if (!tokens.some(t => t.length >= 3)) {
+      // "HP"): accept only an exact company-name prefix match - and only
+      // for the ORIGINAL name, never for an over-trimmed retry (trimming
+      // "H2 PHARMA" to "H2" must not match "H2O America").
+      if (isOriginal && !tokens.some(t => t.length >= 3)) {
         const qStr = query.toUpperCase().replace(/[^A-Z0-9 ]/g, " ").replace(/\s+/g, " ").trim();
         const hit = usQuotes.find((q: any) =>
           nameOf(q).replace(/[^A-Z0-9 ]/g, " ").replace(/\s+/g, " ").trim().startsWith(qStr)
@@ -89,7 +91,7 @@ export async function searchTicker(companyName: string) {
   };
 
   // Try original cleaned name
-  let result = await trySearch(cleanedName);
+  let result = await trySearch(cleanedName, true);
   if (result) return result;
 
   // If not found and has multiple words, try removing the last word if it looks like a generic descriptor
@@ -105,7 +107,7 @@ export async function searchTicker(companyName: string) {
       // Pace the retry: every trimmed attempt is another Yahoo request.
       await new Promise(res => setTimeout(res, 200));
       const nextQuery = words.join(" ");
-      result = await trySearch(nextQuery);
+      result = await trySearch(nextQuery, false);
       if (result) return result;
     } else {
       break;
