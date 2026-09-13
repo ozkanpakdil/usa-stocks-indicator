@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on Public Company Stocks Indicator</title><link>https://ozkanpakdil.github.io/usa-stocks-indicator/posts/</link><description>Recent content in Posts on Public Company Stocks Indicator</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 13 Sep 2026 19:07:41 +0000</lastBuildDate><atom:link href="https://ozkanpakdil.github.io/usa-stocks-indicator/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>FDA Drug Approvals - 2026-09-13</title><link>https://ozkanpakdil.github.io/usa-stocks-indicator/posts/fda-2026-09-13/</link><pubDate>Sun, 13 Sep 2026 19:07:41 +0000</pubDate><guid>https://ozkanpakdil.github.io/usa-stocks-indicator/posts/fda-2026-09-13/</guid><description>&lt;p&gt;FDA drug approvals recorded by openFDA between 2026-08-30 and 2026-09-13, newest first. Company is the first listed manufacturer; tickers link to Seeking Alpha.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on Public Company Stocks Indicator</title><link>https://ozkanpakdil.github.io/usa-stocks-indicator/posts/</link><description>Recent content in Posts on Public Company Stocks Indicator</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 13 Sep 2026 19:11:46 +0000</lastBuildDate><atom:link href="https://ozkanpakdil.github.io/usa-stocks-indicator/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>FDA Drug Approvals - 2026-09-13</title><link>https://ozkanpakdil.github.io/usa-stocks-indicator/posts/fda-2026-09-13/</link><pubDate>Sun, 13 Sep 2026 19:11:46 +0000</pubDate><guid>https://ozkanpakdil.github.io/usa-stocks-indicator/posts/fda-2026-09-13/</guid><description>&lt;p&gt;FDA drug approvals recorded by openFDA between 2026-08-30 and 2026-09-13, newest first. Company is the first listed manufacturer; tickers link to Seeking Alpha.&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -157,7 +157,7 @@
 &lt;td&gt;2026-09-02&lt;/td&gt;
 &lt;td&gt;H2-Pharma, LLC&lt;/td&gt;
 &lt;td&gt;ETOPOPHOS&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://seekingalpha.com/symbol/HTO"&gt;HTO&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;n/a&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;2026-09-02&lt;/td&gt;
@@ -390,7 +390,7 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;&lt;em&gt;Only the 63 most relevant rows are shown.&lt;/em&gt;
-&lt;em&gt;Approved applications (originals and supplements) in this window: 64; rows shown: 63; tickers identified: 24.&lt;/em&gt;
+&lt;em&gt;Approved applications (originals and supplements) in this window: 64; rows shown: 63; tickers identified: 23.&lt;/em&gt;
 &lt;em&gt;Known pharma subsidiaries are mapped to their US-listed parent or ADR (e.g. Janssen -&amp;gt; JNJ, Novartis -&amp;gt; NVS). Companies shown as &amp;ldquo;n/a&amp;rdquo; are mostly foreign or privately held drug makers (mostly generics) with no US-listed stock.&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Bankruptcy &amp; Distress Filings (SEC 8-K) - 2026-09-13</title><link>https://ozkanpakdil.github.io/usa-stocks-indicator/posts/bankrupt-2026-09-13/</link><pubDate>Sun, 13 Sep 2026 19:06:22 +0000</pubDate><guid>https://ozkanpakdil.github.io/usa-stocks-indicator/posts/bankrupt-2026-09-13/</guid><description>&lt;p&gt;Bankruptcy and distress signals from SEC Form 8-K filings in the last 30 days: filings mentioning &amp;ldquo;Chapter 11&amp;rdquo; (bankruptcy petitions) and/or &amp;ldquo;going concern&amp;rdquo; (substantial doubt about the company&amp;rsquo;s ability to continue operating).&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
