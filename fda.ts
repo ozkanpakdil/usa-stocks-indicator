@@ -69,6 +69,82 @@ function approvalDate(app: any, start: string, end: string): string | null {
   return inWindow[inWindow.length - 1];
 }
 
+/**
+ * FDA applicants are frequently subsidiaries (Janssen, E.R. Squibb) or
+ * foreign parents listed in the US as ADRs (Novartis, AstraZeneca) whose
+ * names never match a plain Yahoo search. Map the well-known ones to their
+ * US-tradable parent/ADR ticker directly. Keep in sync with pharma M&A.
+ * Matched against the raw uppercased company name, most specific first.
+ */
+const PARENT_MAP: [string, string][] = [
+  ["HOFFMANN-LA ROCHE", "RHHBY"],
+  ["HOFFMANN LA ROCHE", "RHHBY"],
+  ["GENENTECH", "RHHBY"],
+  ["ROCHE", "RHHBY"],
+  ["JOHNSON & JOHNSON", "JNJ"],
+  ["JANSSEN", "JNJ"],
+  ["BRISTOL MYERS", "BMY"],
+  ["BRISTOL-MYERS", "BMY"],
+  ["SQUIBB", "BMY"],
+  ["MIRATI", "BMY"],
+  ["MERCK SHARP & DOHME", "MRK"],
+  ["MERCK KGAA", "MKKGY"],
+  ["EMD SERONO", "MKKGY"],
+  ["SERONO", "MKKGY"],
+  ["MERCK", "MRK"],
+  ["LILLY", "LLY"],
+  ["PFIZER", "PFE"],
+  ["ASTRAZENECA", "AZN"],
+  ["SANOFI", "SNY"],
+  ["GLAXOSMITHKLINE", "GSK"],
+  ["GLAXO", "GSK"],
+  ["NOVARTIS", "NVS"],
+  ["SANDOZ", "SDZWF"],
+  ["NOVO NORDISK", "NVO"],
+  ["NORDISK", "NVO"],
+  ["TAKEDA", "TAK"],
+  ["TEVA", "TEVA"],
+  ["BAYER", "BAYRY"],
+  ["MYLAN", "VTRS"],
+  ["UPJOHN", "VTRS"],
+  ["PHARMACIA", "VTRS"],
+  ["VIATRIS", "VTRS"],
+  ["AMNEAL", "AMNL"],
+  ["ABBVIE", "ABBV"],
+  ["AMGEN", "AMGN"],
+  ["HORIZON THERAPEUTICS", "AMGN"],
+  ["GILEAD", "GILD"],
+  ["MODERNA", "MRNA"],
+  ["BIOGEN", "BIIB"],
+  ["REGENERON", "REGN"],
+  ["VERTEX", "VRTX"],
+  ["ALNYLAM", "ALNY"],
+  ["IONIS", "IONS"],
+  ["JAZZ PHARMACEUTICALS", "JAZZ"],
+  ["HALOZYME", "HALO"],
+  ["ZOETIS", "ZTS"],
+  ["ABBOTT", "ABT"],
+  ["BAXTER", "BAX"],
+  ["BECTON", "BDX"],
+  ["THERMO FISHER", "TMO"],
+  ["DANAHER", "DHR"],
+  ["CEPHEID", "DHR"],
+  ["COHERUS", "CHRS"],
+  ["ORGANON", "OGN"],
+  ["PERRIGO", "PRGO"],
+  ["DR. REDDY", "RDY"],
+  ["DR REDDY", "RDY"],
+  ["FRESENIUS MEDICAL", "FMS"],
+];
+
+function mapToParent(raw: string): string | null {
+  const up = raw.toUpperCase();
+  for (const [key, ticker] of PARENT_MAP) {
+    if (up.includes(key)) return ticker;
+  }
+  return null;
+}
+
 async function run() {
   const end = isoDate(new Date());
   const start = isoDate(new Date(Date.now() - WINDOW_DAYS * 24 * 3600 * 1000));
@@ -85,8 +161,10 @@ async function run() {
       skipped++;
       continue;
     }
-    // First company name only; fall back to the first product's brand name.
-    const company = String(app.openfda?.manufacturer_name?.[0] ?? app.products?.[0]?.brand_name ?? "").trim();
+    // Sponsor of the application: prefer the openfda manufacturer, fall back
+    // to the application sponsor. Never fall back to the drug name - a drug
+    // is not a company (that produced rows like "IBRUTINIB" as company).
+    const company = String(app.openfda?.manufacturer_name?.[0] ?? app.sponsor_name ?? "").trim();
     const drug = String(app.openfda?.brand_name?.[0] ?? app.products?.[0]?.brand_name ?? "n/a").trim();
     const key = `${date}|${company}|${drug}`;
     if (!company || seen.has(key)) continue;
@@ -97,9 +175,17 @@ async function run() {
   records.sort((a, b) => b.date.localeCompare(a.date) || a.company.localeCompare(b.company) || a.drug.localeCompare(b.drug));
 
   // Ticker lookup: unique companies only, paced, cached.
+  // Known subsidiaries/ADRs resolve through PARENT_MAP first (no network),
+  // everything else goes through the Yahoo search fallback.
   const tickerCell = new Map<string, string>();
   for (const r of records) {
     if (tickerCell.has(r.company)) continue;
+    const mapped = mapToParent(r.company);
+    if (mapped) {
+      tickerCell.set(r.company, `[${mapped}](https://seekingalpha.com/symbol/${mapped})`);
+      console.log(`Ticker lookup: ${r.company} -> ${mapped} (parent map)`);
+      continue;
+    }
     await sleep(TICKER_PACING_MS);
     console.log(`Ticker lookup: ${r.company}...`);
     const info = await searchTicker(r.company);
@@ -124,7 +210,7 @@ async function run() {
       rows,
     },
     dataSource: { name: "openFDA", url: "https://open.fda.gov/" },
-    footnote: `*Approved applications (originals and supplements) in this window: ${results.length}; rows shown: ${rows.length}; tickers matched via Yahoo Finance (${withTicker} identified).*\n`,
+    footnote: `*Approved applications (originals and supplements) in this window: ${results.length}; rows shown: ${rows.length}; tickers identified: ${withTicker}.*\n*Known pharma subsidiaries are mapped to their US-listed parent or ADR (e.g. Janssen -> JNJ, Novartis -> NVS). Companies shown as "n/a" are mostly foreign or privately held drug makers (mostly generics) with no US-listed stock.*\n`,
   });
 
   console.log(`fda: ${rows.length} rows, ${withTicker} with ticker.`);
