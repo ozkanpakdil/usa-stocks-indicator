@@ -118,7 +118,10 @@ async function extractRows(page: import("playwright").Page): Promise<RawTrade[]>
 
 async function scrapeTrades(): Promise<Trade[]> {
   console.log(`Starting scraper for capitoltrades.com...`);
-  const browser = await chromium.launch({ headless: true });
+  const browser = await chromium.launch({
+    headless: true,
+    args: ["--disable-blink-features=AutomationControlled"],
+  });
   const context = await browser.newContext({
     locale: "en-US",
     userAgent:
@@ -134,7 +137,16 @@ async function scrapeTrades(): Promise<Trade[]> {
       const url = pageNum === 1 ? BASE_URL : `${BASE_URL}?page=${pageNum}`;
       console.log(`Navigating to ${url} ...`);
       await page.goto(url, { waitUntil: "domcontentloaded", timeout: 60000 });
-      await page.waitForSelector("table tbody tr", { timeout: 30000 });
+      try {
+        await page.waitForSelector("table tbody tr", { timeout: 30000 });
+      } catch (e) {
+        if (pageNum !== 1) throw e;
+        // Cloudflare managed challenges (seen on GitHub Actions IPs) usually
+        // clear on a second load; reload once and wait longer before failing.
+        console.log("Table missing after 30s - reloading once in case a challenge page needs to clear...");
+        await page.reload({ waitUntil: "domcontentloaded", timeout: 60000 });
+        await page.waitForSelector("table tbody tr", { timeout: 45000 });
+      }
       // Small settle delay so hydrated rows are complete and stable.
       await sleep(1500);
 
