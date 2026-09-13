@@ -28,10 +28,17 @@ async function scrapeLayoffs() {
   try {
     console.log("Navigating to layoffs.fyi...");
     await page.goto("https://layoffs.fyi/", { waitUntil: "domcontentloaded", timeout: 60000 });
-    
-    const frame = page.frames().find(f => f.url().includes("airtable.com"));
+
+    // The Airtable embed loads lazily after domcontentloaded; poll for it
+    // instead of checking once (CI runners lose that race).
+    let frame = page.frames().find(f => f.url().includes("airtable.com"));
+    const frameDeadline = Date.now() + 60000;
+    while (!frame && Date.now() < frameDeadline) {
+      await new Promise(r => setTimeout(r, 1000));
+      frame = page.frames().find(f => f.url().includes("airtable.com"));
+    }
     if (!frame) {
-      throw new Error("Airtable frame not found");
+      throw new Error("Airtable frame not found within 60s");
     }
     
     console.log("Airtable frame found. Waiting for data to load...");
