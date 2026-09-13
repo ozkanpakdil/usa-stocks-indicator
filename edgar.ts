@@ -86,17 +86,21 @@ export async function eftsSearch(opts: {
       const displayName: string | undefined = first(s.display_names);
       const adsh: string = s.adsh ?? "";
       const fileId = String(h._id ?? "").split(":")[1] ?? "";
+      const cik = cikFromDisplayName(displayName) ?? first(s.ciks);
       out.push({
         adsh,
         fileId,
         displayName,
-        cik: cikFromDisplayName(displayName) ?? first(s.ciks),
+        cik,
         ticker: tickerFromDisplayName(displayName),
         fileDate: s.file_date ?? "",
         items: arr(s.items),
         form: first(s.root_forms) ?? "",
-        filingUrl: fileId
-          ? `https://www.sec.gov/Archives/${adsh.replace(/-/g, "")}/${fileId}`
+        // Canonical EDGAR document URL. The legacy /Archives/{accession}/
+        // short form (without the /edgar/data/{cik}/ segment) 404s for
+        // current filings; the CIK-qualified path is the documented format.
+        filingUrl: cik && fileId
+          ? `https://www.sec.gov/Archives/edgar/data/${cik}/${adsh.replace(/-/g, "")}/${encodeURIComponent(fileId)}`
           : "",
       });
     }
