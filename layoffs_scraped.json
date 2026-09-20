@@ -1,5 +1,88 @@
 [
   {
+    "Company": "Trustly",
+    "Location HQ": "Stockholm\nNon-U.S.",
+    "# Laid Off": "200",
+    "Date": "9/17/2026",
+    "Industry": "Finance",
+    "Source": "https://tech.eu/2026/09/17/swedish-fintech-trustly-to-cut-around-200-jobs/",
+    "Stage": "Acquired",
+    "$ Raised (mm)": "$28",
+    "Country": "Sweden",
+    "Date Added": "9/17/2026"
+  },
+  {
+    "Company": "Bluevine",
+    "Location HQ": "Bengaluru\nNon-U.S.",
+    "# Laid Off": "80",
+    "Date": "9/17/2026",
+    "Industry": "Finance",
+    "Source": "https://www.ndtv.com/offbeat/team-of-80-indian-employees-laid-off-in-brutal-5-minute-google-meet-call-by-us-firm-12059279",
+    "Stage": "Unknown",
+    "$ Raised (mm)": "$769",
+    "Country": "India",
+    "Date Added": "9/17/2026"
+  },
+  {
+    "Company": "Pulley",
+    "Location HQ": "SF Bay Area",
+    "Date": "9/15/2026",
+    "%": "100%",
+    "Industry": "Finance",
+    "Source": "https://www.businessinsider.com/pulley-shuts-down-carta-helps-transition-customers-2026-9",
+    "Stage": "Series B",
+    "$ Raised (mm)": "$50",
+    "Country": "United States",
+    "Date Added": "9/16/2026"
+  },
+  {
+    "Company": "Oracle",
+    "Location HQ": "SF Bay Area",
+    "Date": "9/14/2026",
+    "Industry": "Other",
+    "Source": "https://www.businessinsider.com/oracle-begins-new-round-of-layoffs-2026-9",
+    "Stage": "Post-IPO",
+    "Country": "United States",
+    "Date Added": "9/16/2026"
+  },
+  {
+    "Company": "Bitcoin Suisse",
+    "Location HQ": "Zurich\nNon-U.S.",
+    "# Laid Off": "60",
+    "Date": "9/11/2026",
+    "%": "50%",
+    "Industry": "Crypto",
+    "Source": "https://www.reuters.com/business/world-at-work/crypto-firm-bitcoin-suisse-cut-up-half-jobs-switzerland-2026-09-11/",
+    "Stage": "Series A",
+    "Country": "Switzerland",
+    "Date Added": "9/14/2026"
+  },
+  {
+    "Company": "Booksy",
+    "Location HQ": "Warsaw\nNon-U.S.",
+    "# Laid Off": "200",
+    "Date": "9/10/2026",
+    "%": "20%",
+    "Industry": "Consumer",
+    "Source": "https://www.linkedin.com/posts/sbatory_today-i-shared-the-difficult-news-with-the-share-7503823245129916416-PA2N/",
+    "Stage": "Series B",
+    "$ Raised (mm)": "$204",
+    "Country": "Poland",
+    "Date Added": "9/14/2026"
+  },
+  {
+    "Company": "PhonePe",
+    "Location HQ": "SF Bay Area",
+    "# Laid Off": "7",
+    "Date": "9/10/2026",
+    "Industry": "Finance",
+    "Source": "https://timesofindia.indiatimes.com/business/india-business/ipo-bound-phonepe-shuts-us-engineering-office-after-four-years/articleshow/134012160.cms",
+    "Stage": "Acquired",
+    "$ Raised (mm)": "$3,200",
+    "Country": "United States",
+    "Date Added": "9/14/2026"
+  },
+  {
     "Company": "Neo Financial",
     "Location HQ": "Calgary\nNon-U.S.",
     "# Laid Off": "102",
@@ -168,6 +251,9 @@
     "Date Added": "9/2/2026"
   },
   {
+    "Company": "Unique\n\n2988"
+  },
+  {
     "Company": "Synopsys",
     "Location HQ": "SF Bay Area",
     "# Laid Off": "128",
@@ -227,6 +313,17 @@
     "Date Added": "8/31/2026"
   },
   {
+    "Company": "Cubic3",
+    "Location HQ": "Dublin\nNon-U.S.",
+    "# Laid Off": "70",
+    "Date": "8/28/2026",
+    "Industry": "Transportation",
+    "Source": "https://www.businesspost.ie/tech/softbank-backed-cubic3-to-axe-70-jobs-most-of-them-in-dublin/",
+    "Stage": "Unknown",
+    "Country": "Ireland",
+    "Date Added": "9/14/2026"
+  },
+  {
     "Company": "Even Healthcare",
     "Location HQ": "Bengaluru\nNon-U.S.",
     "# Laid Off": "350",
@@ -249,9 +346,6 @@
     "Stage": "Unknown",
     "Country": "Nigeria",
     "Date Added": "8/28/2026"
-  },
-  {
-    "Company": "Unique\n\n2984"
   },
   {
     "Company": "PagerDuty",
@@ -12122,102 +12216,5 @@
     "$ Raised (mm)": "$1,700",
     "Country": "United States",
     "Date Added": "4/30/2024"
-  },
-  {
-    "Company": "HealthifyMe",
-    "Location HQ": "Bengaluru\nNon-U.S.",
-    "# Laid Off": "150",
-    "Date": "4/27/2024",
-    "%": "27%",
-    "Industry": "Healthcare",
-    "Source": "https://inc42.com/buzz/healthify-fires-150-employees-in-a-restructuring-exercise/",
-    "Stage": "Series D",
-    "$ Raised (mm)": "$130",
-    "Country": "India",
-    "Date Added": "4/29/2024"
-  },
-  {
-    "Company": "True Anomaly",
-    "Location HQ": "Denver",
-    "# Laid Off": "30",
-    "Date": "4/25/2024",
-    "%": "25%",
-    "Industry": "Aerospace",
-    "Source": "https://techcrunch.com/2024/04/25/defense-space-startup-true-anomaly-layoffs-cancels-internship/",
-    "Stage": "Series B",
-    "$ Raised (mm)": "$158",
-    "Country": "United States",
-    "Date Added": "4/26/2024"
-  },
-  {
-    "Company": "Grin",
-    "Location HQ": "Sacramento",
-    "Date": "4/25/2024",
-    "Industry": "Marketing",
-    "Source": "https://www.businessinsider.com/influencer-marketing-firm-grin-lays-off-staffers-2024-4",
-    "Stage": "Series B",
-    "$ Raised (mm)": "$145",
-    "Country": "United States",
-    "Date Added": "4/27/2024"
-  },
-  {
-    "Company": "Expedia",
-    "Location HQ": "Austin",
-    "Date": "4/24/2024",
-    "Industry": "Travel",
-    "Source": "https://www.bizjournals.com/austin/news/2024/04/24/expedia-layoffs-austin-employees.html",
-    "Stage": "Post-IPO",
-    "$ Raised (mm)": "$3,300",
-    "Country": "United States",
-    "Date Added": "4/25/2024"
-  },
-  {
-    "Company": "Freenome",
-    "Location HQ": "SF Bay Area",
-    "# Laid Off": "100",
-    "Date": "4/23/2024",
-    "%": "20%",
-    "Industry": "Healthcare",
-    "Source": "https://www.sfchronicle.com/bayarea/article/tech-layoffs-freenome-19421173.php",
-    "Stage": "Series E",
-    "$ Raised (mm)": "$1,400",
-    "Country": "United States",
-    "Date Added": "4/24/2024"
-  },
-  {
-    "Company": "Heureka Group",
-    "Location HQ": "Prague\nNon-U.S.",
-    "# Laid Off": "100",
-    "Date": "4/23/2024",
-    "%": "16%",
-    "Industry": "Retail",
-    "Source": "https://cc.cz/heureka-hromadne-propustila-stovku-lidi-jsme-zasazeni-tlakem-na-efektivitu-uvedla/",
-    "Stage": "Acquired",
-    "Country": "Czech Republic",
-    "Date Added": "4/24/2024"
-  },
-  {
-    "Company": "98point6",
-    "Location HQ": "Seattle",
-    "Date": "4/23/2024",
-    "Industry": "Healthcare",
-    "Source": "https://www.geekwire.com/2024/98point6-hit-by-new-layoffs-in-latest-change-at-health-tech-startup/",
-    "Stage": "Acquired",
-    "$ Raised (mm)": "$299",
-    "Country": "United States",
-    "Date Added": "4/25/2024"
-  },
-  {
-    "Company": "OutSystems",
-    "Location HQ": "Boston",
-    "# Laid Off": "150",
-    "Date": "4/19/2024",
-    "%": "8%",
-    "Industry": "Product",
-    "Source": "https://observador.pt/2024/04/19/unicornio-outsystems-faz-reducao-de-8-no-total-de-trabalhadores/",
-    "Stage": "Series G",
-    "$ Raised (mm)": "$802",
-    "Country": "United States",
-    "Date Added": "5/3/2024"
   }
 ]
