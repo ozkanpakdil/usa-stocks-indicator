@@ -54,10 +54,15 @@ export async function searchTicker(companyName: string) {
       );
       if (!usQuotes.length) return null;
 
-      // Guard against fuzzy matches on an UNRELATED company (e.g. Yahoo
-      // returns Sunoco (SUN) for over-trimmed "Sun Pharmaceutical"). Accept a
-      // quote only if a significant query word appears in its company name,
-      // or the symbol prefix-matches a >=4-letter query word (GOOGLE -> GOOG).
+      // Guard against fuzzy matches on an UNRELATED company. A single
+      // shared common word (MICRO in "Micro Labs" -> AMD) is not enough.
+      // Accept a quote only when:
+      //   (a) at least 2 query tokens appear in the result name, OR
+      //   (b) a single token matches AND it is the first token of the
+      //       result name (catches AstraZeneca Pharmaceuticals -> AZN
+      //       but rejects Micro Labs -> AMD where MICRO is not first), OR
+      //   (c) the symbol prefix-matches a >=4-letter query word
+      //       (GOOGLE -> GOOG, the brand != company-name case).
       const tokens = query.toUpperCase().replace(/['`]/g, "").split(/[^A-Z0-9]+/).filter(Boolean);
       const eq = (a: string, b: string) =>
         a === b ||
@@ -68,8 +73,11 @@ export async function searchTicker(companyName: string) {
 
       for (const q of usQuotes) {
         const nameTokens = nameOf(q).split(/[^A-Z0-9]+/).filter(Boolean);
+        const firstName = nameTokens.find(t => t.length >= 3) ?? "";
         const symbol = String(q.symbol ?? "").toUpperCase();
-        if (tokens.some(t => t.length >= 3 && nameTokens.some(nt => eq(t, nt)))) return q;
+        const matches = tokens.filter(t => t.length >= 3 && nameTokens.some(nt => eq(t, nt)));
+        if (matches.length >= 2) return q;
+        if (matches.length === 1 && eq(matches[0], firstName)) return q;
         if (tokens.some(t => t.length >= 4 && (symbol.startsWith(t) || t.startsWith(symbol)))) return q;
       }
 

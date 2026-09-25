@@ -146,8 +146,11 @@ function mapToParent(raw: string): string | null {
 }
 
 async function run() {
-  const end = isoDate(new Date());
-  const start = isoDate(new Date(Date.now() - WINDOW_DAYS * 24 * 3600 * 1000));
+  // Optional override: FDA_DATE=YYYY-MM-DD re-issues that dated post in
+  // place (useful when a ticker-search bug is fixed).
+  const postDate = process.env.FDA_DATE ?? isoDate(new Date());
+  const end = postDate;
+  const start = isoDate(new Date(new Date(postDate).getTime() - WINDOW_DAYS * 24 * 3600 * 1000));
 
   const results = await fetchApprovals(start.replaceAll("-", ""), end.replaceAll("-", ""));
   console.log(`openFDA returned ${results.length} approved applications in window.`);
@@ -204,6 +207,7 @@ async function run() {
     slug: "fda",
     title: "FDA Drug Approvals",
     tag: "fda",
+    date: postDate,
     intro,
     table: {
       columns: ["Approval Date", "Company", "Drug", "Ticker"],

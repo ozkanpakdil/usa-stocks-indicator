@@ -21,6 +21,9 @@ export interface IndicatorPost {
   maxRows?: number;
   /** optional extra markdown appended after the table */
   footnote?: string;
+  /** override the post date (YYYY-MM-DD). Defaults to today. Useful to
+   *  re-issue a past dated post in place after a fix (e.g. FDA_DATE=2026-09-20). */
+  date?: string;
 }
 
 /** Escape cell text for markdown table safety. */
@@ -29,7 +32,7 @@ export function cell(text: string): string {
 }
 
 export function writeIndicatorPost(opts: IndicatorPost): string {
-  const dateStr = new Date().toISOString().split("T")[0];
+  const dateStr = opts.date ?? new Date().toISOString().split("T")[0];
   mkdirSync("content/posts", { recursive: true });
   const filename = `content/posts/${opts.slug}-${dateStr}.md`;
   const maxRows = opts.maxRows ?? 100;
@@ -42,7 +45,7 @@ export function writeIndicatorPost(opts: IndicatorPost): string {
 
   const content = `---
 title: "${opts.title} - ${dateStr}"
-date: ${new Date().toISOString()}
+date: ${opts.date ? `${dateStr}T00:00:00Z` : new Date().toISOString()}
 draft: false
 tags: ["stocks", "${opts.tag}"]
 ---
