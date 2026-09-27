@@ -1,5 +1,77 @@
 [
   {
+    "Company": "Thinkific",
+    "Location HQ": "Vancouver\nNon-U.S.",
+    "# Laid Off": "96",
+    "Date": "9/23/2026",
+    "Industry": "Education",
+    "Source": "https://investors.thinkific.com/2026-09-23-Thinkific-Reorganizes-to-Focus-Investments-on-Growth-Opportunities-and-Maximize-Free-Cash-Flow",
+    "Stage": "Post-IPO",
+    "$ Raised (mm)": "$22",
+    "Country": "Canada",
+    "Date Added": "9/24/2026"
+  },
+  {
+    "Company": "Intel",
+    "Location HQ": "Sacramento",
+    "# Laid Off": "52",
+    "Date": "9/23/2026",
+    "Industry": "Hardware",
+    "Source": "https://www.kron4.com/news/technology-ai/intel-cuts-dozens-of-bay-area-jobs-in-latest-layoffs/",
+    "Stage": "Post-IPO",
+    "$ Raised (mm)": "$12",
+    "Country": "United States",
+    "Date Added": "9/23/2026"
+  },
+  {
+    "Company": "Microsoft",
+    "Location HQ": "Seattle",
+    "# Laid Off": "500",
+    "Date": "9/22/2026",
+    "Industry": "Other",
+    "Source": "https://www.businessinsider.com/microsoft-starts-a-new-round-of-job-cuts-2026-9",
+    "Stage": "Post-IPO",
+    "$ Raised (mm)": "$1",
+    "Country": "United States",
+    "Date Added": "9/23/2026"
+  },
+  {
+    "Company": "Expedia",
+    "Location HQ": "Seattle",
+    "# Laid Off": "58",
+    "Date": "9/22/2026",
+    "Industry": "Travel",
+    "Source": "https://www.geekwire.com/2026/expedia-group-laying-off-58-employees-in-washington-state-in-latest-cuts-at-travel-giant/",
+    "Stage": "Post-IPO",
+    "$ Raised (mm)": "$3,300",
+    "Country": "United States",
+    "Date Added": "9/26/2026"
+  },
+  {
+    "Company": "Apple",
+    "Location HQ": "SF Bay Area",
+    "Date": "9/21/2026",
+    "Industry": "Hardware",
+    "Source": "https://www.bloomberg.com/news/newsletters/2026-09-20/apple-s-home-ai-hub-details-apple-fitness-layoffs-and-iphone-duo-apple-pencil-mu9vv9k0",
+    "Stage": "Post-IPO",
+    "$ Raised (mm)": "$1,200",
+    "Country": "United States",
+    "Date Added": "9/22/2026"
+  },
+  {
+    "Company": "Redwood Materials",
+    "Location HQ": "Carson City",
+    "# Laid Off": "135",
+    "Date": "9/20/2026",
+    "%": "10%",
+    "Industry": "Energy",
+    "Source": "https://techcrunch.com/2026/04/21/redwood-materials-lays-off-10-in-restructuring-to-chase-energy-storage-business/",
+    "Stage": "Series E",
+    "$ Raised (mm)": "$4,200",
+    "Country": "United States",
+    "Date Added": "9/20/2026"
+  },
+  {
     "Company": "Trustly",
     "Location HQ": "Stockholm\nNon-U.S.",
     "# Laid Off": "200",
@@ -178,6 +250,9 @@
     "Date Added": "9/7/2026"
   },
   {
+    "Company": "Unique\n\n2990"
+  },
+  {
     "Company": "Zscaler",
     "Location HQ": "SF Bay Area",
     "Date": "9/3/2026",
@@ -249,9 +324,6 @@
     "$ Raised (mm)": "$8,100",
     "Country": "United States",
     "Date Added": "9/2/2026"
-  },
-  {
-    "Company": "Unique\n\n2988"
   },
   {
     "Company": "Synopsys",
@@ -768,6 +840,16 @@
     "Stage": "Unknown",
     "Country": "United States",
     "Date Added": "8/3/2026"
+  },
+  {
+    "Company": "Sparkgeo",
+    "Location HQ": "Vancouver\nNon-U.S.",
+    "Date": "8/1/2026",
+    "Industry": "Data",
+    "Source": "https://www.linkedin.com/posts/willcadell_geospatial-data-infrastructure-activity-7490899357085425664-YHkO",
+    "Stage": "Unknown",
+    "Country": "Canada",
+    "Date Added": "9/22/2026"
   },
   {
     "Company": "Chime",
@@ -12132,89 +12214,5 @@
     "$ Raised (mm)": "$30",
     "Country": "Israel",
     "Date Added": "6/5/2024"
-  },
-  {
-    "Company": "Akili Interactive",
-    "Location HQ": "Boston",
-    "Date": "4/30/2024",
-    "%": "46%",
-    "Industry": "Healthcare",
-    "Source": "https://investors.akiliinteractive.com/news/news-details/2024/Akili-Announces-Amended-Agreement-with-Shionogi-Shift-in-Corporate-Strategy-and-Release-Date-for-First-Quarter-2024-Financial-Results/default.aspx",
-    "Stage": "Post-IPO",
-    "$ Raised (mm)": "$271",
-    "Country": "United States",
-    "Date Added": "5/2/2024"
-  },
-  {
-    "Company": "Google",
-    "Location HQ": "SF Bay Area",
-    "Date": "4/30/2024",
-    "Industry": "Consumer",
-    "Source": "https://techcrunch.com/2024/04/29/google-lays-off-staff-from-flutter-dart-python-weeks-before-its-developer-conference/",
-    "Stage": "Post-IPO",
-    "$ Raised (mm)": "$26",
-    "Country": "United States",
-    "Date Added": "4/30/2024"
-  },
-  {
-    "Company": "Getir",
-    "Location HQ": "London\nNon-U.S.",
-    "# Laid Off": "3300",
-    "Date": "4/29/2024",
-    "Industry": "Food",
-    "Source": "https://techcrunch.com/2024/04/29/getir-getout-instant-delivery/",
-    "Stage": "Series E",
-    "$ Raised (mm)": "$1,800",
-    "Country": "United Kingdom",
-    "Date Added": "4/29/2024"
-  },
-  {
-    "Company": "Ola",
-    "Location HQ": "Bengaluru\nNon-U.S.",
-    "# Laid Off": "180",
-    "Date": "4/29/2024",
-    "%": "10%",
-    "Industry": "Transportation",
-    "Source": "https://techcrunch.com/2024/04/29/indian-ride-hailing-giant-ola-cuts-180-jobs-in-profitability-push/",
-    "Stage": "Series J",
-    "$ Raised (mm)": "$5,000",
-    "Country": "India",
-    "Date Added": "4/30/2024"
-  },
-  {
-    "Company": "Ninja Van",
-    "Location HQ": "Singapore\nNon-U.S.",
-    "# Laid Off": "21",
-    "Date": "4/29/2024",
-    "%": "10%",
-    "Industry": "Transportation",
-    "Source": "https://www.theedgesingapore.com/news/company-news/second-round-layoffs-ninja-van-less-three-months-5-singapore-staff-affected",
-    "Stage": "Series E",
-    "$ Raised (mm)": "$974",
-    "Country": "Singapore",
-    "Date Added": "7/3/2024"
-  },
-  {
-    "Company": "ComplYant",
-    "Location HQ": "Los Angeles",
-    "Date": "4/29/2024",
-    "%": "100%",
-    "Industry": "Finance",
-    "Source": "https://www.businessinsider.com/tax-compliance-startup-raised-millions-then-it-abruptly-shut-down-2024-4",
-    "Stage": "Seed",
-    "$ Raised (mm)": "$6",
-    "Country": "United States",
-    "Date Added": "4/30/2024"
-  },
-  {
-    "Company": "Fisker",
-    "Location HQ": "Los Angeles",
-    "Date": "4/29/2024",
-    "Industry": "Transportation",
-    "Source": "https://techcrunch.com/2024/04/29/fisker-layoffs-staff-email-cuts-bankruptcy-sale/",
-    "Stage": "Post-IPO",
-    "$ Raised (mm)": "$1,700",
-    "Country": "United States",
-    "Date Added": "4/30/2024"
   }
 ]
