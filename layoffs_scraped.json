@@ -1,5 +1,30 @@
 [
   {
+    "Company": "Blaize",
+    "Location HQ": "SF Bay Area",
+    "Date": "9/30/2026",
+    "%": "26%",
+    "Industry": "AI",
+    "Source": "https://www.tradingview.com/news/seekingalpha:69c32639c094b:0-blaize-to-cut-26-of-workforce-in-restructuring-push/",
+    "Stage": "Post-IPO",
+    "$ Raised (mm)": "$307",
+    "Country": "United States",
+    "Date Added": "10/1/2026"
+  },
+  {
+    "Company": "Workday",
+    "Location HQ": "SF Bay Area",
+    "# Laid Off": "525",
+    "Date": "9/29/2026",
+    "%": "3%",
+    "Industry": "HR",
+    "Source": "https://seekingalpha.com/news/4648205-workday-reduces-headcount-by-2_5-percent-mainly-affects-product-and-technology-team",
+    "Stage": "Post-IPO",
+    "$ Raised (mm)": "$230",
+    "Country": "United States",
+    "Date Added": "10/1/2026"
+  },
+  {
     "Company": "Thinkific",
     "Location HQ": "Vancouver\nNon-U.S.",
     "# Laid Off": "96",
@@ -227,6 +252,9 @@
     "Date Added": "9/9/2026"
   },
   {
+    "Company": "Unique\n\n2992"
+  },
+  {
     "Company": "Hale",
     "Location HQ": "Berlin\nNon-U.S.",
     "Date": "9/3/2026",
@@ -248,9 +276,6 @@
     "Stage": "Series A",
     "Country": "Chile",
     "Date Added": "9/7/2026"
-  },
-  {
-    "Company": "Unique\n\n2990"
   },
   {
     "Company": "Zscaler",
@@ -335,6 +360,18 @@
     "Stage": "Post-IPO",
     "Country": "United States",
     "Date Added": "9/2/2026"
+  },
+  {
+    "Company": "Ascent Funding",
+    "Location HQ": "San Diego",
+    "Date": "9/1/2026",
+    "%": "17%",
+    "Industry": "Finance",
+    "Source": "https://www.sandiegoville.com/2026/09/san-diego-best-place-to-work-ascent.html",
+    "Stage": "Series C",
+    "$ Raised (mm)": "$86",
+    "Country": "United States",
+    "Date Added": "10/1/2026"
   },
   {
     "Company": "Zomato",
@@ -12177,42 +12214,5 @@
     "Stage": "Acquired",
     "Country": "United States",
     "Date Added": "5/2/2024"
-  },
-  {
-    "Company": "Sproutt",
-    "Location HQ": "Hartford",
-    "Date": "5/1/2024",
-    "%": "100%",
-    "Industry": "Finance",
-    "Source": "https://www.calcalistech.com/ctechnews/article/rzw567hs7",
-    "Stage": "Series B",
-    "$ Raised (mm)": "$38",
-    "Country": "United States",
-    "Date Added": "5/2/2024"
-  },
-  {
-    "Company": "Tesla",
-    "Location HQ": "Austin",
-    "# Laid Off": "500",
-    "Date": "4/30/2024",
-    "Industry": "Transportation",
-    "Source": "https://www.theverge.com/2024/4/30/24145621/tesla-layoff-supercharger-ev-charging-nacs-elon-musk",
-    "Stage": "Post-IPO",
-    "$ Raised (mm)": "$20,200",
-    "Country": "United States",
-    "Date Added": "5/1/2024"
-  },
-  {
-    "Company": "RiseUp",
-    "Location HQ": "Tel Aviv\nNon-U.S.",
-    "# Laid Off": "50",
-    "Date": "4/30/2024",
-    "%": "50%",
-    "Industry": "Finance",
-    "Source": "https://www.calcalistech.com/ctechnews/article/sjhgncr11c",
-    "Stage": "Series B",
-    "$ Raised (mm)": "$30",
-    "Country": "Israel",
-    "Date Added": "6/5/2024"
   }
 ]
