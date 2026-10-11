@@ -1,3 +1,196 @@
+import { readFileSync, writeFileSync } from "fs";
+
+// ---------- listed-company universe: offline legal-name -> symbol ----------
+//
+// Filing sources use legal entity names ("Amneal Pharmaceuticals LLC",
+// "ANI PHARMS") that a fuzzy web search may not resolve, and that a
+// hand-maintained subsidiary map gets wrong. The top-us-stock-tickers list
+// (github.com/ozkanpakdil/top-us-stock-tickers) provides a symbol<->name
+// universe used as a deterministic first pass.
+//
+// Two deliberate limits:
+//   * it only holds US-DOMICILED issuers, so foreign parents and their ADRs
+//     (Teva, Novartis, Sandoz, AstraZeneca...) are absent and still need the
+//     curated map in fda.ts;
+//   * matching is strict - every significant query token must appear in the
+//     candidate - so "Merck KGaA" cannot be mistaken for "Merck & Company".
+const UNIVERSE_URL =
+  "https://raw.githubusercontent.com/ozkanpakdil/top-us-stock-tickers/main/tickers/all.csv";
+const UNIVERSE_CACHE_FILE = "tickers_universe.json";
+const UNIVERSE_TTL_MS = 24 * 60 * 60 * 1000;
+const UNIVERSE_TIMEOUT_MS = 30_000;
+
+/** Legal, listing and jurisdictional filler that carries no identity. */
+const NAME_NOISE = new Set([
+  "INC", "INCORPORATED", "LLC", "PLLC", "LTD", "LIMITED", "CORP", "CORPORATION",
+  "CO", "COMPANY", "COMPANIES", "PLC", "LP", "LLP", "PC", "SA", "NV", "AG",
+  "GMBH", "BV", "AB", "OY", "AS", "SPA", "PTY", "USA", "US", "THE", "AND", "OF",
+  "A", "BRANDS", "BRAND", "DIV", "DIVISION", "SUBSIDIARY", "MAKERS", "MFG",
+  "MANUFACTURING", "HOLDINGS", "HOLDING", "GROUP", "INTERNATIONAL", "GLOBAL",
+  "AMERICA", "AMERICAS", "NEW", "YORK", "NORTH", "SOUTH", "EAST", "WEST",
+  "CENTRAL", "NATIONAL", "SERIES",
+]);
+
+/** Entities that are never publicly traded companies. */
+const NON_COMPANIES = [
+  "UNIVERSITY", "INSTITUTE OF TECHNOLOGY", "DEPARTMENT OF", "STATE OF", "CITY OF", "REGENTS OF",
+];
+
+/** Treat the common pharma/tech descriptors as one token. */
+const NAME_CANON: Record<string, string> = {
+  PHARMS: "PHARMA", PHARM: "PHARMA", PHARMACEUTICALS: "PHARMA",
+  PHARMACEUTICAL: "PHARMA", PHARMA: "PHARMA", LABS: "LAB",
+  LABORATORIES: "LAB", LABORATORY: "LAB", TECHNOLOGIES: "TECH",
+  TECHNOLOGY: "TECH", SCIENCES: "SCIENCE", SCIENCE: "SCIENCE",
+};
+
+/** Strip the share-class / depositary tail that Yahoo and the CSV both carry. */
+const LISTING_TAIL =
+  /\b(COMMON STOCK|CLASS [A-Z]|ORDINARY SHARES?|AMERICAN DEPOSITARY SHARES?|DEPOSITARY|ADS|ADR|PAR VALUE|SPONSORED)\b.*$/;
+
+function nameTokens(raw: string): string[] {
+  const out = String(raw ?? "")
+    .toUpperCase()
+    .replace(LISTING_TAIL, " ")
+    .replace(/[^A-Z0-9]+/g, " ")
+    .split(" ")
+    .filter(Boolean)
+    // Drop filler and single characters: "F&B MFG" must not become {F,B}.
+    .filter(t => t.length >= 2 && !NAME_NOISE.has(t) && !/^\d+$/.test(t))
+    .map(t => NAME_CANON[t] ?? t);
+  // De-duplicate: "FLEX LTD. (FLEX)" is one company, not two tokens.
+  return [...new Set(out)];
+}
+
+interface UniverseEntry {
+  symbol: string;
+  name: string;
+  cap: number;
+  arr: string[];
+}
+
+export interface ListedMatch {
+  symbol: string;
+  shortname: string;
+  longname: string;
+  exchange: string;
+  quoteType: string;
+  source: "universe";
+}
+
+let universePromise: Promise<UniverseEntry[]> | null = null;
+
+function buildUniverse(rows: { symbol: string; name: string; cap: number }[]): UniverseEntry[] {
+  const out: UniverseEntry[] = [];
+  for (const r of rows) {
+    const arr = nameTokens(r.name);
+    if (!arr.length) continue;
+    out.push({ symbol: r.symbol, name: r.name, cap: r.cap, arr });
+  }
+  return out;
+}
+
+/** Parse the CSV (10 unquoted columns; field 8 is market cap). */
+function parseUniverseCsv(csv: string): { symbol: string; name: string; cap: number }[] {
+  const lines = csv.split(/\r?\n/);
+  const rows: { symbol: string; name: string; cap: number }[] = [];
+  for (let i = 1; i < lines.length; i++) {
+    const line = lines[i];
+    if (!line) continue;
+    const f = line.split(",");
+    const symbol = (f[0] ?? "").trim().toUpperCase();
+    const name = (f[1] ?? "").trim();
+    if (!symbol || !name) continue;
+    rows.push({ symbol, name, cap: Number(f[7] ?? 0) || 0 });
+  }
+  return rows;
+}
+
+/**
+ * Load the universe once per process, reusing a 24h on-disk copy so the ~13
+ * scrapers in a weekly run share a single download. Any failure degrades to an
+ * empty universe, which makes callers behave exactly as they did before.
+ */
+export function loadTickerUniverse(): Promise<UniverseEntry[]> {
+  if (!universePromise) {
+    universePromise = (async () => {
+      try {
+        const cached = JSON.parse(readFileSync(UNIVERSE_CACHE_FILE, "utf-8"));
+        if (cached?.fetchedAt && Date.now() - cached.fetchedAt < UNIVERSE_TTL_MS && Array.isArray(cached.rows)) {
+          return buildUniverse(cached.rows);
+        }
+      } catch {
+        /* no usable cache */
+      }
+      try {
+        const ctl = new AbortController();
+        const timer = setTimeout(() => ctl.abort(), UNIVERSE_TIMEOUT_MS);
+        const res = await fetch(UNIVERSE_URL, { headers: { "User-Agent": "Mozilla/5.0" }, signal: ctl.signal });
+        clearTimeout(timer);
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        const rows = parseUniverseCsv(await res.text());
+        if (rows.length < 100) throw new Error(`unexpectedly small universe (${rows.length} rows)`);
+        try {
+          writeFileSync(UNIVERSE_CACHE_FILE, JSON.stringify({ fetchedAt: Date.now(), rows }));
+        } catch {
+          /* cache is best-effort */
+        }
+        return buildUniverse(rows);
+      } catch (e: any) {
+        console.warn(`ticker universe unavailable (${e.message}); using web search only`);
+        return [];
+      }
+    })();
+  }
+  return universePromise;
+}
+
+/**
+ * Resolve a filing's legal entity name against the listed-company universe.
+ * Returns null unless the match is strict and unambiguous, so callers can fall
+ * through to the web search.
+ */
+export async function matchListedTicker(companyName: string): Promise<ListedMatch | null> {
+  const cleaned = cleanCompanyName(companyName);
+  for (const item of NON_COMPANIES) if (cleaned.includes(item)) return null;
+  const q = nameTokens(companyName);
+  // Require at least two significant tokens. Single-token names ("Barnes
+  // Group", "Blue Group", "Acumen") would otherwise match any *other* company
+  // that merely starts with that word (Barnes & Noble, Blue Bird, Acumen
+  // Pharmaceuticals), and one-word brand names ("Apple") are exactly what the
+  // web search already resolves well.
+  if (q.length < 2) return null;
+
+  const universe = await loadTickerUniverse();
+  if (!universe.length) return null;
+
+  // Require the significant token sets to be EQUAL. Accepting a query that is
+  // merely a subset of a longer name is how "General Electric" maps to
+  // Portland General Electric and "M.P. Environmental Services" to Perma-Fix:
+  // when the real company is missing from the universe, some unrelated company
+  // that happens to contain those words wins by default.
+  const qSet = new Set(q);
+  let best: UniverseEntry | null = null;
+  for (const e of universe) {
+    if (e.arr.length !== q.length) continue;
+    let same = true;
+    for (const t of e.arr) {
+      if (!qSet.has(t)) { same = false; break; }
+    }
+    if (same && (!best || e.cap > best.cap)) best = e;
+  }
+  if (!best) return null;
+  return {
+    // The CSV writes class shares as BRK/A; Yahoo and Seeking Alpha use BRK-A.
+    symbol: best.symbol.replace(/\//g, "-"),
+    shortname: best.name,
+    longname: best.name,
+    exchange: "US",
+    quoteType: "EQUITY",
+    source: "universe",
+  };
+}
+
 export function cleanCompanyName(name: string): string {
   if (!name) return "";
   let cleaned = name.toUpperCase();
@@ -34,10 +227,14 @@ export async function searchTicker(companyName: string) {
   let cleanedName = cleanCompanyName(companyName);
   
   // Universities and government entities are not stocks
-  const blacklist = ["UNIVERSITY", "INSTITUTE OF TECHNOLOGY", "DEPARTMENT OF", "STATE OF", "CITY OF", "REGENTS OF"];
-  for (const item of blacklist) {
+  for (const item of NON_COMPANIES) {
     if (cleanedName.includes(item)) return null;
   }
+
+  // Offline first: filing sources emit legal entity names that the listed
+  // universe can resolve deterministically even when a fuzzy search cannot.
+  const listed = await matchListedTicker(companyName);
+  if (listed) return listed;
 
   const trySearch = async (query: string, isOriginal: boolean) => {
     const url = `https://query1.finance.yahoo.com/v1/finance/search?q=${encodeURIComponent(query)}`;

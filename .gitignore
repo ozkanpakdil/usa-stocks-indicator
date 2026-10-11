@@ -27,6 +27,9 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 .cache
 *.tsbuildinfo
 
+# ticker universe cache (refetched automatically; not worth committing churn)
+tickers_universe.json
+
 # IntelliJ based IDEs
 .idea
 

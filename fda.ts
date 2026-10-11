@@ -1,4 +1,4 @@
-import { searchTicker } from "./utils";
+import { searchTicker, matchListedTicker } from "./utils";
 import { writeIndicatorPost } from "./hugohelpers";
 
 // FDA drug approvals via openFDA drugsfda.
@@ -99,7 +99,7 @@ const PARENT_MAP: [string, string][] = [
   ["GLAXOSMITHKLINE", "GSK"],
   ["GLAXO", "GSK"],
   ["NOVARTIS", "NVS"],
-  ["SANDOZ", "SDZWF"],
+  ["SANDOZ", "SDZNY"],
   ["NOVO NORDISK", "NVO"],
   ["NORDISK", "NVO"],
   ["TAKEDA", "TAK"],
@@ -109,7 +109,7 @@ const PARENT_MAP: [string, string][] = [
   ["UPJOHN", "VTRS"],
   ["PHARMACIA", "VTRS"],
   ["VIATRIS", "VTRS"],
-  ["AMNEAL", "AMNL"],
+  ["AMNEAL", "AMRX"],
   ["ABBVIE", "ABBV"],
   ["AMGEN", "AMGN"],
   ["HORIZON THERAPEUTICS", "AMGN"],
@@ -178,15 +178,17 @@ async function run() {
   records.sort((a, b) => b.date.localeCompare(a.date) || a.company.localeCompare(b.company) || a.drug.localeCompare(b.drug));
 
   // Ticker lookup: unique companies only, paced, cached.
-  // Known subsidiaries/ADRs resolve through PARENT_MAP first (no network),
-  // everything else goes through the Yahoo search fallback.
+  // Order: listed-company universe (offline, authoritative for US-domiciled
+  // names) -> curated parent/ADR map (subsidiaries and foreign issuers the
+  // universe does not carry) -> Yahoo search fallback.
   const tickerCell = new Map<string, string>();
   for (const r of records) {
     if (tickerCell.has(r.company)) continue;
-    const mapped = mapToParent(r.company);
+    const listed = await matchListedTicker(r.company);
+    const mapped = listed?.symbol ?? mapToParent(r.company);
     if (mapped) {
       tickerCell.set(r.company, `[${mapped}](https://seekingalpha.com/symbol/${mapped})`);
-      console.log(`Ticker lookup: ${r.company} -> ${mapped} (parent map)`);
+      console.log(`Ticker lookup: ${r.company} -> ${mapped} (${listed ? "universe" : "parent map"})`);
       continue;
     }
     await sleep(TICKER_PACING_MS);
