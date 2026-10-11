@@ -1,5 +1,78 @@
 [
   {
+    "Company": "Flock Safety",
+    "Location HQ": "Atlanta",
+    "# Laid Off": "270",
+    "Date": "10/8/2026",
+    "%": "18%",
+    "Industry": "Security",
+    "Source": "https://www.reuters.com/business/ai-surveillance-startup-flock-safety-cut-several-hundred-jobs-amid-backlash-2026-10-09/",
+    "Stage": "Series I",
+    "$ Raised (mm)": "$1,200",
+    "Country": "United States",
+    "Date Added": "10/9/2026"
+  },
+  {
+    "Company": "HoneyBook",
+    "Location HQ": "Tel Aviv\nNon-U.S.",
+    "# Laid Off": "35",
+    "Date": "10/8/2026",
+    "%": "14%",
+    "Industry": "Finance",
+    "Source": "https://www.calcalistech.com/ctechnews/article/syg9pbhizx",
+    "Stage": "Series E",
+    "$ Raised (mm)": "$498",
+    "Country": "Israel",
+    "Date Added": "10/9/2026"
+  },
+  {
+    "Company": "Amazon",
+    "Location HQ": "Seattle",
+    "Date": "10/7/2026",
+    "Industry": "Retail",
+    "Source": "https://www.theinformation.com/briefings/amazon-lays-hundreds-stores-division",
+    "Stage": "Post-IPO",
+    "$ Raised (mm)": "$8,100",
+    "Country": "United States",
+    "Date Added": "10/8/2026"
+  },
+  {
+    "Company": "Hopper",
+    "Location HQ": "Montreal\nNon-U.S.",
+    "Date": "10/7/2026",
+    "Industry": "Travel",
+    "Source": "https://newsletters.skift.com/p/hopper-layoffs-and-the-booking-factor",
+    "Stage": "Unknown",
+    "$ Raised (mm)": "$730",
+    "Country": "Canada",
+    "Date Added": "10/8/2026"
+  },
+  {
+    "Company": "Hubspot",
+    "Location HQ": "Boston",
+    "# Laid Off": "660",
+    "Date": "10/6/2026",
+    "%": "7%",
+    "Industry": "Marketing",
+    "Source": "https://www.hubspot.com/company-news/company-update",
+    "Stage": "Post-IPO",
+    "$ Raised (mm)": "$100",
+    "Country": "United States",
+    "Date Added": "10/6/2026"
+  },
+  {
+    "Company": "Anchorage Digital",
+    "Location HQ": "SF Bay Area",
+    "Date": "10/2/2026",
+    "%": "17%",
+    "Industry": "Crypto",
+    "Source": "https://cryptobriefing.com/anchorage-digital-lays-off-17-percent-staff/",
+    "Stage": "Series D",
+    "$ Raised (mm)": "$487",
+    "Country": "United States",
+    "Date Added": "10/6/2026"
+  },
+  {
     "Company": "Blaize",
     "Location HQ": "SF Bay Area",
     "Date": "9/30/2026",
@@ -23,6 +96,17 @@
     "$ Raised (mm)": "$230",
     "Country": "United States",
     "Date Added": "10/1/2026"
+  },
+  {
+    "Company": "Klaviyo",
+    "Location HQ": "Boston",
+    "Date": "9/28/2026",
+    "Industry": "Marketing",
+    "Source": "https://www.bizjournals.com/boston/news/2026/10/01/klaviyo-cuts-roles-in-design-product.html",
+    "Stage": "Unknown",
+    "$ Raised (mm)": "$778",
+    "Country": "United States",
+    "Date Added": "10/7/2026"
   },
   {
     "Company": "Thinkific",
@@ -143,6 +227,18 @@
     "Date Added": "9/16/2026"
   },
   {
+    "Company": "Twiga",
+    "Location HQ": "Nairobi\nNon-U.S.",
+    "Date": "9/14/2026",
+    "%": "100%",
+    "Industry": "Food",
+    "Source": "https://dealroom.co/news/150659-kenyas-twiga-foods-enters-administration-after-35m-lifeline-fails/",
+    "Stage": "Series C",
+    "$ Raised (mm)": "$157",
+    "Country": "Kenya",
+    "Date Added": "10/8/2026"
+  },
+  {
     "Company": "Bitcoin Suisse",
     "Location HQ": "Zurich\nNon-U.S.",
     "# Laid Off": "60",
@@ -153,6 +249,9 @@
     "Stage": "Series A",
     "Country": "Switzerland",
     "Date Added": "9/14/2026"
+  },
+  {
+    "Company": "Unique\n\n2995"
   },
   {
     "Company": "Booksy",
@@ -250,9 +349,6 @@
     "$ Raised (mm)": "$216",
     "Country": "United States",
     "Date Added": "9/9/2026"
-  },
-  {
-    "Company": "Unique\n\n2992"
   },
   {
     "Company": "Hale",
@@ -1563,6 +1659,19 @@
     "Date Added": "6/27/2026"
   },
   {
+    "Company": "Snyk",
+    "Location HQ": "Boston",
+    "# Laid Off": "203",
+    "Date": "6/24/2026",
+    "%": "20%",
+    "Industry": "Security",
+    "Source": "https://www.calcalistech.com/ctechnews/article/c48f8h988",
+    "Stage": "Series F",
+    "$ Raised (mm)": "$849",
+    "Country": "United States",
+    "Date Added": "6/24/2026"
+  },
+  {
     "Company": "Cyberbit",
     "Location HQ": "Tel Aviv\nNon-U.S.",
     "Date": "6/24/2026",
@@ -1581,17 +1690,6 @@
     "Source": "https://www.elastic.co/blog/ceo-ash-kulkarni-announcement-to-elastic-employees",
     "Stage": "Post-IPO",
     "$ Raised (mm)": "$162",
-    "Country": "United States",
-    "Date Added": "6/24/2026"
-  },
-  {
-    "Company": "Snyk",
-    "Location HQ": "Boston",
-    "Date": "6/24/2026",
-    "Industry": "Security",
-    "Source": "https://snyk.io/blog/a-note-to-our-customers-and-partners/",
-    "Stage": "Series F",
-    "$ Raised (mm)": "$849",
     "Country": "United States",
     "Date Added": "6/24/2026"
   },
@@ -12114,105 +12212,5 @@
     "$ Raised (mm)": "$899",
     "Country": "United States",
     "Date Added": "5/4/2024"
-  },
-  {
-    "Company": "Rivian",
-    "Location HQ": "Los Angeles",
-    "# Laid Off": "150",
-    "Date": "5/3/2024",
-    "%": "1%",
-    "Industry": "Transportation",
-    "Source": "https://abc7.com/rivian-jobs-irvine-careers-electric-vehicle/14761190/",
-    "Stage": "Post-IPO",
-    "$ Raised (mm)": "$10,700",
-    "Country": "United States",
-    "Date Added": "5/11/2024"
-  },
-  {
-    "Company": "Luminar",
-    "Location HQ": "Orlando",
-    "# Laid Off": "140",
-    "Date": "5/3/2024",
-    "%": "20%",
-    "Industry": "Transportation",
-    "Source": "https://techcrunch.com/2024/05/03/luminar-layoffs-reduction-restructuring-lidar/",
-    "Stage": "Post-IPO",
-    "$ Raised (mm)": "$780",
-    "Country": "United States",
-    "Date Added": "5/4/2024"
-  },
-  {
-    "Company": "Sprinklr",
-    "Location HQ": "New York City",
-    "# Laid Off": "116",
-    "Date": "5/3/2024",
-    "%": "3%",
-    "Industry": "Support",
-    "Source": "https://techcrunch.com/2024/05/03/sprinklr-lays-off-more-than-100-employees/",
-    "Stage": "Post-IPO",
-    "$ Raised (mm)": "$429",
-    "Country": "United States",
-    "Date Added": "5/3/2024"
-  },
-  {
-    "Company": "Bakkt",
-    "Location HQ": "Atlanta",
-    "# Laid Off": "28",
-    "Date": "5/3/2024",
-    "Industry": "Crypto",
-    "Source": "https://seekingalpha.com/news/4099966-crypto-platform-bakkt-to-lay-off-28-employees",
-    "Stage": "Post-IPO",
-    "$ Raised (mm)": "$932",
-    "Country": "United States",
-    "Date Added": "5/4/2024"
-  },
-  {
-    "Company": "Peloton",
-    "Location HQ": "New York City",
-    "# Laid Off": "400",
-    "Date": "5/2/2024",
-    "%": "15%",
-    "Industry": "Fitness",
-    "Source": "https://www.cnbc.com/2024/05/02/peloton-ceo-barry-mccarthy-steps-down-15percent-of-staff-laid-off.html",
-    "Stage": "Post-IPO",
-    "$ Raised (mm)": "$1,900",
-    "Country": "United States",
-    "Date Added": "5/2/2024"
-  },
-  {
-    "Company": "Cabify",
-    "Location HQ": "Madrid\nNon-U.S.",
-    "# Laid Off": "29",
-    "Date": "5/2/2024",
-    "Industry": "Transportation",
-    "Source": "https://www.epe.es/es/activos/20240502/cabify-ejecuta-veintena-despidos-staff-101773083",
-    "Stage": "Unknown",
-    "$ Raised (mm)": "$601",
-    "Country": "Spain",
-    "Date Added": "5/9/2024"
-  },
-  {
-    "Company": "Google",
-    "Location HQ": "SF Bay Area",
-    "# Laid Off": "200",
-    "Date": "5/1/2024",
-    "Industry": "Consumer",
-    "Source": "https://www.cnbc.com/2024/05/01/google-cuts-hundreds-of-core-workers-moves-jobs-to-india-mexico.html",
-    "Stage": "Post-IPO",
-    "$ Raised (mm)": "$26",
-    "Country": "United States",
-    "Date Added": "5/2/2024"
-  },
-  {
-    "Company": "Assurance",
-    "Location HQ": "Seattle",
-    "# Laid Off": "112",
-    "Date": "5/1/2024",
-    "%": "100%",
-    "Industry": "Finance",
-    "Source": "https://www.geekwire.com/2024/prudential-to-shut-down-assurance-the-insurance-tech-startup-it-acquired-for-2-35b-in-2019/",
-    "Stage": "Acquired",
-    "Country": "United States",
-    "Date Added": "5/2/2024"
   }
 ]
