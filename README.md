@@ -8,6 +8,7 @@ List of stocks here https://ozkanpakdil.github.io/usa-stocks-indicator/
 
 - **Automated Data Fetching**: Retrieves the latest Prime and Subawards from the last 12 months.
 - **Layoffs Indicator**: Tracks tech layoffs from Layoffs.fyi and matches them with 1-month stock performance.
+- **Executive Branch Trades**: Reads OGE Form 278-T filing PDFs (President, Vice President and Senate-confirmed officials) straight from the Office of Government Ethics. Digitally generated filings are parsed from their text layer, scanned filings from their OCR layer, with an on-disk cache in `executive_cache.json`.
 - **Stock Matching**: Automatically maps company names to US stock tickers (NYSE/NASDAQ/etc.).
 - **Hugo Integration**: Generates Markdown posts for Hugo-based blogs (e.g., GitHub Pages).
 - **GitHub Actions**: Automated weekly runs with auto-commit of new data and reports.
@@ -36,6 +37,7 @@ hugo serve
 This will create/update:
 - `data.json`: Local cache of all found awards.
 - `layoffs.json`: Local cache of layoffs data.
+- `executive_cache.json`: Local cache of parsed OGE Form 278-T filings.
 - `content/dashboard.md`: Interactive dashboard (full list).
 - `content/layoffs.md`: Tech layoffs indicator page.
 - `content/posts/awards-YYYY-MM-DD.md`: Hugo-compatible blog post.

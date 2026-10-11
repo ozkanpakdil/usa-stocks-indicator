@@ -43,6 +43,9 @@ theme = ["github.com/adityatelange/hugo-PaperMod"]
         name = "🏛️ Congressional Trades"
         url = "tags/congress"
     [[params.profileMode.buttons]]
+        name = "🦅 Executive Branch Trades"
+        url = "tags/executive"
+    [[params.profileMode.buttons]]
         name = "📊 13F Fund Holdings"
         url = "tags/13f"
     [[params.profileMode.buttons]]

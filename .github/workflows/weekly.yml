@@ -77,6 +77,13 @@ jobs:
         continue-on-error: true
         run: bun run congress.ts
 
+      # OGE Form 278-T filings (President + executive branch). Parses filing
+      # PDFs directly, so no browser is needed and the run is cached in
+      # executive_cache.json between weeks.
+      - name: Executive branch trades
+        continue-on-error: true
+        run: bun run executive.ts
+
       - name: 13F fund holdings
         continue-on-error: true
         run: bun run thirteenf.ts
