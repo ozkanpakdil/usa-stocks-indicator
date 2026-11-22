@@ -1200,7 +1200,7 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id="price-is-the-latest-daily-close-sma50sma200-are-simple-moving-averages-of-the-last-50200-daily-closes-each-shown-only-when-at-least-that-many-bars-are-available-the-6-month-history-used-here-is-"&gt;&lt;em&gt;Only the 15 most relevant rows are shown.&lt;/em&gt;
+&lt;h2 id="price-is-the-latest-daily-close-sma50sma200-are-simple-moving-averages-of-the-last-50200-daily-closes-each-shown-only-when-at-least-that-many-bars-are-available-the-6-month-history-used-here-is-130-bars-so-vs-sma200-can-be-na-3m-vs-spy-is-the-etfs-3-month-return-minus-spys-over-the-same-window-in-points"&gt;&lt;em&gt;Only the 15 most relevant rows are shown.&lt;/em&gt;
 &lt;em&gt;Price is the latest daily close. SMA50/SMA200 are simple moving averages of the last 50/200 daily closes (each shown only when at least that many bars are available; the 6-month history used here is ~130 bars, so vs SMA200 can be n/a). &amp;lsquo;3m vs SPY&amp;rsquo; is the ETF&amp;rsquo;s 3-month return minus SPY&amp;rsquo;s over the same window, in points.&lt;/em&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Data source: &lt;a href="https://finance.yahoo.com/"&gt;Yahoo Finance&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description></item><item><title>DJIA Earnings Surprises - 2026-10-11</title><link>https://ozkanpakdil.github.io/usa-stocks-indicator/posts/earnings-2026-10-11/</link><pubDate>Sun, 11 Oct 2026 02:35:24 +0000</pubDate><guid>https://ozkanpakdil.github.io/usa-stocks-indicator/posts/earnings-2026-10-11/</guid><description>&lt;p&gt;1 of the 30 Dow components in the watchlist reported quarterly results in the last 10 days (2026-10-01 to 2026-10-11). The table shows the latest reported quarter&amp;rsquo;s EPS estimate vs actual, the surprise, and the stock&amp;rsquo;s 1-week performance against SPY. This is event-driven earnings data, not general market context.&lt;/p&gt;
 &lt;table&gt;
@@ -1227,7 +1227,7 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id="surprise-is-eps-actual-vs-estimate-in-percent"&gt;&lt;em&gt;Only the 1 most relevant rows are shown.&lt;/em&gt;
+&lt;h2 id="surprise-is-eps-actual-vs-estimate-in-percent-1w-is-the-1-week-price-change-since-the-report-1w-vs-spy-is-that-return-minus-spys-over-the-same-window-in-points"&gt;&lt;em&gt;Only the 1 most relevant rows are shown.&lt;/em&gt;
 &lt;em&gt;Surprise is EPS actual vs estimate in percent. &amp;lsquo;1w&amp;rsquo; is the 1-week price change since the report; &amp;lsquo;1w vs SPY&amp;rsquo; is that return minus SPY&amp;rsquo;s over the same window, in points.&lt;/em&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Data source: &lt;a href="https://finance.yahoo.com/"&gt;Yahoo Finance&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Famous Fund 13F Holdings - 2026-10-11</title><link>https://ozkanpakdil.github.io/usa-stocks-indicator/posts/thirteenf-2026-10-11/</link><pubDate>Sun, 11 Oct 2026 02:35:06 +0000</pubDate><guid>https://ozkanpakdil.github.io/usa-stocks-indicator/posts/thirteenf-2026-10-11/</guid><description>&lt;p&gt;Top holdings of 12 famous &amp;ldquo;superinvestor&amp;rdquo; funds based on their latest quarterly 13F filings with the SEC, aggregated by Dataroma. Positions are as of each fund&amp;rsquo;s most recent 13F filing (filed within 45 days of quarter end).&lt;/p&gt;
 &lt;table&gt;
@@ -7825,7 +7825,7 @@ Match shows whether the filing text mentioned &amp;ldquo;Chapter 11&amp;rdquo;, 
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id="price-is-the-latest-daily-close-sma50sma200-are-simple-moving-averages-of-the-last-50200-daily-closes-each-shown-only-when-at-least-that-many-bars-are-available-the-6-month-history-used-here-is-"&gt;&lt;em&gt;Only the 15 most relevant rows are shown.&lt;/em&gt;
+&lt;h2 id="price-is-the-latest-daily-close-sma50sma200-are-simple-moving-averages-of-the-last-50200-daily-closes-each-shown-only-when-at-least-that-many-bars-are-available-the-6-month-history-used-here-is-130-bars-so-vs-sma200-can-be-na-3m-vs-spy-is-the-etfs-3-month-return-minus-spys-over-the-same-window-in-points"&gt;&lt;em&gt;Only the 15 most relevant rows are shown.&lt;/em&gt;
 &lt;em&gt;Price is the latest daily close. SMA50/SMA200 are simple moving averages of the last 50/200 daily closes (each shown only when at least that many bars are available; the 6-month history used here is ~130 bars, so vs SMA200 can be n/a). &amp;lsquo;3m vs SPY&amp;rsquo; is the ETF&amp;rsquo;s 3-month return minus SPY&amp;rsquo;s over the same window, in points.&lt;/em&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Data source: &lt;a href="https://finance.yahoo.com/"&gt;Yahoo Finance&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description></item><item><title>DJIA Earnings Surprises - 2026-10-04</title><link>https://ozkanpakdil.github.io/usa-stocks-indicator/posts/earnings-2026-10-04/</link><pubDate>Sun, 04 Oct 2026 03:09:43 +0000</pubDate><guid>https://ozkanpakdil.github.io/usa-stocks-indicator/posts/earnings-2026-10-04/</guid><description>&lt;p&gt;1 of the 30 Dow components in the watchlist reported quarterly results in the last 10 days (2026-09-24 to 2026-10-04). The table shows the latest reported quarter&amp;rsquo;s EPS estimate vs actual, the surprise, and the stock&amp;rsquo;s 1-week performance against SPY. This is event-driven earnings data, not general market context.&lt;/p&gt;
 &lt;table&gt;
@@ -7852,7 +7852,7 @@ Match shows whether the filing text mentioned &amp;ldquo;Chapter 11&amp;rdquo;, 
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id="surprise-is-eps-actual-vs-estimate-in-percent"&gt;&lt;em&gt;Only the 1 most relevant rows are shown.&lt;/em&gt;
+&lt;h2 id="surprise-is-eps-actual-vs-estimate-in-percent-1w-is-the-1-week-price-change-since-the-report-1w-vs-spy-is-that-return-minus-spys-over-the-same-window-in-points"&gt;&lt;em&gt;Only the 1 most relevant rows are shown.&lt;/em&gt;
 &lt;em&gt;Surprise is EPS actual vs estimate in percent. &amp;lsquo;1w&amp;rsquo; is the 1-week price change since the report; &amp;lsquo;1w vs SPY&amp;rsquo; is that return minus SPY&amp;rsquo;s over the same window, in points.&lt;/em&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Data source: &lt;a href="https://finance.yahoo.com/"&gt;Yahoo Finance&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Famous Fund 13F Holdings - 2026-10-04</title><link>https://ozkanpakdil.github.io/usa-stocks-indicator/posts/thirteenf-2026-10-04/</link><pubDate>Sun, 04 Oct 2026 03:09:25 +0000</pubDate><guid>https://ozkanpakdil.github.io/usa-stocks-indicator/posts/thirteenf-2026-10-04/</guid><description>&lt;p&gt;Top holdings of 12 famous &amp;ldquo;superinvestor&amp;rdquo; funds based on their latest quarterly 13F filings with the SEC, aggregated by Dataroma. Positions are as of each fund&amp;rsquo;s most recent 13F filing (filed within 45 days of quarter end).&lt;/p&gt;
 &lt;table&gt;
@@ -14334,7 +14334,7 @@ Match shows whether the filing text mentioned &amp;ldquo;Chapter 11&amp;rdquo;, 
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id="price-is-the-latest-daily-close-sma50sma200-are-simple-moving-averages-of-the-last-50200-daily-closes-each-shown-only-when-at-least-that-many-bars-are-available-the-6-month-history-used-here-is-"&gt;&lt;em&gt;Only the 15 most relevant rows are shown.&lt;/em&gt;
+&lt;h2 id="price-is-the-latest-daily-close-sma50sma200-are-simple-moving-averages-of-the-last-50200-daily-closes-each-shown-only-when-at-least-that-many-bars-are-available-the-6-month-history-used-here-is-130-bars-so-vs-sma200-can-be-na-3m-vs-spy-is-the-etfs-3-month-return-minus-spys-over-the-same-window-in-points"&gt;&lt;em&gt;Only the 15 most relevant rows are shown.&lt;/em&gt;
 &lt;em&gt;Price is the latest daily close. SMA50/SMA200 are simple moving averages of the last 50/200 daily closes (each shown only when at least that many bars are available; the 6-month history used here is ~130 bars, so vs SMA200 can be n/a). &amp;lsquo;3m vs SPY&amp;rsquo; is the ETF&amp;rsquo;s 3-month return minus SPY&amp;rsquo;s over the same window, in points.&lt;/em&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Data source: &lt;a href="https://finance.yahoo.com/"&gt;Yahoo Finance&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description></item><item><title>DJIA Earnings Surprises - 2026-09-27</title><link>https://ozkanpakdil.github.io/usa-stocks-indicator/posts/earnings-2026-09-27/</link><pubDate>Sun, 27 Sep 2026 02:12:08 +0000</pubDate><guid>https://ozkanpakdil.github.io/usa-stocks-indicator/posts/earnings-2026-09-27/</guid><description>&lt;p&gt;No DJIA component in the watchlist reported quarterly earnings within the last 10 days (2026-09-17 to 2026-09-27), so there are no earnings surprises to show this run. This is event-driven earnings data, not general market context.&lt;/p&gt;
 &lt;table&gt;
@@ -14352,7 +14352,7 @@ Match shows whether the filing text mentioned &amp;ldquo;Chapter 11&amp;rdquo;, 
 &lt;tbody&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id="surprise-is-eps-actual-vs-estimate-in-percent"&gt;&lt;em&gt;Only the 0 most relevant rows are shown.&lt;/em&gt;
+&lt;h2 id="surprise-is-eps-actual-vs-estimate-in-percent-1w-is-the-1-week-price-change-since-the-report-1w-vs-spy-is-that-return-minus-spys-over-the-same-window-in-points"&gt;&lt;em&gt;Only the 0 most relevant rows are shown.&lt;/em&gt;
 &lt;em&gt;Surprise is EPS actual vs estimate in percent. &amp;lsquo;1w&amp;rsquo; is the 1-week price change since the report; &amp;lsquo;1w vs SPY&amp;rsquo; is that return minus SPY&amp;rsquo;s over the same window, in points.&lt;/em&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Data source: &lt;a href="https://finance.yahoo.com/"&gt;Yahoo Finance&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Famous Fund 13F Holdings - 2026-09-27</title><link>https://ozkanpakdil.github.io/usa-stocks-indicator/posts/thirteenf-2026-09-27/</link><pubDate>Sun, 27 Sep 2026 02:11:51 +0000</pubDate><guid>https://ozkanpakdil.github.io/usa-stocks-indicator/posts/thirteenf-2026-09-27/</guid><description>&lt;p&gt;Top holdings of 12 famous &amp;ldquo;superinvestor&amp;rdquo; funds based on their latest quarterly 13F filings with the SEC, aggregated by Dataroma. Positions are as of each fund&amp;rsquo;s most recent 13F filing (filed within 45 days of quarter end).&lt;/p&gt;
 &lt;table&gt;
@@ -20852,7 +20852,7 @@ Match shows whether the filing text mentioned &amp;ldquo;Chapter 11&amp;rdquo;, 
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id="price-is-the-latest-daily-close-sma50sma200-are-simple-moving-averages-of-the-last-50200-daily-closes-each-shown-only-when-at-least-that-many-bars-are-available-the-6-month-history-used-here-is-"&gt;&lt;em&gt;Only the 15 most relevant rows are shown.&lt;/em&gt;
+&lt;h2 id="price-is-the-latest-daily-close-sma50sma200-are-simple-moving-averages-of-the-last-50200-daily-closes-each-shown-only-when-at-least-that-many-bars-are-available-the-6-month-history-used-here-is-130-bars-so-vs-sma200-can-be-na-3m-vs-spy-is-the-etfs-3-month-return-minus-spys-over-the-same-window-in-points"&gt;&lt;em&gt;Only the 15 most relevant rows are shown.&lt;/em&gt;
 &lt;em&gt;Price is the latest daily close. SMA50/SMA200 are simple moving averages of the last 50/200 daily closes (each shown only when at least that many bars are available; the 6-month history used here is ~130 bars, so vs SMA200 can be n/a). &amp;lsquo;3m vs SPY&amp;rsquo; is the ETF&amp;rsquo;s 3-month return minus SPY&amp;rsquo;s over the same window, in points.&lt;/em&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Data source: &lt;a href="https://finance.yahoo.com/"&gt;Yahoo Finance&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description></item><item><title>DJIA Earnings Surprises - 2026-09-20</title><link>https://ozkanpakdil.github.io/usa-stocks-indicator/posts/earnings-2026-09-20/</link><pubDate>Sun, 20 Sep 2026 02:02:49 +0000</pubDate><guid>https://ozkanpakdil.github.io/usa-stocks-indicator/posts/earnings-2026-09-20/</guid><description>&lt;p&gt;No DJIA component in the watchlist reported quarterly earnings within the last 10 days (2026-09-10 to 2026-09-20), so there are no earnings surprises to show this run. This is event-driven earnings data, not general market context.&lt;/p&gt;
 &lt;table&gt;
@@ -20870,7 +20870,7 @@ Match shows whether the filing text mentioned &amp;ldquo;Chapter 11&amp;rdquo;, 
 &lt;tbody&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id="surprise-is-eps-actual-vs-estimate-in-percent"&gt;&lt;em&gt;Only the 0 most relevant rows are shown.&lt;/em&gt;
+&lt;h2 id="surprise-is-eps-actual-vs-estimate-in-percent-1w-is-the-1-week-price-change-since-the-report-1w-vs-spy-is-that-return-minus-spys-over-the-same-window-in-points"&gt;&lt;em&gt;Only the 0 most relevant rows are shown.&lt;/em&gt;
 &lt;em&gt;Surprise is EPS actual vs estimate in percent. &amp;lsquo;1w&amp;rsquo; is the 1-week price change since the report; &amp;lsquo;1w vs SPY&amp;rsquo; is that return minus SPY&amp;rsquo;s over the same window, in points.&lt;/em&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Data source: &lt;a href="https://finance.yahoo.com/"&gt;Yahoo Finance&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Famous Fund 13F Holdings - 2026-09-20</title><link>https://ozkanpakdil.github.io/usa-stocks-indicator/posts/thirteenf-2026-09-20/</link><pubDate>Sun, 20 Sep 2026 02:02:31 +0000</pubDate><guid>https://ozkanpakdil.github.io/usa-stocks-indicator/posts/thirteenf-2026-09-20/</guid><description>&lt;p&gt;Top holdings of 12 famous &amp;ldquo;superinvestor&amp;rdquo; funds based on their latest quarterly 13F filings with the SEC, aggregated by Dataroma. Positions are as of each fund&amp;rsquo;s most recent 13F filing (filed within 45 days of quarter end).&lt;/p&gt;
 &lt;table&gt;
@@ -27911,7 +27911,7 @@ Match shows whether the filing text mentioned &amp;ldquo;Chapter 11&amp;rdquo;, 
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id="price-is-the-latest-daily-close-sma50sma200-are-simple-moving-averages-of-the-last-50200-daily-closes-each-shown-only-when-at-least-that-many-bars-are-available-the-6-month-history-used-here-is-"&gt;&lt;em&gt;Only the 15 most relevant rows are shown.&lt;/em&gt;
+&lt;h2 id="price-is-the-latest-daily-close-sma50sma200-are-simple-moving-averages-of-the-last-50200-daily-closes-each-shown-only-when-at-least-that-many-bars-are-available-the-6-month-history-used-here-is-130-bars-so-vs-sma200-can-be-na-3m-vs-spy-is-the-etfs-3-month-return-minus-spys-over-the-same-window-in-points"&gt;&lt;em&gt;Only the 15 most relevant rows are shown.&lt;/em&gt;
 &lt;em&gt;Price is the latest daily close. SMA50/SMA200 are simple moving averages of the last 50/200 daily closes (each shown only when at least that many bars are available; the 6-month history used here is ~130 bars, so vs SMA200 can be n/a). &amp;lsquo;3m vs SPY&amp;rsquo; is the ETF&amp;rsquo;s 3-month return minus SPY&amp;rsquo;s over the same window, in points.&lt;/em&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Data source: &lt;a href="https://finance.yahoo.com/"&gt;Yahoo Finance&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description></item><item><title>DJIA Earnings Surprises - 2026-09-13</title><link>https://ozkanpakdil.github.io/usa-stocks-indicator/posts/earnings-2026-09-13/</link><pubDate>Sun, 13 Sep 2026 15:20:48 +0000</pubDate><guid>https://ozkanpakdil.github.io/usa-stocks-indicator/posts/earnings-2026-09-13/</guid><description>&lt;p&gt;No DJIA component in the watchlist reported quarterly earnings within the last 10 days (2026-09-03 to 2026-09-13), so there are no earnings surprises to show this run. This is event-driven earnings data, not general market context.&lt;/p&gt;
 &lt;table&gt;
@@ -27929,7 +27929,7 @@ Match shows whether the filing text mentioned &amp;ldquo;Chapter 11&amp;rdquo;, 
 &lt;tbody&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id="surprise-is-eps-actual-vs-estimate-in-percent"&gt;&lt;em&gt;Only the 0 most relevant rows are shown.&lt;/em&gt;
+&lt;h2 id="surprise-is-eps-actual-vs-estimate-in-percent-1w-is-the-1-week-price-change-since-the-report-1w-vs-spy-is-that-return-minus-spys-over-the-same-window-in-points"&gt;&lt;em&gt;Only the 0 most relevant rows are shown.&lt;/em&gt;
 &lt;em&gt;Surprise is EPS actual vs estimate in percent. &amp;lsquo;1w&amp;rsquo; is the 1-week price change since the report; &amp;lsquo;1w vs SPY&amp;rsquo; is that return minus SPY&amp;rsquo;s over the same window, in points.&lt;/em&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Data source: &lt;a href="https://finance.yahoo.com/"&gt;Yahoo Finance&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Famous Fund 13F Holdings - 2026-09-13</title><link>https://ozkanpakdil.github.io/usa-stocks-indicator/posts/thirteenf-2026-09-13/</link><pubDate>Sun, 13 Sep 2026 15:20:30 +0000</pubDate><guid>https://ozkanpakdil.github.io/usa-stocks-indicator/posts/thirteenf-2026-09-13/</guid><description>&lt;p&gt;Top holdings of 12 famous &amp;ldquo;superinvestor&amp;rdquo; funds based on their latest quarterly 13F filings with the SEC, aggregated by Dataroma. Positions are as of each fund&amp;rsquo;s most recent 13F filing (filed within 45 days of quarter end).&lt;/p&gt;
 &lt;table&gt;
