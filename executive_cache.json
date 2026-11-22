@@ -905,7 +905,8 @@
     "type": "SELL",
     "issuer": "ROCKET COMPANIES",
     "amount": "1K–15K",
-    "ocr": false
+    "ocr": false,
+    "ticker": "RKT"
    },
    {
     "traded": "2026-08-24",
@@ -919,14 +920,16 @@
     "type": "SELL",
     "issuer": "CONSTELLATION ENERGY COR",
     "amount": "1K–15K",
-    "ocr": false
+    "ocr": false,
+    "ticker": "CEG"
    },
    {
     "traded": "2026-08-24",
     "type": "SELL",
     "issuer": "PHILIP MORRIS tNn INC",
     "amount": "1K–15K",
-    "ocr": false
+    "ocr": false,
+    "ticker": "PM"
    },
    {
     "traded": "2026-08-24",
@@ -29478,5 +29481,1763 @@
  "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/2BF91F890F718ACB85258E5B002DE16B/$FILE/Donald-J-Trump-08.12.2026-278T.pdf": {
   "version": 3,
   "txs": []
+ },
+ "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/7EB6D61438B7DBCC85258EAC00335375/$FILE/Kevin-Warsh-10.07.2026-278T.pdf": {
+  "version": 3,
+  "txs": [
+   {
+    "traded": "2026-09-18",
+    "type": "BUY",
+    "issuer": "care)",
+    "amount": "50K–100K",
+    "ocr": false
+   }
+  ]
+ },
+ "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/F6D7A4BD04B7AEE685258EB600334EBA/$FILE/Lee-Zeldin-10.19.2026-278T.pdf": {
+  "version": 3,
+  "txs": [
+   {
+    "traded": "2026-09-23",
+    "type": "SELL",
+    "issuer": "NRSN",
+    "ticker": "NRSN",
+    "amount": "1K–15K",
+    "ocr": false
+   }
+  ]
+ },
+ "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/026D1034BC6C312785258E9A002DB7CB/$FILE/Scott-A-Kupor-09.21.2026-278T.pdf": {
+  "version": 3,
+  "txs": [
+   {
+    "traded": "2026-09-21",
+    "type": "SELL",
+    "issuer": "Airbnb Inc. Class A Common Stock",
+    "ticker": "ABNB",
+    "amount": "250K–500K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-21",
+    "type": "SELL",
+    "issuer": "Okta, Inc",
+    "ticker": "OKTA",
+    "amount": "1M–5M",
+    "ocr": false
+   }
+  ]
+ },
+ "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/73ACE37DF4955F3D85258EAC00333CC2/$FILE/Arjun-Mody-09.16.2026-278T.pdf": {
+  "version": 3,
+  "txs": [
+   {
+    "traded": "2026-08-28",
+    "type": "SELL",
+    "issuer": "HSBC Structured note linked to NVIDIA",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-08-28",
+    "type": "SELL",
+    "issuer": "HSBC Structured note linked to NVIDIA",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-08-26",
+    "type": "BUY",
+    "issuer": "Class Shares",
+    "ticker": "VTI",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-08-26",
+    "type": "BUY",
+    "issuer": "Class Shares",
+    "ticker": "VTI",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-08-05",
+    "type": "SELL",
+    "issuer": "Electronic Arts, Inc",
+    "ticker": "EA",
+    "amount": "1K–15K",
+    "ocr": false
+   }
+  ]
+ },
+ "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/C16A50CC7894ADF685258EAC00335379/$FILE/Kevin-Warsh-09.09.2026-278T.pdf": {
+  "version": 3,
+  "txs": [
+   {
+    "traded": "2026-08-12",
+    "type": "BUY",
+    "issuer": "(pet care)",
+    "amount": "100K–250K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-08-13",
+    "type": "BUY",
+    "issuer": "Limited (pet care)",
+    "amount": "100K–250K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-08-14",
+    "type": "BUY",
+    "issuer": "care)",
+    "amount": "50K–100K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-08-11",
+    "type": "BUY",
+    "issuer": "care)",
+    "amount": "50K–100K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-08-13",
+    "type": "BUY",
+    "issuer": "Food, Co (pet care)",
+    "amount": "50K–100K",
+    "ocr": false
+   }
+  ]
+ },
+ "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/10825106240C09AA85258E9A002DB77B/$FILE/Michael-J-Kratsios-09.21.2026-278T.pdf": {
+  "version": 3,
+  "txs": [
+   {
+    "traded": "2026-09-10",
+    "type": "SELL",
+    "issuer": "Index Fund ETF Class Shares",
+    "ticker": "VTIP",
+    "amount": "15K–50K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-10",
+    "type": "SELL",
+    "issuer": "Shares",
+    "ticker": "VTEB",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-10",
+    "type": "BUY",
+    "issuer": "iShares National Muni Bond ETF",
+    "ticker": "MUB",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-10",
+    "type": "BUY",
+    "issuer": "Schwab US TIPS ETF",
+    "ticker": "SCHP",
+    "amount": "15K–50K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-10",
+    "type": "SELL",
+    "issuer": "Index Fund ETF Class Shares",
+    "ticker": "VTIP",
+    "amount": "15K–50K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-10",
+    "type": "SELL",
+    "issuer": "Shares",
+    "ticker": "VTEB",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-10",
+    "type": "BUY",
+    "issuer": "iShares National Muni Bond ETF",
+    "ticker": "MUB",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-10",
+    "type": "BUY",
+    "issuer": "Schwab US TIPS ETF",
+    "ticker": "SCHP",
+    "amount": "15K–50K",
+    "ocr": false
+   }
+  ]
+ },
+ "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/20A6220DE9740AF085258EB400334364/$FILE/Donald-J-Trump-11.01.2026-278T optimized version.pdf": {
+  "version": 3,
+  "txs": [
+   {
+    "traded": "2026-09-16",
+    "type": "BUY",
+    "issuer": "TJX COS INC",
+    "amount": "250K–500K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-21",
+    "type": "BUY",
+    "issuer": "AXT INC",
+    "amount": "50K–100K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-24",
+    "type": "SELL",
+    "issuer": "ORACLE CORP",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-24",
+    "type": "SELL",
+    "issuer": "SOUTHERN CO",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-24",
+    "type": "SELL",
+    "issuer": "AON Pl.CF",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-24",
+    "type": "SELL",
+    "issuer": "CRH PUBLIC LIMITED CO",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-24",
+    "type": "SELL",
+    "issuer": "XYLEM INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-24",
+    "type": "SELL",
+    "issuer": "SHERWIN-WILLIAMS CO",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-24",
+    "type": "SELL",
+    "issuer": "API GROUP CORP",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-24",
+    "type": "SELL",
+    "issuer": "INTUIT",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-24",
+    "type": "SELL",
+    "issuer": "CROWN CASTLE INC REIT",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-24",
+    "type": "SELL",
+    "issuer": "NEWMONT CORP",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-24",
+    "type": "SELL",
+    "issuer": "GE AEROSPACE",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-24",
+    "type": "SELL",
+    "issuer": "PROGRESSIVE CORP OH",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-24",
+    "type": "SELL",
+    "issuer": "NIKE INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-24",
+    "type": "SELL",
+    "issuer": "NiSOURCE INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-24",
+    "type": "SELL",
+    "issuer": "WEC ENERGY GROUP INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-24",
+    "type": "SELL",
+    "issuer": "ZOETISINC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-24",
+    "type": "SELL",
+    "issuer": "CORE & MAIN INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-24",
+    "type": "SELL",
+    "issuer": "BUILDERS FIRSTSOURCE INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-24",
+    "type": "SELL",
+    "issuer": "OMNICOM GROUP INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-24",
+    "type": "SELL",
+    "issuer": "COLGATE PALMOLIVE CO",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-24",
+    "type": "SELL",
+    "issuer": "VONTIER CORP",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-24",
+    "type": "SELL",
+    "issuer": "NETFLIXINC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-24",
+    "type": "SELL",
+    "issuer": "ROYAL CARIBBEAN",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-24",
+    "type": "SELL",
+    "issuer": "PINTEREST INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-24",
+    "type": "SELL",
+    "issuer": "FLUTTER ENTMT PLC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-24",
+    "type": "SELL",
+    "issuer": "ZILLOW GROUP INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-24",
+    "type": "SELL",
+    "issuer": "KKR&COINC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-24",
+    "type": "SELL",
+    "issuer": "THE CIGNA GROUP",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-24",
+    "type": "SELL",
+    "issuer": "CBOE GLOBAL MKTS INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-24",
+    "type": "SELL",
+    "issuer": "CONSTELLATION ENERGY COR",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-24",
+    "type": "SELL",
+    "issuer": "PAYPAL HLDGS INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-24",
+    "type": "BUY",
+    "issuer": "PINNACLE WEST CAP CORP",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-24",
+    "type": "BUY",
+    "issuer": "DUKE ENERGY CORP",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-24",
+    "type": "BUY",
+    "issuer": "CIENACORP I",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-24",
+    "type": "BUY",
+    "issuer": "AMRIZELTO",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-24",
+    "type": "BUY",
+    "issuer": "BROADRIDGE FINL SOLUTION",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-24",
+    "type": "BUY",
+    "issuer": "SUNBELT RENTALS HLDGS IN",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-24",
+    "type": "BUY",
+    "issuer": "BAKER HUGHES CO",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-24",
+    "type": "BUY",
+    "issuer": "PARKER-HANNIFIN CORP",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-24",
+    "type": "BUY",
+    "issuer": "BERKSHIRE HATHAWAY",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-24",
+    "type": "BUY",
+    "issuer": "IDACORPINC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-24",
+    "type": "BUY",
+    "issuer": "PERFORMANCE FOOD GROUP",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-24",
+    "type": "BUY",
+    "issuer": "CMS ENERGY CORP",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-24",
+    "type": "BUY",
+    "issuer": "SYNOPSYS INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-24",
+    "type": "BUY",
+    "issuer": "YUM BRANDS INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-10",
+    "type": "SELL",
+    "issuer": "BOEING CO",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-10",
+    "type": "SELL",
+    "issuer": "PPL CORP",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-10",
+    "type": "SELL",
+    "issuer": "CADENCE DESIGN SYS INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-10",
+    "type": "SELL",
+    "issuer": "MSCI INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-10",
+    "type": "SELL",
+    "issuer": "PPGINDSINC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-10",
+    "type": "SELL",
+    "issuer": "COUPANGINC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-10",
+    "type": "SELL",
+    "issuer": "AD08EINC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-10",
+    "type": "SELL",
+    "issuer": "LENNOX INTL INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-10",
+    "type": "SELL",
+    "issuer": "ALNYLAM PHARMACEUTICALS",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-10",
+    "type": "SELL",
+    "issuer": "UBER TECHNOLOGIES INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-10",
+    "type": "BUY",
+    "issuer": "TESLA INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-10",
+    "type": "BUY",
+    "issuer": "FISERV INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-10",
+    "type": "BUY",
+    "issuer": "COEUR MNG INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-10",
+    "type": "BUY",
+    "issuer": "NVlDIACORP",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-10",
+    "type": "BUY",
+    "issuer": "HONEYWELL AEROSPACE INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-10",
+    "type": "BUY",
+    "issuer": "= MCOONAI.DS CORP",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-10",
+    "type": "BUY",
+    "issuer": "META PlATFORMS INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-10",
+    "type": "BUY",
+    "issuer": "PUBLIC SVC ENTERPRISE GR",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-12",
+    "type": "BUY",
+    "issuer": "MEMPHIS TN HLTH EDL & HSG BRO MFHR BORDA TOWER & VENSON CTR REV B/E PTC 2.90 % Duo Jul 1 2027",
+    "amount": "1M–5M",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-02",
+    "type": "BUY",
+    "issuer": "SCOTT CNTY KY SCH DIST FIN CORP SCH BLDG RFDG REV BIE 4.00 % Duo Fob 1 2028",
+    "amount": "50K–100K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-01",
+    "type": "BUY",
+    "issuer": "NORTHFIELD MN INDPT SCH DIST 659 SCH BLDG SER A BIE 5.00 % Duo Fob 1, 2028",
+    "amount": "50K–100K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-19",
+    "type": "BUY",
+    "issuer": "MINNEAPOLIS MN SPl SCH DIST 1 BLDG SER A CR ENH STANO APPROP B/E 3.00 % OUo Fob 1 2028",
+    "amount": "50K–100K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-01",
+    "type": "BUY",
+    "issuer": "LOUDOUN CNTY VA ECON DEV AUTH PUB FAC LSE REV ROADS & PUB FACS B/E PTC 4.00 % Duo Doc 1 2027",
+    "amount": "15K–50K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-19",
+    "type": "BUY",
+    "issuer": "INTUIT INC",
+    "amount": "15K–50K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-09",
+    "type": "BUY",
+    "issuer": "SPACE EXPLORATION TECHNOLOGIES CORP",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-09",
+    "type": "BUY",
+    "issuer": "ADOBE INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-11",
+    "type": "BUY",
+    "issuer": "TRACTOR SUPPLY CO",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-09",
+    "type": "BUY",
+    "issuer": "NVIDIA CORP",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-09",
+    "type": "BUY",
+    "issuer": "TESlAINC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-09",
+    "type": "BUY",
+    "issuer": "MICROSOFT CORP",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-09",
+    "type": "BUY",
+    "issuer": "GE HEALTHCARE TECHNOLOGIES INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-11",
+    "type": "BUY",
+    "issuer": "DEVON ENERGY CORP",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-09",
+    "type": "BUY",
+    "issuer": "BOOKING HOLDINGS INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-09",
+    "type": "BUY",
+    "issuer": "REGENERON PHARMACEUTICALS INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-09",
+    "type": "BUY",
+    "issuer": "KlACORP",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-09",
+    "type": "BUY",
+    "issuer": "TRACTOR SUPPLY CO",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-09",
+    "type": "BUY",
+    "issuer": "ULTA BEAUTY INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-11",
+    "type": "SELL",
+    "issuer": "PUBLIC SERVICE ENTERPRISE GROUP INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-11",
+    "type": "SELL",
+    "issuer": "EVERSOURCEENERGY",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-11",
+    "type": "SELL",
+    "issuer": "HOME DEPOT INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-09",
+    "type": "SELL",
+    "issuer": "DATADOG INC Cl A",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-19",
+    "type": "SELL",
+    "issuer": "UNITED 'THERAPEUTICS CORP",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-11",
+    "type": "SELL",
+    "issuer": "DTE ENERGY CO",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-19",
+    "type": "SELL",
+    "issuer": "ALPHABET INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-09",
+    "type": "SELL",
+    "issuer": "CADENCE DESIGN SYSTEMS INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-11",
+    "type": "SELL",
+    "issuer": "WATSCO INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-11",
+    "type": "SELL",
+    "issuer": "DUKE ENERGY CORP",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-09",
+    "type": "SELL",
+    "issuer": "COSTCO WHOLESALE CORP",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-11",
+    "type": "SELL",
+    "issuer": "WEC ENERGY GROUP INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-09",
+    "type": "SELL",
+    "issuer": "APPLIED MATERIALS INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-11",
+    "type": "SELL",
+    "issuer": "EXELON CORP",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-09",
+    "type": "SELL",
+    "issuer": "INllJITIVE SURGICAL INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-11",
+    "type": "SELL",
+    "issuer": "UNITEDHEALTH GROUP INC",
+    "amount": "15K–50K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-02",
+    "type": "BUY",
+    "issuer": "Boston Scientific f'=",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-02",
+    "type": "BUY",
+    "issuer": "Intel Coro",
+    "amount": "15K–50K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-02",
+    "type": "BUY",
+    "issuer": "Intuitive Suroical Inc",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-10",
+    "type": "BUY",
+    "issuer": "Advanced Micro Devices Inc",
+    "amount": "15K–50K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-02",
+    "type": "BUY",
+    "issuer": "Cme Grooo Inc",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-10",
+    "type": "BUY",
+    "issuer": "TNislFinll'=",
+    "amount": "15K–50K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-02",
+    "type": "BUY",
+    "issuer": "Gonoral \" \"\"\"mies I'=",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-02",
+    "type": "BUY",
+    "issuer": "Toxas lnstrs Inc",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-02",
+    "type": "BUY",
+    "issuer": "Doormsh Inc",
+    "amount": "15K–50K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-02",
+    "type": "BUY",
+    "issuer": "Philip Mon1s Intl Inc l",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-02",
+    "type": "BUY",
+    "issuer": "Lam Resh Corn",
+    "amount": "15K–50K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-02",
+    "type": "BUY",
+    "issuer": "Arista Notworks Inc",
+    "amount": "15K–50K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-02",
+    "type": "BUY",
+    "issuer": "Moraan Stanlev",
+    "amount": "15K–50K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-10",
+    "type": "SELL",
+    "issuer": "Verisk Analvtics Inc",
+    "amount": "15K–50K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-01-10",
+    "type": "SELL",
+    "issuer": "Snowflake Inc",
+    "amount": "50K–100K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-02",
+    "type": "BUY",
+    "issuer": "APPLE INC J.P. MORGAN SECURITIES LLC",
+    "amount": "50K–100K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-11",
+    "type": "BUY",
+    "issuer": "NETFLIX INC COM J.P. MORGAN SECURITIES LLC",
+    "amount": "250K–500K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-11",
+    "type": "BUY",
+    "issuer": "NRG ENERGY INC",
+    "amount": "250K–500K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-11",
+    "type": "BUY",
+    "issuer": "LAS VEGAS SANDS CORP",
+    "amount": "50K–100K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-11",
+    "type": "BUY",
+    "issuer": "0 REILLY AUTOMOTIVE INC",
+    "amount": "50K–100K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-11",
+    "type": "BUY",
+    "issuer": "TRADE DESK INC",
+    "amount": "50K–100K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-11",
+    "type": "BUY",
+    "issuer": "ALPHABET INC",
+    "amount": "50K–100K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-01",
+    "type": "BUY",
+    "issuer": "VANGUARD RUSSELL 2000 ETF",
+    "amount": "15K–50K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-11",
+    "type": "BUY",
+    "issuer": "KROGER CO /'THE) l",
+    "amount": "15K–50K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-11",
+    "type": "BUY",
+    "issuer": "ATMOS ENERGY CORP l",
+    "amount": "15K–50K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-11",
+    "type": "BUY",
+    "issuer": "GENERAL MOTORS CO SENIOR UNSECURED DUE 10/01/2027 06.800%",
+    "amount": "15K–50K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-11",
+    "type": "BUY",
+    "issuer": "SBA COMMUNICATIONS CORP l",
+    "amount": "15K–50K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-12",
+    "type": "BUY",
+    "issuer": "ABBVIEINC l",
+    "amount": "15K–50K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-11",
+    "type": "BUY",
+    "issuer": "COMFORT SYSTEMS USA INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-12",
+    "type": "BUY",
+    "issuer": "INTIJrnvE SURGICAL INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-12",
+    "type": "BUY",
+    "issuer": "CHEVRON CORPORATION l",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-12",
+    "type": "BUY",
+    "issuer": "CISCO SYSTEMS INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-12",
+    "type": "BUY",
+    "issuer": "EXXONM061L HOLDINGS CORPORATION",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-12",
+    "type": "BUY",
+    "issuer": "SALESFORCE INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-12",
+    "type": "BUY",
+    "issuer": "PEPSICO INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-02",
+    "type": "BUY",
+    "issuer": "ARJSTA NElWORKS INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-02",
+    "type": "BUY",
+    "issuer": "UNION PACIFIC CORP",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-12",
+    "type": "BUY",
+    "issuer": "AT&T INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-02",
+    "type": "BUY",
+    "issuer": "ALPHABET INC I",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-02",
+    "type": "BUY",
+    "issuer": "MEDTRONIC PlC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-02",
+    "type": "BUY",
+    "issuer": "CIGNA GROUP ITHEl",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-02",
+    "type": "BUY",
+    "issuer": "CENCORAINC l",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-01",
+    "type": "SELL",
+    "issuer": "TAPESTRY INC",
+    "amount": "50K–100K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-11",
+    "type": "SELL",
+    "issuer": "TRANSDIGM GROUP INCORPORATED",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-01",
+    "type": "SELL",
+    "issuer": "ALTRIA GROUP INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-01",
+    "type": "SELL",
+    "issuer": "XCEL ENERGY INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-01",
+    "type": "SELL",
+    "issuer": "CH ROBINSON WORLDWIDE INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-11",
+    "type": "SELL",
+    "issuer": "CENTERPOINT ENERGY INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-01",
+    "type": "SELL",
+    "issuer": "UNITED PARCEL SVC INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-01",
+    "type": "SELL",
+    "issuer": "AMERICAN ELECTRIC POWER COMPANY INC",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-01",
+    "type": "SELL",
+    "issuer": "GE VERNOVA INC",
+    "amount": "15K–50K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-01",
+    "type": "SELL",
+    "issuer": "DECKERS OUTDOOR CORPORATION",
+    "amount": "15K–50K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-01",
+    "type": "SELL",
+    "issuer": "T MOBILE US INC",
+    "amount": "15K–50K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-01",
+    "type": "SELL",
+    "issuer": "PUBLIC STORAGE",
+    "amount": "15K–50K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-01",
+    "type": "SELL",
+    "issuer": "DUKE ENERGY CORPORATION HOLDING COMPANY",
+    "amount": "15K–50K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-11",
+    "type": "SELL",
+    "issuer": "HONEYWELL INTERNATIONAL INC",
+    "amount": "50K–100K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-09-11",
+    "type": "SELL",
+    "issuer": "ClENA CORPORATION",
+    "amount": "50K–100K",
+    "ocr": false
+   }
+  ]
+ },
+ "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/8FD9D6011188F9BE85258E9A002DB7D1/$FILE/Scott-A-Kupor-08.24.2026-278T.pdf": {
+  "version": 3,
+  "txs": [
+   {
+    "traded": "2026-08-21",
+    "type": "SELL",
+    "issuer": "Airbnb Inc. Class A Common Stock",
+    "ticker": "ABNB",
+    "amount": "1M–5M",
+    "ocr": false
+   },
+   {
+    "traded": "2026-08-21",
+    "type": "SELL",
+    "issuer": "Figma Common Stock",
+    "amount": "15K–50K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-08-21",
+    "type": "SELL",
+    "issuer": "Samsara Inc. Class A Common Stock",
+    "ticker": "IOT",
+    "amount": "1M–5M",
+    "ocr": false
+   },
+   {
+    "traded": "2026-08-21",
+    "type": "SELL",
+    "issuer": "Okta, Inc",
+    "ticker": "OKTA",
+    "amount": "100K–250K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-08-21",
+    "type": "SELL",
+    "issuer": "Pinterest, Inc",
+    "ticker": "PINS",
+    "amount": "100K–250K",
+    "ocr": false
+   }
+  ]
+ },
+ "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/075B248D2FFAF99985258EAC00333CC7/$FILE/Arjun-Mody-08.06.2026-278T.pdf": {
+  "version": 3,
+  "txs": [
+   {
+    "traded": "2026-07-28",
+    "type": "BUY",
+    "issuer": "Class Shares",
+    "ticker": "VTI",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-07-28",
+    "type": "BUY",
+    "issuer": "VUG",
+    "ticker": "VUG",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-07-28",
+    "type": "BUY",
+    "issuer": "Class Shares",
+    "ticker": "VTI",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-07-28",
+    "type": "BUY",
+    "issuer": "VUG",
+    "ticker": "VUG",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-06-09",
+    "type": "BUY",
+    "issuer": "Class Shares",
+    "ticker": "VTI",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-06-09",
+    "type": "BUY",
+    "issuer": "VUG",
+    "ticker": "VUG",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-06-09",
+    "type": "BUY",
+    "issuer": "Shares",
+    "ticker": "VXUS",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-06-09",
+    "type": "BUY",
+    "issuer": "VUG",
+    "ticker": "VUG",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-06-09",
+    "type": "BUY",
+    "issuer": "Shares",
+    "ticker": "VXUS",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-06-09",
+    "type": "BUY",
+    "issuer": "Class Shares",
+    "ticker": "VTI",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-06-02",
+    "type": "BUY",
+    "issuer": "Shares",
+    "ticker": "VXUS",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-06-02",
+    "type": "SELL",
+    "issuer": "Class Shares",
+    "ticker": "VGT",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-06-02",
+    "type": "BUY",
+    "issuer": "Class Shares",
+    "ticker": "VTI",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-06-02",
+    "type": "SELL",
+    "issuer": "Accenture Plc",
+    "ticker": "ACN",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-06-02",
+    "type": "SELL",
+    "issuer": "CVS Health Corp",
+    "ticker": "CVS",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-06-02",
+    "type": "SELL",
+    "issuer": "Colgate-Palmolive Co",
+    "ticker": "CL",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-06-02",
+    "type": "SELL",
+    "issuer": "Gilead Sciences, Inc",
+    "ticker": "GILD",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-06-02",
+    "type": "SELL",
+    "issuer": "Mondelez International, Inc",
+    "ticker": "MDLZ",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-06-02",
+    "type": "SELL",
+    "issuer": "Intuit, Inc",
+    "ticker": "INTU",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-06-02",
+    "type": "SELL",
+    "issuer": "International Business Machines Corp",
+    "ticker": "IBM",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-06-02",
+    "type": "SELL",
+    "issuer": "Paychex, Inc",
+    "ticker": "PAYX",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-06-02",
+    "type": "SELL",
+    "issuer": "ServiceNow, Inc",
+    "ticker": "NOW",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-06-02",
+    "type": "SELL",
+    "issuer": "Uber Technologies, Inc",
+    "ticker": "UBER",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-06-02",
+    "type": "SELL",
+    "issuer": "salesforce.com, inc",
+    "ticker": "CRM",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-06-02",
+    "type": "SELL",
+    "issuer": "Adobe, Inc",
+    "ticker": "ADBE",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-06-02",
+    "type": "SELL",
+    "issuer": "The Walt Disney Co",
+    "ticker": "DIS",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-06-02",
+    "type": "SELL",
+    "issuer": "Ameren Corp",
+    "ticker": "AEE",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-06-02",
+    "type": "BUY",
+    "issuer": "Class Shares",
+    "ticker": "VTI",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-02-27",
+    "type": "BUY",
+    "issuer": "VUG",
+    "ticker": "VUG",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-02-27",
+    "type": "BUY",
+    "issuer": "Class Shares",
+    "ticker": "VTI",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-02-27",
+    "type": "BUY",
+    "issuer": "Class Shares",
+    "ticker": "VTI",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-02-27",
+    "type": "BUY",
+    "issuer": "VUG",
+    "ticker": "VUG",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-02-04",
+    "type": "BUY",
+    "issuer": "Class Shares",
+    "ticker": "VTI",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-02-04",
+    "type": "BUY",
+    "issuer": "VUG",
+    "ticker": "VUG",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-02-04",
+    "type": "BUY",
+    "issuer": "Shares",
+    "ticker": "VXUS",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-02-04",
+    "type": "BUY",
+    "issuer": "Class Shares",
+    "ticker": "VGT",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-02-04",
+    "type": "BUY",
+    "issuer": "Shares",
+    "ticker": "VWO",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-02-04",
+    "type": "BUY",
+    "issuer": "Class Shares",
+    "ticker": "VTI",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-02-04",
+    "type": "BUY",
+    "issuer": "Class Shares",
+    "ticker": "VTI",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-02-03",
+    "type": "SELL",
+    "issuer": "Shares",
+    "ticker": "VEA",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-02-03",
+    "type": "BUY",
+    "issuer": "Class Shares",
+    "ticker": "VTI",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-02-03",
+    "type": "SELL",
+    "issuer": "iShares Core S&P US Growth ETF",
+    "ticker": "IUSG",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-02-03",
+    "type": "SELL",
+    "issuer": "iShares Core S&P US Value ETF",
+    "ticker": "IUSV",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-02-03",
+    "type": "SELL",
+    "issuer": "Shares",
+    "ticker": "VEA",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-02-03",
+    "type": "SELL",
+    "issuer": "iShares Core S&P US Value ETF",
+    "ticker": "IUSV",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-02-03",
+    "type": "BUY",
+    "issuer": "VUG",
+    "ticker": "VUG",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-02-03",
+    "type": "BUY",
+    "issuer": "Class Shares",
+    "ticker": "VTI",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-02-03",
+    "type": "SELL",
+    "issuer": "iShares Core S&P US Growth ETF",
+    "ticker": "IUSG",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-06-02",
+    "type": "SELL",
+    "issuer": "Tapestry Inc",
+    "ticker": "TPR",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-06-02",
+    "type": "SELL",
+    "issuer": "MSCI Inc Class A",
+    "ticker": "MSCI",
+    "amount": "1K–15K",
+    "ocr": false
+   },
+   {
+    "traded": "2026-03-17",
+    "type": "BUY",
+    "issuer": "NB Crossroads Private Markets Fund VII LP",
+    "amount": "1K–15K",
+    "ocr": false
+   }
+  ]
  }
 }
