@@ -100,7 +100,11 @@ jobs:
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git add *.json content/ go.mod go.sum
+          # Use git's own pathspec matching (-A) instead of a shell glob: the
+          # glob expands to tickers_universe.json, which .gitignore excludes,
+          # and `git add` exits 1 on an explicitly-named ignored file.
+          # ':(top,glob)*.json' keeps the root-level scope of the old glob.
+          git add -A -- ':(top,glob)*.json' content/ go.mod go.sum
           git commit -m "Weekly report update: $(date +'%Y-%m-%d')" || echo "No changes to commit"
           # Rebase first: main may have moved while this job was crawling
           # (a concurrent push would otherwise make the push below fail).
